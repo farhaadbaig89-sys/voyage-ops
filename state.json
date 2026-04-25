@@ -1,0 +1,483 @@
+{
+  "generatedAt": "2026-04-25T08:45:15.881Z",
+  "store": {
+    "name": "Voyage Collections Australia"
+  },
+  "metrics": {
+    "activeAutomations": 10,
+    "toolsAvailable": 9,
+    "postsThisWeek": 1,
+    "articlesInPipeline": 1
+  },
+  "running": [
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-25T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
+    },
+    {
+      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "name": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "cronExpr": "45 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-25T20:45:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-25T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-25T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-25T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
+    },
+    {
+      "id": "d5541bce-1451-4218-a49f-7549231762d7",
+      "name": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "cronExpr": "30 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-25T21:30:00.000Z",
+      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-25T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
+      "name": "voyage-socials-deals-weekly",
+      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
+      "category": "Socials",
+      "cronExpr": "0 10 * * 0",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-26T00:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-list-current-deals with {limit:5}. Returns picked array of products with title, url, price, compareAtPrice, discountPct, featuredImage. Step 2: write a casual Aussie-tone caption introducing the roundup…"
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-26T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    }
+  ],
+  "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-04-25T02:47:43.362Z",
+      "runAt": "2026-04-25T02:46:51.665Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 51685,
+      "summary": "Voyage post — 2026-04-25\nSlot: Best seller\nProduct: Cocktail Smoker Kit with Torch – 6 Flavours Wood Chips...\nFB: https://www.facebook.com/104415881913939/posts/977457117954776\nIG: posted (id=18080412221565010)"
+    },
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-04-25T00:38:32.816Z",
+      "runAt": "2026-04-25T00:37:47.687Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 44882,
+      "summary": "Voyage blog auto-publish — 2026-04-25\nLive: 0 · Rejected (deleted): 0 · Checked: 1\nNothing due to publish today."
+    },
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-04-24T23:56:31.649Z",
+      "runAt": "2026-04-24T23:54:59.584Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 92049,
+      "summary": "Voyage blog published (DRAFT) — 2026-04-25\nTitle: Mother's Day Beauty Gifts for Aussie Autumn Self-Care\nCategory: health-fitness\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559260172496\nReview + hit Publish in Shopify admin when ready."
+    },
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-04-24T23:54:01.428Z",
+      "runAt": "2026-04-24T23:52:48.542Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 72709,
+      "summary": "Voyage blog outline — 2026-04-25\nCategory: Health & Beauty\nTitle: Mother's Day Beauty Gifts for Aussie Autumn Self-Care\nTarget keyword: mother's day beauty gifts australia\nAngle: A practical gift guide for Australian shoppers choosing beauty and wellness picks that feel useful, seasonally relevant, and easy to give before Mother's Day.\nSections: Why autumn changes the beauty gift brief, How to choose a Mother's Day beauty gift she'll use, Best grooming and beauty tools for easy self-care, Wellness and skin support picks worth considering, How to build a polished gift set on different budgets, Smart buying tips before Mother's Day delivery cut-offs\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-24T22:00:51.339Z",
+      "runAt": "2026-04-24T22:00:00.161Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 51118,
+      "summary": "\"Don't wish it were easier, wish you were better.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-04-24T21:30:55.119Z",
+      "runAt": "2026-04-24T21:30:00.309Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 54724,
+      "summary": "Voyage indexation — 2026-04-24\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 13803"
+    },
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-04-24T21:16:05.627Z",
+      "runAt": "2026-04-24T21:15:00.257Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 65256,
+      "summary": "Voyage catalog — 2026-04-24\nSitemap: 13803 products\n+0 new · -99 removed (vs 2026-04-24)\nSpot-check: 20 products / 1 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/exam-care-package-you-got-this-student-self-care-package-college-exams-relaxation-gift-box-finals-encouragement-gift-gift-box-xsd8: price_zero\nRemoved sample: https://www.voyagecollectionsaustralia.com.au/products/greenies-original-teenie-dental-dog-treat-1kg-129-treats-adult-small-medium-large, https://www.voyagecollectionsaustralia.com.au/products/kong-wild-knots-bear-internal-knotted-ropes-and-minimal-stuffing-for-less-mess-assorted-colours-for-medium-large-dogs, https://www.voyagecollectionsaustralia.com.au/products/shapex-large-yoga-mat-72x26-5inch-thick-yoga-mat-inch-thickness-non-slip-anti-tear-sweat-proof-eco-friendly-exercise-mat-with-alignment-marks-carrying-strap-perfect-for-yoga-pilates-and-fitness"
+    },
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-04-24T21:01:04.918Z",
+      "runAt": "2026-04-24T21:00:00.197Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 64647,
+      "summary": "Voyage SEO — 2026-04-25 (batch 2)\n100 scanned · 60 issues · 1 locked · 59 fixable\nmissing_meta_description: 59\ntitle_too_long: 19\ndescription_too_short: 2\ntitle_too_short: 2\nCritical: none\nnextBatchReady: true"
+    },
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-04-24T13:13:57.135Z",
+      "runAt": "2026-04-24T13:13:05.790Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 51294,
+      "summary": "Voyage catalog — 2026-04-24\nSitemap: 13902 products\n+0 new · -0 removed (vs 2026-04-24)\nSpot-check: 20 products / 0 anomalies"
+    },
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-04-24T13:11:35.270Z",
+      "runAt": "2026-04-24T13:10:28.896Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 66280,
+      "summary": "Voyage SEO — 2026-04-24 (batch 1)\n100 scanned · 53 issues · 0 locked · 53 fixable\nmissing_meta_description: 49\ntitle_too_long: 20\nmeta_description_too_short: 2\nsome_alt_missing: 2\nCritical: none\nnextBatchReady: true"
+    },
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-04-24T13:08:55.251Z",
+      "runAt": "2026-04-24T13:07:50.167Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 65011,
+      "summary": "Voyage catalog — 2026-04-24\nSitemap: 13902 products\nBaseline snapshot saved (no diff yet)\nSpot-check: 20 products / 20 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/soga-2x-30x300cm-pink-kitchen-shelf-drawer-cabinet-multi-use-liner-non-slip-mat: price_zero_on_page\n- https://www.voyagecollectionsaustralia.com.au/products/soga-12x-gastronorm-gn-pan-full-size-1-1-gn-pan-2cm-deep-stainless-steel-tray-with-lid: price_zero_on_page\n- https://www.voyagecollectionsaustralia.com.au/products/koreanbbqplate48cmx2: price_zero_on_page"
+    },
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-04-24T13:07:17.714Z",
+      "runAt": "2026-04-24T13:06:19.081Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 58577,
+      "summary": "Voyage indexation — 2026-04-24\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 13902"
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-23T22:01:15.248Z",
+      "runAt": "2026-04-23T22:00:00.914Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 74212,
+      "summary": "\"If you really want to do something, you'll find a way. If you don't, you'll find an excuse.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-22T22:00:42.192Z",
+      "runAt": "2026-04-22T22:00:00.082Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 42098,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-21T22:00:38.685Z",
+      "runAt": "2026-04-21T22:00:00.051Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 38613,
+      "summary": "\"Don't wish it were easier, wish you were better.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-20T22:00:44.892Z",
+      "runAt": "2026-04-20T22:00:00.057Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 44809,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-19T22:00:42.179Z",
+      "runAt": "2026-04-19T22:00:00.034Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 42125,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-19T12:02:32.531Z",
+      "runAt": "2026-04-19T12:01:54.335Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 38191,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    }
+  ],
+  "pipeline": [
+    {
+      "id": "voyage-shopify-mcp",
+      "title": "Voyage Shopify integration (Admin API)",
+      "category": "Integration",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Custom MCP server (voyage) talks to Voyage's Shopify Admin GraphQL. Recent-orders, orders-by-day, recent-customers, plus the 5-sales-90d guardrail used by every write operation.",
+      "tools": [
+        "recent-orders",
+        "orders-by-day",
+        "recent-customers",
+        "product-sales-90d"
+      ]
+    },
+    {
+      "id": "voyage-seo-audit",
+      "title": "Daily rotating SEO audit",
+      "category": "SEO",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Scans 100 products/day. Flags missing meta description, title length issues, alt-text gaps, $0 prices, placeholders. Honours the 5-sales-90d no-touch rule.",
+      "crons": [
+        "voyage-seo-audit-daily"
+      ]
+    },
+    {
+      "id": "voyage-catalog-hygiene",
+      "title": "Daily catalog hygiene + sitemap diff",
+      "category": "SEO",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Compares today's product sitemap to yesterday's. Flags adds, removes, URL changes. Spot-checks 20 random products via the Shopify .json endpoint for $0/no-images/placeholders.",
+      "crons": [
+        "voyage-catalog-hygiene-daily"
+      ]
+    },
+    {
+      "id": "voyage-rank-check",
+      "title": "Daily Google indexation tracker",
+      "category": "SEO",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Records sitemap product count + (when scraping isn't blocked) Google site: indexed count + delta vs yesterday. Long-term: swap to Search Console API for accuracy.",
+      "crons": [
+        "voyage-rank-check-daily"
+      ]
+    },
+    {
+      "id": "voyage-blog-pipeline",
+      "title": "Voyage daily blog · 3-day pipeline",
+      "category": "Content",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Day 1 picks topic + outline. Day 2 writes the 1000w article as a Shopify DRAFT. Day 3 auto-publishes live unless you've deleted the draft. Rotates 7 categories weekly. Friendly-expert blog voice.",
+      "crons": [
+        "voyage-blog-outline-daily",
+        "voyage-blog-publish-daily",
+        "voyage-blog-auto-publish-daily"
+      ]
+    },
+    {
+      "id": "voyage-socials",
+      "title": "Voyage social media · FB + IG",
+      "category": "Socials",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Daily product post (11:00 AEST), Sunday weekly deals carousel, Tue+Fri educational/how-to. Aussie casual tone with emoji. Posts to Voyage FB Page + @voyagecollectionaustralia IG.",
+      "crons": [
+        "voyage-socials-product-daily",
+        "voyage-socials-deals-weekly",
+        "voyage-socials-edu-twiceweekly"
+      ]
+    },
+    {
+      "id": "shopify-token-refresh",
+      "title": "Shopify token auto-refresh (Voyage + Gifts Hub)",
+      "category": "Infra",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Windows scheduled task runs daily at 06:00 AEST. Re-runs OAuth client_credentials, updates wrappers for both stores, restarts the gateway so MCP servers pick up the new tokens."
+    },
+    {
+      "id": "giftshub-mcp",
+      "title": "Gifts Hub Shopify integration",
+      "category": "Integration",
+      "status": "active",
+      "createdAt": "2026-04-19",
+      "summary": "Custom MCP server (giftshub-plus) for Gifts Hub Shopify analytics. Recent-orders / orders-by-day / recent-customers via Admin GraphQL.",
+      "tools": [
+        "recent-orders",
+        "orders-by-day",
+        "recent-customers"
+      ]
+    },
+    {
+      "id": "jim-rohn-daily",
+      "title": "Daily Jim Rohn quote · Telegram",
+      "category": "Content",
+      "status": "active",
+      "createdAt": "2026-04-19",
+      "summary": "8:00 AEST daily. Agent fetches a Jim Rohn quote and delivers it to your Telegram chat.",
+      "crons": [
+        "jim-rohn-daily"
+      ]
+    },
+    {
+      "id": "voyage-ops-dashboard",
+      "title": "This dashboard",
+      "category": "Infra",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Public PWA at farhaadbaig89-sys.github.io/voyage-ops. Auto-refreshes every 30s, regenerated locally + git-pushed every 5 min.",
+      "tools": [
+        "state.json generator",
+        "GitHub Pages auto-deploy"
+      ]
+    }
+  ],
+  "suggestions": [
+    {
+      "title": "Migrate Gifts Hub to socials",
+      "body": "Same Meta app already covers the Gifts Hub Australia FB page (id 111527618129227) + IG (id 17841466209335238). Cloning the socials pipeline for Gifts Hub is mostly a config change — no new approvals needed."
+    },
+    {
+      "title": "Search Console API for accurate ranks",
+      "body": "Public Google `site:` scraping is unreliable (bot detection). Hooking up GSC API gives true indexed-page count, top queries, average position, click-through rate. ~30 min setup once you grant the OAuth."
+    },
+    {
+      "title": "TikTok Content Posting API",
+      "body": "Requires a TikTok for Developers app + content-review approval (multi-day). Once unlocked, reuses the same product-of-the-day pipeline with short video."
+    },
+    {
+      "title": "Real Reels via ffmpeg pipeline",
+      "body": "I can build a slideshow generator (Ken Burns pan, text overlays, royalty-free background music) on the local machine. Output is decent \"Etsy-ish\" quality — good for early growth, swap for paid video API later."
+    },
+    {
+      "title": "Comment alert → Telegram",
+      "body": "Stream new FB Page + IG comments to your Telegram so you can reply personally. Higher engagement than auto-replies."
+    },
+    {
+      "title": "SEO auto-fix mode",
+      "body": "The audit currently reports issues only. Once we've watched a few cycles, flip on auto-fix for guardrail-passing products: write meta descriptions, fix title length, add image alt-text. Reversible if anything misfires."
+    },
+    {
+      "title": "Price-drop history tracker",
+      "body": "Daily snapshot of top-200 product prices. Detect drops, surface to the deals roundup with \"was X, now Y\" + true delta."
+    },
+    {
+      "title": "UGC reposting workflow",
+      "body": "When a customer tags @voyagecollectionaustralia, alert me — I draft a repost for your approval."
+    },
+    {
+      "title": "Email digest",
+      "body": "Daily summary email at 18:00 AEST: orders today, posts published, audit findings, blog status. Less Telegram noise."
+    },
+    {
+      "title": "Cross-store sales attribution",
+      "body": "If a Voyage blog/social post drives a Gifts Hub sale (or vice versa), surface the link. Useful for budget allocation between brands."
+    }
+  ]
+}

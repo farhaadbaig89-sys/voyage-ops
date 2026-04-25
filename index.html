@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Voyage Ops</title>
+  <meta name="description" content="Live operations dashboard for Voyage Collections Australia." />
+  <meta name="theme-color" content="#0a0a18" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+  <link rel="apple-touch-icon" href="./icon.svg" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Voyage Ops" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true"></div>
+  <div class="bg-scanlines" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <div class="brand-text">
+        <div class="brand-title">Voyage Ops</div>
+        <div class="brand-sub">Live operations · OpenClaw</div>
+      </div>
+    </div>
+    <div class="status-pill" id="status-pill">
+      <span class="dot pulse"></span>
+      <span id="status-text">Connecting…</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title"><span class="grad">Live operations</span><br/>for Voyage Collections.</h1>
+      <p class="hero-sub">Every automation, post, audit, and article — in one glance. Auto-refreshes every 30 seconds.</p>
+      <div class="metric-row" id="metric-row">
+        <div class="metric-card skel"><div class="m-label">Active automations</div><div class="m-value">—</div></div>
+        <div class="metric-card skel"><div class="m-label">Tools available</div><div class="m-value">—</div></div>
+        <div class="metric-card skel"><div class="m-label">Posts this week</div><div class="m-value">—</div></div>
+        <div class="metric-card skel"><div class="m-label">Articles in pipeline</div><div class="m-value">—</div></div>
+      </div>
+    </section>
+
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-tab="running">⚡ Live</button>
+      <button class="tab" data-tab="completed">✅ Completed</button>
+      <button class="tab" data-tab="pipeline">⏳ Pipeline</button>
+      <button class="tab" data-tab="suggestions">💡 Suggestions</button>
+    </nav>
+
+    <section id="panel-running" class="panel active">
+      <h2 class="section-title">Running now &amp; next 24 hours</h2>
+      <div class="cards-grid" id="running-list"><div class="empty">Loading…</div></div>
+    </section>
+
+    <section id="panel-completed" class="panel">
+      <h2 class="section-title">Recently completed</h2>
+      <div class="cards-grid" id="completed-list"><div class="empty">Loading…</div></div>
+    </section>
+
+    <section id="panel-pipeline" class="panel">
+      <h2 class="section-title">Pipeline · initiatives in flight</h2>
+      <div class="cards-grid wide" id="pipeline-list"><div class="empty">Loading…</div></div>
+    </section>
+
+    <section id="panel-suggestions" class="panel">
+      <h2 class="section-title">Suggestions for what's next</h2>
+      <div class="cards-grid wide" id="suggestions-list"><div class="empty">Loading…</div></div>
+    </section>
+
+    <footer class="foot">
+      <span id="updated-text">Updated —</span>
+      <span class="sep">·</span>
+      <span><a href="https://github.com/farhaadbaig89-sys/voyage-ops" target="_blank" rel="noopener">source</a></span>
+      <span class="sep">·</span>
+      <span><button class="link-btn" id="refresh-now">refresh now</button></span>
+    </footer>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "initiatives": [
+    {
+      "id": "voyage-shopify-mcp",
+      "title": "Voyage Shopify integration (Admin API)",
+      "category": "Integration",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Custom MCP server (voyage) talks to Voyage's Shopify Admin GraphQL. Recent-orders, orders-by-day, recent-customers, plus the 5-sales-90d guardrail used by every write operation.",
+      "tools": ["recent-orders", "orders-by-day", "recent-customers", "product-sales-90d"]
+    },
+    {
+      "id": "voyage-seo-audit",
+      "title": "Daily rotating SEO audit",
+      "category": "SEO",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Scans 100 products/day. Flags missing meta description, title length issues, alt-text gaps, $0 prices, placeholders. Honours the 5-sales-90d no-touch rule.",
+      "crons": ["voyage-seo-audit-daily"]
+    },
+    {
+      "id": "voyage-catalog-hygiene",
+      "title": "Daily catalog hygiene + sitemap diff",
+      "category": "SEO",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Compares today's product sitemap to yesterday's. Flags adds, removes, URL changes. Spot-checks 20 random products via the Shopify .json endpoint for $0/no-images/placeholders.",
+      "crons": ["voyage-catalog-hygiene-daily"]
+    },
+    {
+      "id": "voyage-rank-check",
+      "title": "Daily Google indexation tracker",
+      "category": "SEO",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Records sitemap product count + (when scraping isn't blocked) Google site: indexed count + delta vs yesterday. Long-term: swap to Search Console API for accuracy.",
+      "crons": ["voyage-rank-check-daily"]
+    },
+    {
+      "id": "voyage-blog-pipeline",
+      "title": "Voyage daily blog · 3-day pipeline",
+      "category": "Content",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Day 1 picks topic + outline. Day 2 writes the 1000w article as a Shopify DRAFT. Day 3 auto-publishes live unless you've deleted the draft. Rotates 7 categories weekly. Friendly-expert blog voice.",
+      "crons": ["voyage-blog-outline-daily", "voyage-blog-publish-daily", "voyage-blog-auto-publish-daily"]
+    },
+    {
+      "id": "voyage-socials",
+      "title": "Voyage social media · FB + IG",
+      "category": "Socials",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Daily product post (11:00 AEST), Sunday weekly deals carousel, Tue+Fri educational/how-to. Aussie casual tone with emoji. Posts to Voyage FB Page + @voyagecollectionaustralia IG.",
+      "crons": ["voyage-socials-product-daily", "voyage-socials-deals-weekly", "voyage-socials-edu-twiceweekly"]
+    },
+    {
+      "id": "shopify-token-refresh",
+      "title": "Shopify token auto-refresh (Voyage + Gifts Hub)",
+      "category": "Infra",
+      "status": "active",
+      "createdAt": "2026-04-24",
+      "summary": "Windows scheduled task runs daily at 06:00 AEST. Re-runs OAuth client_credentials, updates wrappers for both stores, restarts the gateway so MCP servers pick up the new tokens."
+    },
+    {
+      "id": "giftshub-mcp",
+      "title": "Gifts Hub Shopify integration",
+      "category": "Integration",
+      "status": "active",
+      "createdAt": "2026-04-19",
+      "summary": "Custom MCP server (giftshub-plus) for Gifts Hub Shopify analytics. Recent-orders / orders-by-day / recent-customers via Admin GraphQL.",
+      "tools": ["recent-orders", "orders-by-day", "recent-customers"]
+    },
+    {
+      "id": "jim-rohn-daily",
+      "title": "Daily Jim Rohn quote · Telegram",
+      "category": "Content",
+      "status": "active",
+      "createdAt": "2026-04-19",
+      "summary": "8:00 AEST daily. Agent fetches a Jim Rohn quote and delivers it to your Telegram chat.",
+      "crons": ["jim-rohn-daily"]
+    },
+    {
+      "id": "voyage-ops-dashboard",
+      "title": "This dashboard",
+      "category": "Infra",
+      "status": "active",
+      "createdAt": "2026-04-25",
+      "summary": "Public PWA at farhaadbaig89-sys.github.io/voyage-ops. Auto-refreshes every 30s, regenerated locally + git-pushed every 5 min.",
+      "tools": ["state.json generator", "GitHub Pages auto-deploy"]
+    }
+  ]
+}
