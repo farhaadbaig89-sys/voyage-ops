@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-26T01:58:22.929Z",
+  "generatedAt": "2026-04-26T02:03:23.342Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 10,
     "toolsAvailable": 9,
-    "postsThisWeek": 5,
+    "postsThisWeek": 6,
     "articlesInPipeline": 1
   },
   "running": [
@@ -92,6 +92,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
+      "jobName": "voyage-socials-deals-weekly",
+      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
+      "category": "Socials",
+      "finishedAt": "2026-04-26T02:02:49.228Z",
+      "runAt": "2026-04-26T02:00:46.278Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 122937,
+      "summary": "Voyage weekly deals — 2026-04-26\nPicked 5 deals (top discount 56%)\nFB: https://www.facebook.com/104415881913939/posts/978293097871178\nIG: carousel publish failed — media not ready yet (Meta error 9007)"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
