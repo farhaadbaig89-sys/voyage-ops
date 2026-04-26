@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-26T01:28:28.481Z",
+  "generatedAt": "2026-04-26T01:33:23.832Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 10,
     "toolsAvailable": 9,
-    "postsThisWeek": 3,
+    "postsThisWeek": 4,
     "articlesInPipeline": 1
   },
   "running": [
@@ -92,6 +92,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-04-26T01:31:57.734Z",
+      "runAt": "2026-04-26T01:31:15.967Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 41754,
+      "summary": "Voyage post — 2026-04-26\nSlot: Fresh in\nProduct: Moyasu 18Pcs BBQ Tool Set Stainless\nFB: error (OAuthException code 200: app not authorised for user)\nIG: error (OAuthException code 200: app not authorised for user)"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
