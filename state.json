@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T20:28:25.697Z",
+  "generatedAt": "2026-04-26T20:33:24.636Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 10,
     "toolsAvailable": 9,
     "postsThisWeek": 6,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-26T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -89,9 +79,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-27T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-27T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-04-26T20:30:48.222Z",
+      "runAt": "2026-04-26T20:30:00.042Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 48153,
+      "summary": "Voyage blog outline — 2026-04-27\nCategory: Toys & Games\nTitle: Screen-Free Indoor Games for Aussie Autumn Afternoons\nTarget keyword: screen free indoor games for kids\nAngle: A practical guide for Australian families choosing screen-free toys and games that keep kids active, curious and entertained through cooler autumn afternoons.\nSections: Why autumn is ideal for screen-free play, Choose toys by the kind of energy kids have, Best indoor toy ideas for rainy or chilly afternoons, What Australian parents should look for before buying, How to make toys last beyond the first week\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
       "jobName": "voyage-socials-deals-weekly",
