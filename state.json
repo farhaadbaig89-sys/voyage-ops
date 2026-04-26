@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-26T01:53:32.510Z",
+  "generatedAt": "2026-04-26T01:58:22.929Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 10,
     "toolsAvailable": 9,
-    "postsThisWeek": 4,
+    "postsThisWeek": 5,
     "articlesInPipeline": 1
   },
   "running": [
@@ -92,6 +92,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-04-26T01:58:01.720Z",
+      "runAt": "2026-04-26T01:57:17.094Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 44619,
+      "summary": "Voyage post — 2026-04-26\nSlot: On sale\nProduct: CENTSTAR 10 Pack Wide Headbands, Great Woman,Grils and…\nFB: https://www.facebook.com/104415881913939/posts/978291044538050\nIG: posted (id=18123300733540339)"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
