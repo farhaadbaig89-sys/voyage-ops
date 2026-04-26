@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-25T23:58:28.993Z",
+  "generatedAt": "2026-04-26T00:03:28.211Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 10,
     "toolsAvailable": 9,
-    "postsThisWeek": 1,
+    "postsThisWeek": 2,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
-      "name": "voyage-socials-deals-weekly",
-      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
-      "category": "Socials",
-      "cronExpr": "0 10 * * 0",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-26T00:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-list-current-deals with {limit:5}. Returns picked array of products with title, url, price, compareAtPrice, discountPct, featuredImage. Step 2: write a casual Aussie-tone caption introducing the roundup…"
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -102,6 +92,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
+      "jobName": "voyage-socials-deals-weekly",
+      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
+      "category": "Socials",
+      "finishedAt": "2026-04-26T00:00:36.235Z",
+      "runAt": "2026-04-26T00:00:00.023Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 36204,
+      "summary": "Voyage weekly deals — 2026-04-26\nCouldn’t complete the socials run.\nsocials-list-current-deals failed: invalid API key or access token.\nBecause no deals were returned, IG and FB posts were not sent.\nPlease refresh the socials MCP credentials, then rerun this job."
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
