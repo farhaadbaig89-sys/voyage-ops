@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-26T00:58:30.087Z",
+  "generatedAt": "2026-04-26T01:03:28.183Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 10,
     "toolsAvailable": 9,
-    "postsThisWeek": 2,
+    "postsThisWeek": 3,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-26T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -89,9 +79,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-26T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-27T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-04-26T01:00:30.341Z",
+      "runAt": "2026-04-26T01:00:00.015Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 30319,
+      "summary": "Voyage post — 2026-04-26\nSlot: unavailable\nProduct: unable to fetch product\nFB: not posted — socials API auth error\nIG: not posted (socials API auth error)"
+    },
     {
       "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
       "jobName": "voyage-socials-deals-weekly",
