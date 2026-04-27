@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T12:13:25.364Z",
+  "generatedAt": "2026-04-27T12:18:24.177Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -102,6 +102,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
+      "jobName": "voyage-content-pack-weekly",
+      "title": "Weekly Mon 06:00 AEST content pack: blogs, socials, reels, pinterest, seo-fixes for Voyage + Gifts Hub",
+      "category": "Cron",
+      "finishedAt": "2026-04-27T12:16:28.072Z",
+      "runAt": "2026-04-27T12:15:03.675Z",
+      "status": "error",
+      "delivered": true,
+      "durationMs": 84376,
+      "summary": "Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config."
+    },
     {
       "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
       "jobName": "voyage-content-pack-weekly",
