@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-27T21:58:36.507Z",
+  "generatedAt": "2026-04-27T22:00:43.481Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
-    "activeAutomations": 11,
-    "toolsAvailable": 9,
+    "activeAutomations": 10,
+    "toolsAvailable": 13,
     "postsThisWeek": 7,
     "articlesInPipeline": 1
   },
@@ -173,66 +173,6 @@
       "delivered": true,
       "durationMs": 55191,
       "summary": "Voyage blog outline — 2026-04-28\nCategory: Kitchenware\nTitle: Autumn Kitchenware Picks for Australian Homes\nTarget keyword: autumn kitchenware australia\nAngle: A practical guide to the kitchen tools Australian households can use right now for citrus prep, batch cooking and cosy autumn meals.\nSections: Why autumn changes how Australians cook at home, Kitchenware worth prioritising this season, How to choose tools that suit your household, Easy autumn meal and hosting ideas to try, Small upgrades that make a big difference\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
-      "jobName": "voyage-content-pack-weekly",
-      "title": "Weekly Mon 06:00 AEST content pack: blogs, socials, reels, pinterest, seo-fixes for Voyage + Gifts Hub",
-      "category": "Cron",
-      "finishedAt": "2026-04-27T12:25:06.627Z",
-      "runAt": "2026-04-27T12:23:53.753Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 72868,
-      "summary": "voyage blog written: Artiss Console Table Marble Effect Frenisha"
-    },
-    {
-      "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
-      "jobName": "voyage-content-pack-weekly",
-      "title": "Weekly Mon 06:00 AEST content pack: blogs, socials, reels, pinterest, seo-fixes for Voyage + Gifts Hub",
-      "category": "Cron",
-      "finishedAt": "2026-04-27T12:20:53.306Z",
-      "runAt": "2026-04-27T12:20:22.049Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 31246,
-      "summary": "test ok"
-    },
-    {
-      "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
-      "jobName": "voyage-content-pack-weekly",
-      "title": "Weekly Mon 06:00 AEST content pack: blogs, socials, reels, pinterest, seo-fixes for Voyage + Gifts Hub",
-      "category": "Cron",
-      "finishedAt": "2026-04-27T12:16:28.072Z",
-      "runAt": "2026-04-27T12:15:03.675Z",
-      "status": "error",
-      "delivered": true,
-      "durationMs": 84376,
-      "summary": "Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config."
-    },
-    {
-      "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
-      "jobName": "voyage-content-pack-weekly",
-      "title": "Weekly Mon 06:00 AEST content pack: blogs, socials, reels, pinterest, seo-fixes for Voyage + Gifts Hub",
-      "category": "Cron",
-      "finishedAt": "2026-04-27T12:12:11.192Z",
-      "runAt": "2026-04-27T12:10:33.124Z",
-      "status": "error",
-      "delivered": true,
-      "durationMs": 98044,
-      "summary": "Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config."
-    },
-    {
-      "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
-      "jobName": "voyage-content-pack-weekly",
-      "title": "Weekly Mon 06:00 AEST content pack: blogs, socials, reels, pinterest, seo-fixes for Voyage + Gifts Hub",
-      "category": "Cron",
-      "finishedAt": "2026-04-27T12:01:16.279Z",
-      "runAt": "2026-04-27T11:59:43.756Z",
-      "status": "error",
-      "delivered": true,
-      "durationMs": 92508,
-      "summary": "Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config."
     },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
@@ -795,6 +735,20 @@
       "summary": "8:00 AEST daily. Agent fetches a Jim Rohn quote and delivers it to your Telegram chat.",
       "crons": [
         "jim-rohn-daily"
+      ]
+    },
+    {
+      "id": "voyage-content-pack-weekly",
+      "title": "Weekly content pack · Voyage + Gifts Hub",
+      "category": "Content",
+      "status": "active",
+      "createdAt": "2026-04-27",
+      "summary": "Mon 06:00 AEST. Orchestrator runs 4 sequential agent stages: Voyage blog, Gifts Hub blog, SEO fixes, summary. Output to private repo voyage-content-pack. Priority products: marble + chest, in-stock only.",
+      "tools": [
+        "cp-prep",
+        "cp-write-file",
+        "cp-append-log",
+        "cp-commit-and-push"
       ]
     },
     {

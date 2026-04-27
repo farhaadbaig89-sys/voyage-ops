@@ -81,6 +81,15 @@
       "crons": ["jim-rohn-daily"]
     },
     {
+      "id": "voyage-content-pack-weekly",
+      "title": "Weekly content pack · Voyage + Gifts Hub",
+      "category": "Content",
+      "status": "active",
+      "createdAt": "2026-04-27",
+      "summary": "Mon 06:00 AEST. Orchestrator runs 4 sequential agent stages: Voyage blog, Gifts Hub blog, SEO fixes, summary. Output to private repo voyage-content-pack. Priority products: marble + chest, in-stock only.",
+      "tools": ["cp-prep", "cp-write-file", "cp-append-log", "cp-commit-and-push"]
+    },
+    {
       "id": "voyage-ops-dashboard",
       "title": "This dashboard",
       "category": "Infra",
