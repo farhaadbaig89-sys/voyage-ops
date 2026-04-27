@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T12:18:24.177Z",
+  "generatedAt": "2026-04-27T12:23:24.250Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -102,6 +102,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
+      "jobName": "voyage-content-pack-weekly",
+      "title": "Weekly Mon 06:00 AEST content pack: blogs, socials, reels, pinterest, seo-fixes for Voyage + Gifts Hub",
+      "category": "Cron",
+      "finishedAt": "2026-04-27T12:20:53.306Z",
+      "runAt": "2026-04-27T12:20:22.049Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 31246,
+      "summary": "test ok"
+    },
     {
       "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
       "jobName": "voyage-content-pack-weekly",
