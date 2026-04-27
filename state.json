@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T20:28:28.656Z",
+  "generatedAt": "2026-04-27T20:33:26.538Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 11,
     "toolsAvailable": 9,
     "postsThisWeek": 7,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-27T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -99,9 +89,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-28T09:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats and craft the caption around the picked product: '5 ways to use a <product>', 'How to c…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-28T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-04-27T20:30:55.244Z",
+      "runAt": "2026-04-27T20:30:00.039Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55191,
+      "summary": "Voyage blog outline — 2026-04-28\nCategory: Kitchenware\nTitle: Autumn Kitchenware Picks for Australian Homes\nTarget keyword: autumn kitchenware australia\nAngle: A practical guide to the kitchen tools Australian households can use right now for citrus prep, batch cooking and cosy autumn meals.\nSections: Why autumn changes how Australians cook at home, Kitchenware worth prioritising this season, How to choose tools that suit your household, Easy autumn meal and hosting ideas to try, Small upgrades that make a big difference\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "f2035652-df7a-46f5-a653-be4176dbeb10",
       "jobName": "voyage-content-pack-weekly",
