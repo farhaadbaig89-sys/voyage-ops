@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T08:58:24.729Z",
+  "generatedAt": "2026-04-27T09:03:24.003Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -89,6 +89,16 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-28T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
+      "name": "voyage-socials-edu-twiceweekly",
+      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
+      "category": "Socials",
+      "cronExpr": "0 19 * * 2,5",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-28T09:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats and craft the caption around the picked product: '5 ways to use a <product>', 'How to c…"
     }
   ],
   "completed": [
