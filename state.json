@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-28T08:58:26.788Z",
+  "generatedAt": "2026-04-28T09:03:24.894Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 10,
     "toolsAvailable": 13,
-    "postsThisWeek": 8,
+    "postsThisWeek": 9,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "name": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "cronExpr": "0 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-28T09:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats and craft the caption around the picked product: '5 ways to use a <product>', 'How to c…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -102,6 +92,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
+      "jobName": "voyage-socials-edu-twiceweekly",
+      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
+      "category": "Socials",
+      "finishedAt": "2026-04-28T09:01:01.164Z",
+      "runAt": "2026-04-28T09:00:00.017Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 61125,
+      "summary": "Voyage edu post — 2026-04-28\nFormat: Why grit progression matters\nProduct: Britor Knife Sharpening Stone Whetstone Sharpener - 4...\nFB: failed — missing Facebook page permissions\nIG: failed — missing Instagram/Facebook page permissions"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
