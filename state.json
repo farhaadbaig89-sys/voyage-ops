@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T20:43:24.558Z",
+  "generatedAt": "2026-04-28T20:48:23.449Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "name": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "cronExpr": "45 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-28T20:45:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
-    },
     {
       "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "name": "voyage-blog-auto-publish-daily",
@@ -89,9 +79,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-29T20:30:00.000Z",
       "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
+    },
+    {
+      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "name": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "cronExpr": "45 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-29T20:45:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
     }
   ],
   "completed": [
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-04-28T20:45:01.755Z",
+      "runAt": "2026-04-28T20:45:00.018Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1724,
+      "summary": null
+    },
     {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "jobName": "voyage-blog-outline-daily",
