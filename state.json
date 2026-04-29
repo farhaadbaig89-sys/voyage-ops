@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-29T21:53:36.428Z",
+  "generatedAt": "2026-04-29T21:58:35.125Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
+    "postsThisWeek": 10,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-04-29T21:55:27.894Z",
+      "runAt": "2026-04-29T21:55:00.040Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 27843,
+      "summary": "Gifts Hub auto-publish - 2026-04-30\nLive: 0 · Rejected (deleted): 0 · Checked: 2\nNothing due to publish today."
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 44522,
       "summary": "Voyage blog outline — 2026-04-26\nCategory: Home Improvement\nTitle: Autumn Home Office Upgrades for Australian Homes\nTarget keyword: autumn home office upgrades\nAngle: A practical guide for Australian shoppers refreshing their workspace for cooler months with better lighting, safer power access and small comfort-focused improvements.\nSections: Why autumn is the right time to refresh your setup, Improve lighting for darker starts and late afternoons, Make power access safer and less messy, Add small utility upgrades that lift everyday living, Prepare for guests, projects and flexible spaces, How to choose upgrades that actually get used\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-04-25T02:47:43.362Z",
-      "runAt": "2026-04-25T02:46:51.665Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 51685,
-      "summary": "Voyage post — 2026-04-25\nSlot: Best seller\nProduct: Cocktail Smoker Kit with Torch – 6 Flavours Wood Chips...\nFB: https://www.facebook.com/104415881913939/posts/977457117954776\nIG: posted (id=18080412221565010)"
     }
   ],
   "pipeline": [
