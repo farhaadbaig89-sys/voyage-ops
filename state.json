@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T20:43:38.397Z",
+  "generatedAt": "2026-04-29T20:48:39.578Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "name": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "cronExpr": "45 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T20:45:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
-    },
     {
       "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "name": "voyage-blog-auto-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T20:30:00.000Z",
       "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
+    },
+    {
+      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "name": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "cronExpr": "45 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T20:45:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
     }
   ],
   "completed": [
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-04-29T20:46:01.430Z",
+      "runAt": "2026-04-29T20:45:00.039Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 61361,
+      "summary": "Voyage blog published (DRAFT) — 2026-04-29\nTitle: Personalised Mother’s Day Gifts for Australia 2026\nCategory: personalised-gifts\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559267807440\nReview + hit Publish in Shopify admin when ready."
+    },
     {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "jobName": "voyage-blog-outline-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 65256,
       "summary": "Voyage catalog — 2026-04-24\nSitemap: 13803 products\n+0 new · -99 removed (vs 2026-04-24)\nSpot-check: 20 products / 1 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/exam-care-package-you-got-this-student-self-care-package-college-exams-relaxation-gift-box-finals-encouragement-gift-gift-box-xsd8: price_zero\nRemoved sample: https://www.voyagecollectionsaustralia.com.au/products/greenies-original-teenie-dental-dog-treat-1kg-129-treats-adult-small-medium-large, https://www.voyagecollectionsaustralia.com.au/products/kong-wild-knots-bear-internal-knotted-ropes-and-minimal-stuffing-for-less-mess-assorted-colours-for-medium-large-dogs, https://www.voyagecollectionsaustralia.com.au/products/shapex-large-yoga-mat-72x26-5inch-thick-yoga-mat-inch-thickness-non-slip-anti-tear-sweat-proof-eco-friendly-exercise-mat-with-alignment-marks-carrying-strap-perfect-for-yoga-pilates-and-fitness"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-04-24T21:01:04.918Z",
-      "runAt": "2026-04-24T21:00:00.197Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 64647,
-      "summary": "Voyage SEO — 2026-04-25 (batch 2)\n100 scanned · 60 issues · 1 locked · 59 fixable\nmissing_meta_description: 59\ntitle_too_long: 19\ndescription_too_short: 2\ntitle_too_short: 2\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
