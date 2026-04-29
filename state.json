@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-29T06:38:34.241Z",
+  "generatedAt": "2026-04-29T06:43:40.517Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
-    "activeAutomations": 13,
+    "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 11,
     "articlesInPipeline": 1
   },
   "running": [
@@ -119,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-04-29T06:39:32.553Z",
+      "runAt": "2026-04-29T06:38:44.597Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 47951,
+      "summary": "Gifts Hub post — 2026-04-29\nSlot: Top seller (12u/90d)\nProduct: Gardeon Solar Pond Pump with Filter Box 4.6FT\nFB: https://www.facebook.com/111527618129227/posts/964160472888982\nIG: posted (id=18064405613383045)"
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -709,18 +731,6 @@
       "delivered": true,
       "durationMs": 51294,
       "summary": "Voyage catalog — 2026-04-24\nSitemap: 13902 products\n+0 new · -0 removed (vs 2026-04-24)\nSpot-check: 20 products / 0 anomalies"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-04-24T13:11:35.270Z",
-      "runAt": "2026-04-24T13:10:28.896Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 66280,
-      "summary": "Voyage SEO — 2026-04-24 (batch 1)\n100 scanned · 53 issues · 0 locked · 53 fixable\nmissing_meta_description: 49\ntitle_too_long: 20\nmeta_description_too_short: 2\nsome_alt_missing: 2\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
