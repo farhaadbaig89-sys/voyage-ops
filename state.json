@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T20:48:39.578Z",
+  "generatedAt": "2026-04-29T20:53:36.571Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 11,
-    "articlesInPipeline": 2
+    "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "name": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "cronExpr": "50 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T20:50:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
-    },
     {
       "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "name": "voyage-seo-audit-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T20:45:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     }
   ],
   "completed": [
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-04-29T20:50:25.963Z",
+      "runAt": "2026-04-29T20:50:00.034Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 25910,
+      "summary": "Voyage blog auto-publish — 2026-04-30\nLive: 1 · Rejected (deleted): 0 · Checked: 5\n✓ Autumn Kitchenware Picks for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-kitchenware-picks-for-australian-homes"
+    },
     {
       "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "jobName": "voyage-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 54724,
       "summary": "Voyage indexation — 2026-04-24\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 13803"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-04-24T21:16:05.627Z",
-      "runAt": "2026-04-24T21:15:00.257Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 65256,
-      "summary": "Voyage catalog — 2026-04-24\nSitemap: 13803 products\n+0 new · -99 removed (vs 2026-04-24)\nSpot-check: 20 products / 1 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/exam-care-package-you-got-this-student-self-care-package-college-exams-relaxation-gift-box-finals-encouragement-gift-gift-box-xsd8: price_zero\nRemoved sample: https://www.voyagecollectionsaustralia.com.au/products/greenies-original-teenie-dental-dog-treat-1kg-129-treats-adult-small-medium-large, https://www.voyagecollectionsaustralia.com.au/products/kong-wild-knots-bear-internal-knotted-ropes-and-minimal-stuffing-for-less-mess-assorted-colours-for-medium-large-dogs, https://www.voyagecollectionsaustralia.com.au/products/shapex-large-yoga-mat-72x26-5inch-thick-yoga-mat-inch-thickness-non-slip-anti-tear-sweat-proof-eco-friendly-exercise-mat-with-alignment-marks-carrying-strap-perfect-for-yoga-pilates-and-fitness"
     }
   ],
   "pipeline": [
