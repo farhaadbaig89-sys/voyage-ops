@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T06:03:30.179Z",
+  "generatedAt": "2026-04-29T06:38:34.241Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -122,6 +122,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-04-29T06:03:33.013Z",
+      "runAt": "2026-04-29T06:02:29.354Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 63654,
+      "summary": "Gifts Hub blog DRAFT - 2026-04-29\nTitle: Autumn Birthday Gifts for Her in Australia\nCategory: gifts-for-her\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612363436323\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -709,18 +721,6 @@
       "delivered": true,
       "durationMs": 66280,
       "summary": "Voyage SEO — 2026-04-24 (batch 1)\n100 scanned · 53 issues · 0 locked · 53 fixable\nmissing_meta_description: 49\ntitle_too_long: 20\nmeta_description_too_short: 2\nsome_alt_missing: 2\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-04-24T13:08:55.251Z",
-      "runAt": "2026-04-24T13:07:50.167Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 65011,
-      "summary": "Voyage catalog — 2026-04-24\nSitemap: 13902 products\nBaseline snapshot saved (no diff yet)\nSpot-check: 20 products / 20 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/soga-2x-30x300cm-pink-kitchen-shelf-drawer-cabinet-multi-use-liner-non-slip-mat: price_zero_on_page\n- https://www.voyagecollectionsaustralia.com.au/products/soga-12x-gastronorm-gn-pan-full-size-1-1-gn-pan-2cm-deep-stainless-steel-tray-with-lid: price_zero_on_page\n- https://www.voyagecollectionsaustralia.com.au/products/koreanbbqplate48cmx2: price_zero_on_page"
     }
   ],
   "pipeline": [
