@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T20:28:36.802Z",
+  "generatedAt": "2026-04-29T20:33:38.609Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 11,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-04-29T20:30:51.161Z",
+      "runAt": "2026-04-29T20:30:00.053Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 51082,
+      "summary": "Voyage blog outline — 2026-04-30\nCategory: Personalised Gifts\nTitle: Personalised Mother’s Day Gifts for Australia 2026\nTarget keyword: personalised mother’s day gifts australia\nAngle: Help Australian shoppers choose thoughtful personalised gifts for Mum ahead of Mother’s Day 2026, with ideas that feel meaningful rather than generic.\nSections: Why personalised gifts land better for Mother’s Day, Best personalised gift types for different mums, How to choose a gift that feels genuinely personal, Smart timing tips for Australian Mother’s Day shoppers, Personalised gift ideas from Voyage Collections Australia\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 64647,
       "summary": "Voyage SEO — 2026-04-25 (batch 2)\n100 scanned · 60 issues · 1 locked · 59 fixable\nmissing_meta_description: 59\ntitle_too_long: 19\ndescription_too_short: 2\ntitle_too_short: 2\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-04-24T13:13:57.135Z",
-      "runAt": "2026-04-24T13:13:05.790Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 51294,
-      "summary": "Voyage catalog — 2026-04-24\nSitemap: 13902 products\n+0 new · -0 removed (vs 2026-04-24)\nSpot-check: 20 products / 0 anomalies"
     }
   ],
   "pipeline": [
