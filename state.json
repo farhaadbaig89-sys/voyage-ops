@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-29T05:58:28.055Z",
+  "generatedAt": "2026-04-29T06:03:30.179Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
-    "activeAutomations": 10,
+    "activeAutomations": 13,
     "toolsAvailable": 13,
     "postsThisWeek": 10,
     "articlesInPipeline": 1
@@ -71,6 +71,36 @@
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
     },
     {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-29T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
+    },
+    {
+      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "name": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "cronExpr": "50 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-29T21:50:00.000Z",
+      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-29T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
       "title": "Daily 8am Melbourne Jim Rohn quote",
@@ -92,6 +122,30 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-04-29T02:45:06.191Z",
+      "runAt": "2026-04-29T02:43:49.509Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 76673,
+      "summary": "Couldn’t publish the Gifts Hub blog draft.\n\nShopify returned:\nThis action requires merchant approval for write_content scope.\n\nThe article body is ready, but gh-blog-publish-draft failed with HTTP 403 until that scope is approved."
+    },
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-04-29T02:40:30.443Z",
+      "runAt": "2026-04-29T02:39:37.865Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 52562,
+      "summary": "Gifts Hub blog outline - 2026-04-29\nCategory: Gifts for Her\nTitle: Autumn Birthday Gifts for Her in Australia\nTarget keyword: autumn birthday gifts for her australia\nAngle: A practical guide to warm, useful and indulgent gifts that suit the cooler season and make celebrating her feel thoughtful across Australia.\nSections: Why autumn gifts for her feel extra thoughtful, Cosy self-care gifts she can enjoy at home, Home and kitchen gifts she will use all season, Experience-inspired gifts for weekends and quality time, How to choose the right gift for her personality, Best autumn gift ideas for her to order in Australia now\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -667,30 +721,6 @@
       "delivered": true,
       "durationMs": 65011,
       "summary": "Voyage catalog — 2026-04-24\nSitemap: 13902 products\nBaseline snapshot saved (no diff yet)\nSpot-check: 20 products / 20 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/soga-2x-30x300cm-pink-kitchen-shelf-drawer-cabinet-multi-use-liner-non-slip-mat: price_zero_on_page\n- https://www.voyagecollectionsaustralia.com.au/products/soga-12x-gastronorm-gn-pan-full-size-1-1-gn-pan-2cm-deep-stainless-steel-tray-with-lid: price_zero_on_page\n- https://www.voyagecollectionsaustralia.com.au/products/koreanbbqplate48cmx2: price_zero_on_page"
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-24T13:07:17.714Z",
-      "runAt": "2026-04-24T13:06:19.081Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 58577,
-      "summary": "Voyage indexation — 2026-04-24\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 13902"
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-04-23T22:01:15.248Z",
-      "runAt": "2026-04-23T22:00:00.914Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 74212,
-      "summary": "\"If you really want to do something, you'll find a way. If you don't, you'll find an excuse.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
