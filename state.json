@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T21:58:35.125Z",
+  "generatedAt": "2026-04-29T22:03:38.617Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-29T22:00:26.765Z",
+      "runAt": "2026-04-29T22:00:00.026Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 26725,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 62849,
       "summary": "Voyage blog published (DRAFT) — 2026-04-26\nTitle: Autumn Home Office Upgrades for Australian Homes\nCategory: home-improvement\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559261810896\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-04-25T20:30:44.561Z",
-      "runAt": "2026-04-25T20:30:00.019Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 44522,
-      "summary": "Voyage blog outline — 2026-04-26\nCategory: Home Improvement\nTitle: Autumn Home Office Upgrades for Australian Homes\nTarget keyword: autumn home office upgrades\nAngle: A practical guide for Australian shoppers refreshing their workspace for cooler months with better lighting, safer power access and small comfort-focused improvements.\nSections: Why autumn is the right time to refresh your setup, Improve lighting for darker starts and late afternoons, Make power access safer and less messy, Add small utility upgrades that lift everyday living, Prepare for guests, projects and flexible spaces, How to choose upgrades that actually get used\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
