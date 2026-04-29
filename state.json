@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T20:58:36.476Z",
+  "generatedAt": "2026-04-29T21:03:36.282Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
     {
       "id": "fda00df2-5552-416c-9f54-1225324c13e4",
       "name": "voyage-catalog-hygiene-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T20:50:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-04-29T21:00:31.992Z",
+      "runAt": "2026-04-29T21:00:00.040Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 31940,
+      "summary": "Voyage SEO — 2026-04-30 (batch 6)\n100 scanned · 58 issues · 1 locked · 57 fixable\nmissing_meta_description: 55\ntitle_too_long: 36\nsome_alt_missing: 2\nall_alt_missing: 1\nCritical: none\nnextBatchReady: true"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 51118,
       "summary": "\"Don't wish it were easier, wish you were better.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-24T21:30:55.119Z",
-      "runAt": "2026-04-24T21:30:00.309Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 54724,
-      "summary": "Voyage indexation — 2026-04-24\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 13803"
     }
   ],
   "pipeline": [
