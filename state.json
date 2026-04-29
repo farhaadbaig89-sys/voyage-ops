@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-29T00:58:25.113Z",
+  "generatedAt": "2026-04-29T01:03:25.347Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 10,
     "toolsAvailable": 13,
-    "postsThisWeek": 9,
+    "postsThisWeek": 10,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -89,9 +79,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-29T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-04-29T01:00:49.625Z",
+      "runAt": "2026-04-29T01:00:00.021Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 49587,
+      "summary": "Voyage post — 2026-04-29\nSlot: Hand-picked spotlight\nProduct: CENTSTAR 10 Pack Wide Headbands, Great Woman,Grils and...\nFB: error (missing Meta page permissions)\nIG: error (missing Meta page permissions)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -679,18 +691,6 @@
       "delivered": true,
       "durationMs": 74212,
       "summary": "\"If you really want to do something, you'll find a way. If you don't, you'll find an excuse.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-04-22T22:00:42.192Z",
-      "runAt": "2026-04-22T22:00:00.082Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 42098,
-      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
