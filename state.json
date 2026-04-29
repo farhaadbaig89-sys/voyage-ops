@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T21:28:39.191Z",
+  "generatedAt": "2026-04-29T21:33:36.331Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "d5541bce-1451-4218-a49f-7549231762d7",
-      "name": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "cronExpr": "30 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T21:30:00.000Z",
-      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
-    },
     {
       "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "name": "giftshub-blog-outline-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T21:15:00.000Z",
       "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
+    },
+    {
+      "id": "d5541bce-1451-4218-a49f-7549231762d7",
+      "name": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "cronExpr": "30 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T21:30:00.000Z",
+      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
     }
   ],
   "completed": [
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-04-29T21:30:29.455Z",
+      "runAt": "2026-04-29T21:30:00.032Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 29406,
+      "summary": "Voyage indexation — 2026-04-29\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
+    },
     {
       "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
       "jobName": "voyage-catalog-hygiene-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 92049,
       "summary": "Voyage blog published (DRAFT) — 2026-04-25\nTitle: Mother's Day Beauty Gifts for Aussie Autumn Self-Care\nCategory: health-fitness\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559260172496\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-04-24T23:54:01.428Z",
-      "runAt": "2026-04-24T23:52:48.542Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 72709,
-      "summary": "Voyage blog outline — 2026-04-25\nCategory: Health & Beauty\nTitle: Mother's Day Beauty Gifts for Aussie Autumn Self-Care\nTarget keyword: mother's day beauty gifts australia\nAngle: A practical gift guide for Australian shoppers choosing beauty and wellness picks that feel useful, seasonally relevant, and easy to give before Mother's Day.\nSections: Why autumn changes the beauty gift brief, How to choose a Mother's Day beauty gift she'll use, Best grooming and beauty tools for easy self-care, Wellness and skin support picks worth considering, How to build a polished gift set on different budgets, Smart buying tips before Mother's Day delivery cut-offs\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
