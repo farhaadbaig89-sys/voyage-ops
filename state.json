@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T21:13:39.278Z",
+  "generatedAt": "2026-04-29T21:18:36.898Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-29T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
     {
       "id": "d5541bce-1451-4218-a49f-7549231762d7",
       "name": "voyage-rank-check-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-04-30T21:00:00.000Z",
       "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-04-30T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
     }
   ],
   "completed": [
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-04-29T21:15:35.004Z",
+      "runAt": "2026-04-29T21:15:00.039Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 34948,
+      "summary": "Voyage catalog — 2026-04-29\nSitemap: 14096 products\n+0 new · -1 removed (vs 2026-04-27)\nSpot-check: 20 products / 0 anomalies\nRemoved sample: https://www.voyagecollectionsaustralia.com.au/products/soga-2x-foldable-tatami-floor-sofa-bed-meditation-lounge-chair-recliner-lazy-couch-khaki"
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 72709,
       "summary": "Voyage blog outline — 2026-04-25\nCategory: Health & Beauty\nTitle: Mother's Day Beauty Gifts for Aussie Autumn Self-Care\nTarget keyword: mother's day beauty gifts australia\nAngle: A practical gift guide for Australian shoppers choosing beauty and wellness picks that feel useful, seasonally relevant, and easy to give before Mother's Day.\nSections: Why autumn changes the beauty gift brief, How to choose a Mother's Day beauty gift she'll use, Best grooming and beauty tools for easy self-care, Wellness and skin support picks worth considering, How to build a polished gift set on different budgets, Smart buying tips before Mother's Day delivery cut-offs\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-04-24T22:00:51.339Z",
-      "runAt": "2026-04-24T22:00:00.161Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 51118,
-      "summary": "\"Don't wish it were easier, wish you were better.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
