@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-30T21:33:52.276Z",
+  "generatedAt": "2026-04-30T21:38:38.840Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 9,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-30T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
-    },
     {
       "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "name": "giftshub-blog-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-01T21:30:00.000Z",
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-01T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-04-30T21:35:43.451Z",
+      "runAt": "2026-04-30T21:35:00.028Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 43409,
+      "summary": "Gifts Hub blog outline - 2026-05-01\nCategory: Birthday Gifts\nTitle: Birthday Gift Ideas for Kids and Couples in Australia\nTarget keyword: birthday gift ideas australia\nAngle: A practical Australian guide to choosing birthday gifts by recipient, age and celebration style, with easy ideas that feel personal without overcomplicating the buy.\nSections: Start with who the birthday gift is for, Birthday gift ideas for kids that keep them engaged, Easy birthday gifts for tweens and teens, Thoughtful birthday gifts for couples and home entertainers, How to make a birthday gift feel more personal, Birthday gift budgeting and buying tips for Australians\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 44619,
       "summary": "Voyage post — 2026-04-26\nSlot: On sale\nProduct: CENTSTAR 10 Pack Wide Headbands, Great Woman,Grils and…\nFB: https://www.facebook.com/104415881913939/posts/978291044538050\nIG: posted (id=18123300733540339)"
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-04-26T01:31:57.734Z",
-      "runAt": "2026-04-26T01:31:15.967Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 41754,
-      "summary": "Voyage post — 2026-04-26\nSlot: Fresh in\nProduct: Moyasu 18Pcs BBQ Tool Set Stainless\nFB: error (OAuthException code 200: app not authorised for user)\nIG: error (OAuthException code 200: app not authorised for user)"
     }
   ],
   "pipeline": [
