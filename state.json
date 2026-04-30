@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T20:58:37.211Z",
+  "generatedAt": "2026-04-30T21:03:47.171Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-30T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
     {
       "id": "fda00df2-5552-416c-9f54-1225324c13e4",
       "name": "voyage-catalog-hygiene-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-01T20:50:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-01T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-04-30T21:00:29.054Z",
+      "runAt": "2026-04-30T21:00:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 29005,
+      "summary": "Voyage SEO — 2026-05-01 (batch 7)\n100 scanned · 78 issues · 0 locked · 78 fixable\nall_alt_missing: 59\nmeta_description_too_long: 49\ntitle_too_long: 32\nmissing_meta_description: 17\nCritical: none\nnextBatchReady: true"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 36204,
       "summary": "Voyage weekly deals — 2026-04-26\nCouldn’t complete the socials run.\nsocials-list-current-deals failed: invalid API key or access token.\nBecause no deals were returned, IG and FB posts were not sent.\nPlease refresh the socials MCP credentials, then rerun this job."
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-04-25T22:00:33.717Z",
-      "runAt": "2026-04-25T22:00:00.021Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 33679,
-      "summary": "\"Don't wish it was easier, wish you were better.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
