@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T20:28:37.231Z",
+  "generatedAt": "2026-04-30T20:33:37.058Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 12,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-30T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-01T09:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product. Step 2: write an EDUCATIONAL/gift-guide post (not pure sales). Pick one format: \"5 unique gift ideas for [recipient]\", \"How to choose the right gift for [occasion]\", \"3 rea…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-01T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-04-30T20:30:42.493Z",
+      "runAt": "2026-04-30T20:30:00.035Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 42443,
+      "summary": "Voyage blog outline — 2026-05-01\nCategory: Storage & Organization\nTitle: Winter Home Organisation Ideas for Australian Homes\nTarget keyword: winter home organisation ideas\nAngle: A practical early-winter guide for Australian households to reset kitchens, vanity zones and busy indoor spaces before colder-weather routines fully set in.\nSections: Why winter is the right time to reorganise, Create a harder-working kitchen zone, Set up drop zones for busy family routines, Organise vanity and bathroom surfaces without crowding them, Choose storage pieces that suit small-space living, Keep the system working through the season\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 35725,
       "summary": "Voyage catalog — 2026-04-25\nSitemap: 13804 products\n+1 new · -0 removed (vs 2026-04-24)\nSpot-check: 20 products / 0 anomalies\nAdded: https://www.voyagecollectionsaustralia.com.au/products/nordic-wabi-sabi-pendant-lamps-dining-room-lighting-modern-living-room-bedroom-led-ceiling-chandelier-loft-lustre-hanghing-lamps"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-04-25T21:00:31.078Z",
-      "runAt": "2026-04-25T21:00:00.022Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 31043,
-      "summary": "Voyage SEO — 2026-04-26 (batch 3)\n100 scanned · 59 issues · 1 locked · 58 fixable\nmissing_meta_description: 59\ntitle_too_long: 30\ndescription_too_short: 3\ntitle_too_short: 2\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
