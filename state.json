@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-30T21:53:38.197Z",
+  "generatedAt": "2026-04-30T21:58:41.709Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 8,
+    "postsThisWeek": 7,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-30T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-01T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-01T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-04-30T21:55:27.273Z",
+      "runAt": "2026-04-30T21:55:00.026Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 27241,
+      "summary": "Gifts Hub auto-publish - 2026-05-01\nLive: 2 · Rejected (deleted): 0 · Checked: 3\n✓ Autumn Birthday Gifts for Her in Australia -> https://www.gifts-australia.com.au/blogs/news/autumn-birthday-gifts-for-her-in-australia\n✓ Best Winter Birthday Gifts for Him in Australia -> https://www.gifts-australia.com.au/blogs/news/best-winter-birthday-gifts-for-him-in-australia"
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 48153,
       "summary": "Voyage blog outline — 2026-04-27\nCategory: Toys & Games\nTitle: Screen-Free Indoor Games for Aussie Autumn Afternoons\nTarget keyword: screen free indoor games for kids\nAngle: A practical guide for Australian families choosing screen-free toys and games that keep kids active, curious and entertained through cooler autumn afternoons.\nSections: Why autumn is ideal for screen-free play, Choose toys by the kind of energy kids have, Best indoor toy ideas for rainy or chilly afternoons, What Australian parents should look for before buying, How to make toys last beyond the first week\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
-      "jobName": "voyage-socials-deals-weekly",
-      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
-      "category": "Socials",
-      "finishedAt": "2026-04-26T02:02:49.228Z",
-      "runAt": "2026-04-26T02:00:46.278Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 122937,
-      "summary": "Voyage weekly deals — 2026-04-26\nPicked 5 deals (top discount 56%)\nFB: https://www.facebook.com/104415881913939/posts/978293097871178\nIG: carousel publish failed — media not ready yet (Meta error 9007)"
     }
   ],
   "pipeline": [
