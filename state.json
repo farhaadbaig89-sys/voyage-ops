@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-04-30T01:28:36.547Z",
+  "generatedAt": "2026-04-30T01:33:36.638Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
+    "postsThisWeek": 12,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-30T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-01T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-01T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-04-30T01:31:06.448Z",
+      "runAt": "2026-04-30T01:30:00.047Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 66378,
+      "summary": "Gifts Hub post — 2026-04-30\nSlot: Top seller (10u/90d)\nProduct: Gardeon Solar Pond Pump with Filter Box 5FT\nFB: https://www.facebook.com/111527618129227/posts/964810629490633\nIG: posted (id=18134322352480861)"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 31043,
       "summary": "Voyage SEO — 2026-04-26 (batch 3)\n100 scanned · 59 issues · 1 locked · 58 fixable\nmissing_meta_description: 59\ntitle_too_long: 30\ndescription_too_short: 3\ntitle_too_short: 2\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-04-25T20:50:24.356Z",
-      "runAt": "2026-04-25T20:50:00.009Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 24334,
-      "summary": "Voyage blog auto-publish — 2026-04-26\nLive: 1 · Rejected (deleted): 0 · Checked: 2\n✓ Mother's Day Beauty Gifts for Aussie Autumn Self-Care → https://www.voyagecollectionsaustralia.com.au/blogs/news/mothers-day-beauty-gifts-for-aussie-autumn-self-care"
     }
   ],
   "pipeline": [
