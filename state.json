@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T21:58:41.709Z",
+  "generatedAt": "2026-04-30T22:03:36.318Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-04-30T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-01T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-01T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-04-30T22:00:30.169Z",
+      "runAt": "2026-04-30T22:00:00.025Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 30133,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 63675,
       "summary": "Voyage blog published (DRAFT) — 2026-04-27\nTitle: Screen-Free Indoor Games for Aussie Autumn Afternoons\nCategory: toys-games\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559262105808\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-04-26T20:30:48.222Z",
-      "runAt": "2026-04-26T20:30:00.042Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 48153,
-      "summary": "Voyage blog outline — 2026-04-27\nCategory: Toys & Games\nTitle: Screen-Free Indoor Games for Aussie Autumn Afternoons\nTarget keyword: screen free indoor games for kids\nAngle: A practical guide for Australian families choosing screen-free toys and games that keep kids active, curious and entertained through cooler autumn afternoons.\nSections: Why autumn is ideal for screen-free play, Choose toys by the kind of energy kids have, Best indoor toy ideas for rainy or chilly afternoons, What Australian parents should look for before buying, How to make toys last beyond the first week\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
