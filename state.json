@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-01T09:28:37.040Z",
+  "generatedAt": "2026-05-01T09:33:37.702Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 11,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "779071e3-2124-454e-8237-a6cb01c2e146",
-      "name": "giftshub-socials-edu-twiceweekly",
-      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
-      "category": "Socials",
-      "cronExpr": "30 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T09:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product. Step 2: write an EDUCATIONAL/gift-guide post (not pure sales). Pick one format: \"5 unique gift ideas for [recipient]\", \"How to choose the right gift for [occasion]\", \"3 rea…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -142,6 +132,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
+      "jobName": "giftshub-socials-edu-twiceweekly",
+      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
+      "category": "Socials",
+      "finishedAt": "2026-05-01T09:31:13.531Z",
+      "runAt": "2026-05-01T09:30:00.020Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 73498,
+      "summary": "Gifts Hub edu post — 2026-05-01\nFormat: How to choose the right gift\nProduct: SOGA Glass LCD Digital Body Fat Scale Bathroom Electro...\nFB: https://www.facebook.com/111527618129227/posts/965880062717023\nIG: posted"
+    },
     {
       "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "jobName": "voyage-socials-edu-twiceweekly",
@@ -729,18 +731,6 @@
       "delivered": true,
       "durationMs": 27012,
       "summary": "Voyage indexation — 2026-04-26\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14097"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-04-26T21:15:32.938Z",
-      "runAt": "2026-04-26T21:15:00.008Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 32909,
-      "summary": "Voyage catalog — 2026-04-26\nSitemap: 14097 products\n+293 new · -0 removed (vs 2026-04-25)\nSpot-check: 20 products / 0 anomalies\nAdded: https://www.voyagecollectionsaustralia.com.au/products/marble-chess-set-38cm-black-golden, https://www.voyagecollectionsaustralia.com.au/products/marble-chess-set-38cm-special-edition-chess-set-black-white, https://www.voyagecollectionsaustralia.com.au/products/marble-chess-set-38cm-special-edition-chess-set-black-coral"
     }
   ],
   "pipeline": [
