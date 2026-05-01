@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T21:13:45.296Z",
+  "generatedAt": "2026-05-01T21:18:53.644Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
     {
       "id": "d5541bce-1451-4218-a49f-7549231762d7",
       "name": "voyage-rank-check-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T21:00:00.000Z",
       "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
     }
   ],
   "completed": [
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-05-01T21:15:39.398Z",
+      "runAt": "2026-05-01T21:15:00.032Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 39346,
+      "summary": "Voyage catalog — 2026-05-01\nSitemap: 14096 products\n+0 new · -0 removed (vs 2026-04-30)\nSpot-check: 20 products / 0 anomalies"
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 24556,
       "summary": "Voyage blog auto-publish — 2026-04-28\nLive: 0 · Rejected (deleted): 0 · Checked: 4\nNothing due to publish today."
-    },
-    {
-      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "jobName": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "finishedAt": "2026-04-27T20:46:01.199Z",
-      "runAt": "2026-04-27T20:45:00.016Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 61163,
-      "summary": "Voyage blog published (DRAFT) — 2026-04-28\nTitle: Autumn Kitchenware Picks for Australian Homes\nCategory: kitchenware\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559263678672\nReview + hit Publish in Shopify admin when ready."
     }
   ],
   "pipeline": [
