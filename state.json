@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-01T08:58:46.962Z",
+  "generatedAt": "2026-05-01T09:03:36.648Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 9,
+    "postsThisWeek": 10,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "name": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "cronExpr": "0 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T09:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats and craft the caption around the picked product: '5 ways to use a <product>', 'How to c…"
-    },
     {
       "id": "779071e3-2124-454e-8237-a6cb01c2e146",
       "name": "giftshub-socials-edu-twiceweekly",
@@ -152,6 +142,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
+      "jobName": "voyage-socials-edu-twiceweekly",
+      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
+      "category": "Socials",
+      "finishedAt": "2026-05-01T09:01:10.929Z",
+      "runAt": "2026-05-01T09:00:00.045Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 70873,
+      "summary": "Voyage edu post — 2026-05-01\nFormat: Why lighting matters\nProduct: Fancii LED Lighted Vanity Trifold Countertop Mirror...\nFB: https://www.facebook.com/104415881913939/posts/982573924109762\nIG: posted"
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -739,18 +741,6 @@
       "delivered": true,
       "durationMs": 32909,
       "summary": "Voyage catalog — 2026-04-26\nSitemap: 14097 products\n+293 new · -0 removed (vs 2026-04-25)\nSpot-check: 20 products / 0 anomalies\nAdded: https://www.voyagecollectionsaustralia.com.au/products/marble-chess-set-38cm-black-golden, https://www.voyagecollectionsaustralia.com.au/products/marble-chess-set-38cm-special-edition-chess-set-black-white, https://www.voyagecollectionsaustralia.com.au/products/marble-chess-set-38cm-special-edition-chess-set-black-coral"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-04-26T21:00:26.711Z",
-      "runAt": "2026-04-26T21:00:00.024Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 26674,
-      "summary": "Voyage SEO — 2026-04-27 (batch 4)\n100 scanned · 59 issues · 0 locked · 59 fixable\nmissing_meta_description: 52\ntitle_too_long: 30\nall_alt_missing: 9\nmeta_description_too_short: 5\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
