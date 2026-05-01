@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T21:48:47.457Z",
+  "generatedAt": "2026-05-01T21:53:40.970Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "name": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "cronExpr": "50 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T21:50:00.000Z",
-      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
-    },
     {
       "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "name": "giftshub-blog-auto-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T21:35:00.000Z",
       "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
+    },
+    {
+      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "name": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "cronExpr": "50 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T21:50:00.000Z",
+      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
     }
   ],
   "completed": [
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-05-01T21:51:02.997Z",
+      "runAt": "2026-05-01T21:50:00.030Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 62945,
+      "summary": "Gifts Hub blog DRAFT - 2026-05-02\nTitle: Mother's Day Gift Hampers Mum Will Actually Use\nCategory: gift-hampers\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612378411299\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
+    },
     {
       "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "jobName": "giftshub-blog-outline-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 25057,
       "summary": "Voyage indexation — 2026-04-27\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14097"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-04-27T21:15:31.306Z",
-      "runAt": "2026-04-27T21:15:00.037Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 31249,
-      "summary": "Voyage catalog — 2026-04-27\nSitemap: 14097 products\n+0 new · -0 removed (vs 2026-04-26)\nSpot-check: 20 products / 0 anomalies"
     }
   ],
   "pipeline": [
