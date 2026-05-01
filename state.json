@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T20:43:43.827Z",
+  "generatedAt": "2026-05-01T20:48:40.377Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "name": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "cronExpr": "45 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T20:45:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
-    },
     {
       "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "name": "voyage-blog-auto-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T20:30:00.000Z",
       "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
+    },
+    {
+      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "name": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "cronExpr": "45 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T20:45:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
     }
   ],
   "completed": [
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-05-01T20:46:04.697Z",
+      "runAt": "2026-05-01T20:45:00.031Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 64649,
+      "summary": "Voyage blog published (DRAFT) — 2026-05-02\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nCategory: wellness-supplements\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271051472\nReview + hit Publish in Shopify admin when ready."
+    },
     {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "jobName": "voyage-blog-outline-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 73787,
       "summary": "Voyage post — 2026-04-27\nSlot: Hand-picked spotlight\nProduct: 36 Colours Air Dry Clay Kit for Kids – Includes Sculpting\nFB: https://www.facebook.com/104415881913939/posts/979081894458965\nIG: posted (id=17918236098348212)"
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-04-26T22:00:22.382Z",
-      "runAt": "2026-04-26T22:00:00.036Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 22328,
-      "summary": "\"Don’t wish it were easier, wish you were better.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
