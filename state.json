@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T21:33:47.498Z",
+  "generatedAt": "2026-05-01T21:38:41.137Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
-    },
     {
       "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "name": "giftshub-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T21:30:00.000Z",
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-01T21:35:56.525Z",
+      "runAt": "2026-05-01T21:35:00.019Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 56497,
+      "summary": "Gifts Hub blog outline - 2026-05-02\nCategory: Gift Hampers\nTitle: Mother's Day Gift Hampers Mum Will Actually Use\nTarget keyword: mother's day gift hampers australia\nAngle: A practical guide for Australian shoppers choosing a Mother’s Day hamper that feels personal, useful and easy to deliver on time.\nSections: What makes a Mother’s Day hamper feel thoughtful, Best hamper styles for different kinds of mums, How to choose the right hamper without overspending, Delivery tips for Australian Mother's Day shoppers, Mother's Day hamper ideas that work well in 2026\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 31249,
       "summary": "Voyage catalog — 2026-04-27\nSitemap: 14097 products\n+0 new · -0 removed (vs 2026-04-26)\nSpot-check: 20 products / 0 anomalies"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-04-27T21:00:29.859Z",
-      "runAt": "2026-04-27T21:00:00.029Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 29812,
-      "summary": "Voyage SEO — 2026-04-28 (batch 5)\n100 scanned · 57 issues · 2 locked · 55 fixable\nmissing_meta_description: 55\ntitle_too_long: 35\nall_alt_missing: 9\ntitle_too_short: 2\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
