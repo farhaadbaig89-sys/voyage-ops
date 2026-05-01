@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T21:28:42.897Z",
+  "generatedAt": "2026-05-01T21:33:47.498Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "d5541bce-1451-4218-a49f-7549231762d7",
-      "name": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "cronExpr": "30 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T21:30:00.000Z",
-      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
-    },
     {
       "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "name": "giftshub-blog-outline-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T21:15:00.000Z",
       "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
+    },
+    {
+      "id": "d5541bce-1451-4218-a49f-7549231762d7",
+      "name": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "cronExpr": "30 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T21:30:00.000Z",
+      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
     }
   ],
   "completed": [
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-05-01T21:30:35.292Z",
+      "runAt": "2026-05-01T21:30:00.031Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 35241,
+      "summary": "Voyage indexation — 2026-05-01\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
+    },
     {
       "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
       "jobName": "voyage-catalog-hygiene-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 29812,
       "summary": "Voyage SEO — 2026-04-28 (batch 5)\n100 scanned · 57 issues · 2 locked · 55 fixable\nmissing_meta_description: 55\ntitle_too_long: 35\nall_alt_missing: 9\ntitle_too_short: 2\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-04-27T20:50:24.600Z",
-      "runAt": "2026-04-27T20:50:00.022Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 24556,
-      "summary": "Voyage blog auto-publish — 2026-04-28\nLive: 0 · Rejected (deleted): 0 · Checked: 4\nNothing due to publish today."
     }
   ],
   "pipeline": [
