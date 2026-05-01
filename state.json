@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-01T01:28:42.378Z",
+  "generatedAt": "2026-05-01T01:33:40.893Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 8,
+    "postsThisWeek": 9,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
-    },
     {
       "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "name": "voyage-socials-edu-twiceweekly",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-01T01:31:05.954Z",
+      "runAt": "2026-05-01T01:30:00.019Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 65920,
+      "summary": "Gifts Hub post — 2026-05-01\nSlot: Top seller (9u/90d)\nProduct: Devanti Induction Cooktop 60cm Portable Cooker\nFB: https://www.facebook.com/111527618129227/posts/965622686076094\nIG: posted (id=17935705041053522)"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 26674,
       "summary": "Voyage SEO — 2026-04-27 (batch 4)\n100 scanned · 59 issues · 0 locked · 59 fixable\nmissing_meta_description: 52\ntitle_too_long: 30\nall_alt_missing: 9\nmeta_description_too_short: 5\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-04-26T20:50:23.090Z",
-      "runAt": "2026-04-26T20:50:00.018Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 23055,
-      "summary": "Voyage blog auto-publish — 2026-04-27\nLive: 1 · Rejected (deleted): 0 · Checked: 3\n✓ Autumn Home Office Upgrades for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-home-office-upgrades-for-australian-homes"
     }
   ],
   "pipeline": [
