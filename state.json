@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-01T20:48:40.377Z",
+  "generatedAt": "2026-05-01T20:53:42.486Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
-    "articlesInPipeline": 2
+    "postsThisWeek": 10,
+    "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "name": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "cronExpr": "50 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T20:50:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
-    },
     {
       "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "name": "voyage-seo-audit-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T20:45:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     }
   ],
   "completed": [
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-05-01T20:50:25.695Z",
+      "runAt": "2026-05-01T20:50:00.021Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 25667,
+      "summary": "Voyage blog auto-publish — 2026-05-02\nLive: 1 · Rejected (deleted): 0 · Checked: 7\n✓ Winter Home Organisation Ideas for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/winter-home-organisation-ideas-for-australian-homes"
+    },
     {
       "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "jobName": "voyage-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 55191,
       "summary": "Voyage blog outline — 2026-04-28\nCategory: Kitchenware\nTitle: Autumn Kitchenware Picks for Australian Homes\nTarget keyword: autumn kitchenware australia\nAngle: A practical guide to the kitchen tools Australian households can use right now for citrus prep, batch cooking and cosy autumn meals.\nSections: Why autumn changes how Australians cook at home, Kitchenware worth prioritising this season, How to choose tools that suit your household, Easy autumn meal and hosting ideas to try, Small upgrades that make a big difference\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-04-27T01:01:13.853Z",
-      "runAt": "2026-04-27T01:00:00.039Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 73787,
-      "summary": "Voyage post — 2026-04-27\nSlot: Hand-picked spotlight\nProduct: 36 Colours Air Dry Clay Kit for Kids – Includes Sculpting\nFB: https://www.facebook.com/104415881913939/posts/979081894458965\nIG: posted (id=17918236098348212)"
     }
   ],
   "pipeline": [
