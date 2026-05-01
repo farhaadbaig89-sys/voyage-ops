@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T21:53:40.970Z",
+  "generatedAt": "2026-05-01T21:58:43.331Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-01T21:55:27.404Z",
+      "runAt": "2026-05-01T21:55:00.016Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 27380,
+      "summary": "Gifts Hub auto-publish - 2026-05-02\nLive: 1 · Rejected (deleted): 0 · Checked: 4\n✓ Birthday Gift Ideas for Kids and Couples in Australia -> https://www.gifts-australia.com.au/blogs/news/birthday-gift-ideas-for-kids-and-couples-in-australia"
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 40283,
       "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-27T21:30:25.101Z",
-      "runAt": "2026-04-27T21:30:00.028Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 25057,
-      "summary": "Voyage indexation — 2026-04-27\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14097"
     }
   ],
   "pipeline": [
