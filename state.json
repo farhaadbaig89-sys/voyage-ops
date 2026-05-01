@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T20:28:41.802Z",
+  "generatedAt": "2026-05-01T20:33:43.073Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 11,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-01T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-02T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-02T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-01T20:31:34.138Z",
+      "runAt": "2026-05-01T20:30:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 94070,
+      "summary": "Voyage blog outline — 2026-05-02\nCategory: Wellness Supplements\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nTarget keyword: winter wellness supplements australia\nAngle: A practical guide for Australian shoppers choosing wellness supplements for lower-sunlight, colder-month routines without turning everyday health goals into hype.\nSections: Why wellness habits shift in cooler Australian months, Which supplement categories Australians often prioritise, How to read labels without getting lost in marketing, Building a simple daily routine that is easy to keep, Smart shopping tips before winter demand ramps up\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
       "jobName": "giftshub-socials-edu-twiceweekly",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 22328,
       "summary": "\"Don’t wish it were easier, wish you were better.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-26T21:30:27.050Z",
-      "runAt": "2026-04-26T21:30:00.031Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 27012,
-      "summary": "Voyage indexation — 2026-04-26\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14097"
     }
   ],
   "pipeline": [
