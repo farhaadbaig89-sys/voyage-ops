@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T00:28:37.102Z",
+  "generatedAt": "2026-05-02T00:33:37.253Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -139,6 +139,16 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-03T00:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-list-current-deals with {limit:5}. Returns picked array of products with title, url, price, compareAtPrice, discountPct, featuredImage. Step 2: write a casual Aussie-tone caption introducing the roundup…"
+    },
+    {
+      "id": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
+      "name": "giftshub-socials-deals-weekly",
+      "title": "Gifts Hub: Sunday 10:30 AEST deals carousel",
+      "category": "Socials",
+      "cronExpr": "30 10 * * 0",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-03T00:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-list-current-deals {limit:5}. Step 2: write a warm gift-occasion caption introducing the deals roundup (\"Sunday gift hunt: top deals on must-have gifts\" style). 80 words FB, 100 IG, end …"
     }
   ],
   "completed": [
