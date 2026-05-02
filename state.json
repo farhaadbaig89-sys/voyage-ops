@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T21:59:25.609Z",
+  "generatedAt": "2026-05-02T22:04:22.777Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-02T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
       "name": "voyage-socials-deals-weekly",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-03T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-03T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-05-02T22:00:54.183Z",
+      "runAt": "2026-05-02T22:00:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 54137,
+      "summary": "\"Either you run the day or the day runs you.\"\n— Jim Rohn"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 63654,
       "summary": "Gifts Hub blog DRAFT - 2026-04-29\nTitle: Autumn Birthday Gifts for Her in Australia\nCategory: gifts-for-her\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612363436323\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
-    },
-    {
-      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "jobName": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "finishedAt": "2026-04-29T02:45:06.191Z",
-      "runAt": "2026-04-29T02:43:49.509Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 76673,
-      "summary": "Couldn’t publish the Gifts Hub blog draft.\n\nShopify returned:\nThis action requires merchant approval for write_content scope.\n\nThe article body is ready, but gh-blog-publish-draft failed with HTTP 403 until that scope is approved."
     }
   ],
   "pipeline": [
