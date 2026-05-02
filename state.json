@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T21:54:20.155Z",
+  "generatedAt": "2026-05-02T21:59:25.609Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-02T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-03T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-03T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-02T21:55:40.763Z",
+      "runAt": "2026-05-02T21:55:00.024Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 40722,
+      "summary": "Gifts Hub auto-publish - 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 5\n✓ Mother's Day Gift Hampers Mum Will Actually Use -> https://www.gifts-australia.com.au/blogs/news/mothers-day-gift-hampers-mum-will-actually-use"
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 76673,
       "summary": "Couldn’t publish the Gifts Hub blog draft.\n\nShopify returned:\nThis action requires merchant approval for write_content scope.\n\nThe article body is ready, but gh-blog-publish-draft failed with HTTP 403 until that scope is approved."
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-04-29T02:40:30.443Z",
-      "runAt": "2026-04-29T02:39:37.865Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 52562,
-      "summary": "Gifts Hub blog outline - 2026-04-29\nCategory: Gifts for Her\nTitle: Autumn Birthday Gifts for Her in Australia\nTarget keyword: autumn birthday gifts for her australia\nAngle: A practical guide to warm, useful and indulgent gifts that suit the cooler season and make celebrating her feel thoughtful across Australia.\nSections: Why autumn gifts for her feel extra thoughtful, Cosy self-care gifts she can enjoy at home, Home and kitchen gifts she will use all season, Experience-inspired gifts for weekends and quality time, How to choose the right gift for her personality, Best autumn gift ideas for her to order in Australia now\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
