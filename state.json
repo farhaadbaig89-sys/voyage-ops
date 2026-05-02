@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-02T21:49:19.001Z",
+  "generatedAt": "2026-05-02T21:54:20.155Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 9,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "name": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "cronExpr": "50 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-02T21:50:00.000Z",
-      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
-    },
     {
       "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "name": "giftshub-blog-auto-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-03T21:35:00.000Z",
       "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
+    },
+    {
+      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "name": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "cronExpr": "50 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-03T21:50:00.000Z",
+      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
     }
   ],
   "completed": [
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-05-02T21:51:13.541Z",
+      "runAt": "2026-05-02T21:50:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 73490,
+      "summary": "Gifts Hub blog DRAFT - 2026-05-03\nTitle: Mother's Day Gifts for Pet Mums in Australia\nCategory: gift-for-pets\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612380377379\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
+    },
     {
       "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "jobName": "giftshub-blog-outline-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 52562,
       "summary": "Gifts Hub blog outline - 2026-04-29\nCategory: Gifts for Her\nTitle: Autumn Birthday Gifts for Her in Australia\nTarget keyword: autumn birthday gifts for her australia\nAngle: A practical guide to warm, useful and indulgent gifts that suit the cooler season and make celebrating her feel thoughtful across Australia.\nSections: Why autumn gifts for her feel extra thoughtful, Cosy self-care gifts she can enjoy at home, Home and kitchen gifts she will use all season, Experience-inspired gifts for weekends and quality time, How to choose the right gift for her personality, Best autumn gift ideas for her to order in Australia now\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-04-29T01:00:49.625Z",
-      "runAt": "2026-04-29T01:00:00.021Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 49587,
-      "summary": "Voyage post — 2026-04-29\nSlot: Hand-picked spotlight\nProduct: CENTSTAR 10 Pack Wide Headbands, Great Woman,Grils and...\nFB: error (missing Meta page permissions)\nIG: error (missing Meta page permissions)"
     }
   ],
   "pipeline": [
