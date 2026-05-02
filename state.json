@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T00:58:37.154Z",
+  "generatedAt": "2026-05-02T01:03:39.659Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-02T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-03T00:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-list-current-deals {limit:5}. Step 2: write a warm gift-occasion caption introducing the deals roundup (\"Sunday gift hunt: top deals on must-have gifts\" style). 80 words FB, 100 IG, end …"
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-03T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-02T01:00:56.416Z",
+      "runAt": "2026-05-02T01:00:00.023Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 56378,
+      "summary": "Voyage post — 2026-05-02\nSlot: Hand-picked spotlight\nProduct: Fancii Lighted Magnifying Makeup Mirror – Portable LE\nFB: https://www.facebook.com/104415881913939/posts/983108170723004\nIG: posted (id=17950759479140691)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 61125,
       "summary": "Voyage edu post — 2026-04-28\nFormat: Why grit progression matters\nProduct: Britor Knife Sharpening Stone Whetstone Sharpener - 4...\nFB: failed — missing Facebook page permissions\nIG: failed — missing Instagram/Facebook page permissions"
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-04-28T01:00:55.038Z",
-      "runAt": "2026-04-28T01:00:00.032Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 54989,
-      "summary": "Voyage post — 2026-04-28\nSlot: Hand-picked spotlight\nProduct: Bosch 91-Piece V-Line Titanium Drill Bit and Screwdriver...\nFB: error (OAuth permission 190: page permissions missing)\nIG: error (OAuth permission 190: page permissions missing)"
     }
   ],
   "pipeline": [
