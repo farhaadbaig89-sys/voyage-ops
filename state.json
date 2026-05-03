@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T20:29:17.218Z",
+  "generatedAt": "2026-05-03T20:34:16.464Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 12,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-04T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-03T20:30:52.816Z",
+      "runAt": "2026-05-03T20:30:00.025Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 52764,
+      "summary": "Voyage blog outline — 2026-05-04\nCategory: Home Improvement\nTitle: Smart Winter Home Upgrades for Australian Households\nTarget keyword: winter home upgrades australia\nAngle: A practical guide to affordable home improvement picks that help Australian households get more comfortable, organised and winter-ready before the colder months settle in.\nSections: Why May is the right time to prep your home, Improve lighting where winter makes rooms feel dim, Make charging and power points work harder, Upgrade the kitchen tools you use every week, Get a spare room or guest setup ready for winter visitors, Choose home improvement buys that solve a real problem\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 31940,
       "summary": "Voyage SEO — 2026-04-30 (batch 6)\n100 scanned · 58 issues · 1 locked · 57 fixable\nmissing_meta_description: 55\ntitle_too_long: 36\nsome_alt_missing: 2\nall_alt_missing: 1\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-04-29T20:50:25.963Z",
-      "runAt": "2026-04-29T20:50:00.034Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 25910,
-      "summary": "Voyage blog auto-publish — 2026-04-30\nLive: 1 · Rejected (deleted): 0 · Checked: 5\n✓ Autumn Kitchenware Picks for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-kitchenware-picks-for-australian-homes"
     }
   ],
   "pipeline": [
