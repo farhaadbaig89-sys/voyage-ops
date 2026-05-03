@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-03T12:09:19.976Z",
+  "generatedAt": "2026-05-03T12:14:25.520Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 12,
+    "postsThisWeek": 11,
     "articlesInPipeline": 1
   },
   "running": [
@@ -167,18 +167,6 @@
       "delivered": true,
       "durationMs": 79335,
       "summary": "Gifts Hub weekly deals — 2026-05-03\nPicked 2 deals (top discount 51%)\nFB: https://www.facebook.com/111527618129227/posts/967165622588467\nIG: carousel posted (mediaId=18188224933373878)"
-    },
-    {
-      "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
-      "jobName": "voyage-socials-deals-weekly",
-      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
-      "category": "Socials",
-      "finishedAt": "2026-05-03T00:01:31.667Z",
-      "runAt": "2026-05-03T00:00:00.022Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 91613,
-      "summary": "Voyage weekly deals — 2026-05-03\nPicked 5 deals (top discount 56%)\nFB: https://www.facebook.com/104415881913939/posts/983842593982895\nIG: carousel posted (mediaId=18112298506877299)"
     },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
@@ -731,6 +719,18 @@
       "delivered": true,
       "durationMs": 25910,
       "summary": "Voyage blog auto-publish — 2026-04-30\nLive: 1 · Rejected (deleted): 0 · Checked: 5\n✓ Autumn Kitchenware Picks for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-kitchenware-picks-for-australian-homes"
+    },
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-04-29T20:46:01.430Z",
+      "runAt": "2026-04-29T20:45:00.039Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 61361,
+      "summary": "Voyage blog published (DRAFT) — 2026-04-29\nTitle: Personalised Mother’s Day Gifts for Australia 2026\nCategory: personalised-gifts\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559267807440\nReview + hit Publish in Shopify admin when ready."
     }
   ],
   "pipeline": [
