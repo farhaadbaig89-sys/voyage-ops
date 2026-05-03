@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-02T23:59:18.410Z",
+  "generatedAt": "2026-05-03T00:04:30.463Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 9,
+    "postsThisWeek": 10,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
-      "name": "voyage-socials-deals-weekly",
-      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
-      "category": "Socials",
-      "cronExpr": "0 10 * * 0",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T00:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-list-current-deals with {limit:5}. Returns picked array of products with title, url, price, compareAtPrice, discountPct, featuredImage. Step 2: write a casual Aussie-tone caption introducing the roundup…"
-    },
     {
       "id": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
       "name": "giftshub-socials-deals-weekly",
@@ -152,6 +142,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
+      "jobName": "voyage-socials-deals-weekly",
+      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-03T00:01:31.667Z",
+      "runAt": "2026-05-03T00:00:00.022Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 91613,
+      "summary": "Voyage weekly deals — 2026-05-03\nPicked 5 deals (top discount 56%)\nFB: https://www.facebook.com/104415881913939/posts/983842593982895\nIG: carousel posted (mediaId=18112298506877299)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -739,18 +741,6 @@
       "delivered": true,
       "durationMs": 47951,
       "summary": "Gifts Hub post — 2026-04-29\nSlot: Top seller (12u/90d)\nProduct: Gardeon Solar Pond Pump with Filter Box 4.6FT\nFB: https://www.facebook.com/111527618129227/posts/964160472888982\nIG: posted (id=18064405613383045)"
-    },
-    {
-      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "jobName": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "finishedAt": "2026-04-29T06:03:33.013Z",
-      "runAt": "2026-04-29T06:02:29.354Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 63654,
-      "summary": "Gifts Hub blog DRAFT - 2026-04-29\nTitle: Autumn Birthday Gifts for Her in Australia\nCategory: gifts-for-her\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612363436323\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
     }
   ],
   "pipeline": [
