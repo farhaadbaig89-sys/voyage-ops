@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T00:29:23.517Z",
+  "generatedAt": "2026-05-03T00:34:23.647Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
-      "name": "giftshub-socials-deals-weekly",
-      "title": "Gifts Hub: Sunday 10:30 AEST deals carousel",
-      "category": "Socials",
-      "cronExpr": "30 10 * * 0",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T00:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-list-current-deals {limit:5}. Step 2: write a warm gift-occasion caption introducing the deals roundup (\"Sunday gift hunt: top deals on must-have gifts\" style). 80 words FB, 100 IG, end …"
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -142,6 +132,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
+      "jobName": "giftshub-socials-deals-weekly",
+      "title": "Gifts Hub: Sunday 10:30 AEST deals carousel",
+      "category": "Socials",
+      "finishedAt": "2026-05-03T00:31:19.419Z",
+      "runAt": "2026-05-03T00:30:00.052Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 79335,
+      "summary": "Gifts Hub weekly deals — 2026-05-03\nPicked 2 deals (top discount 51%)\nFB: https://www.facebook.com/111527618129227/posts/967165622588467\nIG: carousel posted (mediaId=18188224933373878)"
+    },
     {
       "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
       "jobName": "voyage-socials-deals-weekly",
@@ -729,18 +731,6 @@
       "delivered": true,
       "durationMs": 51082,
       "summary": "Voyage blog outline — 2026-04-30\nCategory: Personalised Gifts\nTitle: Personalised Mother’s Day Gifts for Australia 2026\nTarget keyword: personalised mother’s day gifts australia\nAngle: Help Australian shoppers choose thoughtful personalised gifts for Mum ahead of Mother’s Day 2026, with ideas that feel meaningful rather than generic.\nSections: Why personalised gifts land better for Mother’s Day, Best personalised gift types for different mums, How to choose a gift that feels genuinely personal, Smart timing tips for Australian Mother’s Day shoppers, Personalised gift ideas from Voyage Collections Australia\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-04-29T06:39:32.553Z",
-      "runAt": "2026-04-29T06:38:44.597Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 47951,
-      "summary": "Gifts Hub post — 2026-04-29\nSlot: Top seller (12u/90d)\nProduct: Gardeon Solar Pond Pump with Filter Box 4.6FT\nFB: https://www.facebook.com/111527618129227/posts/964160472888982\nIG: posted (id=18064405613383045)"
     }
   ],
   "pipeline": [
