@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T21:49:22.881Z",
+  "generatedAt": "2026-05-04T21:54:12.678Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "name": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "cronExpr": "50 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T21:50:00.000Z",
-      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
-    },
     {
       "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "name": "giftshub-blog-auto-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-05T21:35:00.000Z",
       "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
+    },
+    {
+      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "name": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "cronExpr": "50 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T21:50:00.000Z",
+      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
     }
   ],
   "completed": [
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-05-04T21:51:10.461Z",
+      "runAt": "2026-05-04T21:50:00.030Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 70405,
+      "summary": "Gifts Hub blog DRAFT - 2026-05-05\nTitle: New Winter Comfort Gift for Drivers and Desk Workers\nCategory: launch\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612390076707\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
+    },
     {
       "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "jobName": "giftshub-blog-outline-daily",
@@ -283,6 +295,18 @@
       "delivered": true,
       "durationMs": 34283,
       "summary": "\"Success is nothing more than a few simple disciplines, practiced every day.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-04T12:44:10.438Z",
+      "runAt": "2026-05-04T12:43:37.902Z",
+      "status": "ok",
+      "delivered": false,
+      "durationMs": 32515,
+      "summary": "Gifts Hub auto-publish - 2026-05-04\nLive: 0 · Rejected (deleted): 0 · Checked: 6\nNothing due to publish today."
     },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
@@ -429,6 +453,18 @@
       "summary": "\"Either you run the day or the day runs you.\"\n— Jim Rohn"
     },
     {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-02T21:55:40.763Z",
+      "runAt": "2026-05-02T21:55:00.024Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 40722,
+      "summary": "Gifts Hub auto-publish - 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 5\n✓ Mother's Day Gift Hampers Mum Will Actually Use -> https://www.gifts-australia.com.au/blogs/news/mothers-day-gift-hampers-mum-will-actually-use"
+    },
+    {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
       "title": "Gifts Hub Day 2: write article, create Shopify draft",
@@ -559,6 +595,18 @@
       "delivered": true,
       "durationMs": 38764,
       "summary": "\"When the why gets stronger, the how gets easier.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-01T21:55:27.404Z",
+      "runAt": "2026-05-01T21:55:00.016Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 27380,
+      "summary": "Gifts Hub auto-publish - 2026-05-02\nLive: 1 · Rejected (deleted): 0 · Checked: 4\n✓ Birthday Gift Ideas for Kids and Couples in Australia -> https://www.gifts-australia.com.au/blogs/news/birthday-gift-ideas-for-kids-and-couples-in-australia"
     },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
@@ -703,54 +751,6 @@
       "delivered": true,
       "durationMs": 54840,
       "summary": "Voyage post — 2026-05-01\nSlot: Hand-picked spotlight\nProduct: DYZI USB Rechargeable Bike Lights Set - Built in Power...\nFB: https://www.facebook.com/104415881913939/posts/982317407468747\nIG: posted (id=18119083399731535)"
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-04-30T22:00:30.169Z",
-      "runAt": "2026-04-30T22:00:00.025Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 30133,
-      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "jobName": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "finishedAt": "2026-04-30T21:51:06.930Z",
-      "runAt": "2026-04-30T21:50:00.047Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 66874,
-      "summary": "Gifts Hub blog DRAFT - 2026-05-01\nTitle: Birthday Gift Ideas for Kids and Couples in Australia\nCategory: birthday-gifts\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612374184227\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-04-30T21:35:43.451Z",
-      "runAt": "2026-04-30T21:35:00.028Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 43409,
-      "summary": "Gifts Hub blog outline - 2026-05-01\nCategory: Birthday Gifts\nTitle: Birthday Gift Ideas for Kids and Couples in Australia\nTarget keyword: birthday gift ideas australia\nAngle: A practical Australian guide to choosing birthday gifts by recipient, age and celebration style, with easy ideas that feel personal without overcomplicating the buy.\nSections: Start with who the birthday gift is for, Birthday gift ideas for kids that keep them engaged, Easy birthday gifts for tweens and teens, Thoughtful birthday gifts for couples and home entertainers, How to make a birthday gift feel more personal, Birthday gift budgeting and buying tips for Australians\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-30T21:30:28.487Z",
-      "runAt": "2026-04-30T21:30:00.020Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 28450,
-      "summary": "Voyage indexation — 2026-04-30\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
     }
   ],
   "pipeline": [
