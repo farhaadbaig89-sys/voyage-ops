@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T21:29:12.733Z",
+  "generatedAt": "2026-05-04T21:34:12.382Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "d5541bce-1451-4218-a49f-7549231762d7",
-      "name": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "cronExpr": "30 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T21:30:00.000Z",
-      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
-    },
     {
       "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "name": "giftshub-blog-outline-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-05T21:15:00.000Z",
       "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
+    },
+    {
+      "id": "d5541bce-1451-4218-a49f-7549231762d7",
+      "name": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "cronExpr": "30 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T21:30:00.000Z",
+      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
     }
   ],
   "completed": [
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-05-04T21:30:36.619Z",
+      "runAt": "2026-05-04T21:30:00.030Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 36564,
+      "summary": "Voyage indexation — 2026-05-04\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14094"
+    },
     {
       "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
       "jobName": "voyage-catalog-hygiene-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 27241,
       "summary": "Gifts Hub auto-publish - 2026-05-01\nLive: 2 · Rejected (deleted): 0 · Checked: 3\n✓ Autumn Birthday Gifts for Her in Australia -> https://www.gifts-australia.com.au/blogs/news/autumn-birthday-gifts-for-her-in-australia\n✓ Best Winter Birthday Gifts for Him in Australia -> https://www.gifts-australia.com.au/blogs/news/best-winter-birthday-gifts-for-him-in-australia"
-    },
-    {
-      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "jobName": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "finishedAt": "2026-04-30T21:51:06.930Z",
-      "runAt": "2026-04-30T21:50:00.047Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 66874,
-      "summary": "Gifts Hub blog DRAFT - 2026-05-01\nTitle: Birthday Gift Ideas for Kids and Couples in Australia\nCategory: birthday-gifts\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612374184227\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
     }
   ],
   "pipeline": [
