@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T12:44:35.262Z",
+  "generatedAt": "2026-05-04T12:54:13.895Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,96 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
-    {
-      "id": "d5541bce-1451-4218-a49f-7549231762d7",
-      "name": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "cronExpr": "30 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T21:30:00.000Z",
-      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
-    },
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
-    },
-    {
-      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "name": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "cronExpr": "50 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T21:50:00.000Z",
-      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
-    },
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-03T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), slotLabel, signals, voicePrompt. Step 2: wr…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -131,6 +41,96 @@
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     },
     {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
+    },
+    {
+      "id": "d5541bce-1451-4218-a49f-7549231762d7",
+      "name": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "cronExpr": "30 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T21:30:00.000Z",
+      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
+    },
+    {
+      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "name": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "cronExpr": "50 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T21:50:00.000Z",
+      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-04T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
+    },
+    {
       "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "name": "voyage-socials-edu-twiceweekly",
       "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
@@ -152,6 +152,114 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-04T12:49:14.981Z",
+      "runAt": "2026-05-04T12:48:14.321Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 60637,
+      "summary": "Voyage SEO — 2026-05-04 (batch 10)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 90\nmeta_description_too_long: 82\nmissing_meta_description: 12\nCritical: none\nnextBatchReady: true"
+    },
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-04T12:46:57.555Z",
+      "runAt": "2026-05-04T12:46:01.494Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 56009,
+      "summary": "Gifts Hub post — 2026-05-04\nSlot: 🚀 New launch (1/2)\nProduct: AutoLuxe™ Premium Car Tablet Holder — Headrest Mount...\nFB: https://www.facebook.com/111527618129227/posts/968321652472864\nIG: posted (id=18010271180890771)"
+    },
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-04T12:46:57.550Z",
+      "runAt": "2026-05-04T12:44:51.880Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 69614,
+      "summary": "Voyage post — 2026-05-04\nSlot: Hand-picked spotlight\nProduct: Multi-Level Back Stretching Device,Back Massager Lumbar...\nFB: https://www.facebook.com/104415881913939/posts/985008800532941\nIG: posted (id=18210533005326509)"
+    },
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-05-04T12:44:49.749Z",
+      "runAt": "2026-05-04T12:44:15.447Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 34283,
+      "summary": "\"Success is nothing more than a few simple disciplines, practiced every day.\"\n— Jim Rohn"
+    },
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-04T12:44:10.438Z",
+      "runAt": "2026-05-04T12:43:37.902Z",
+      "status": "ok",
+      "delivered": false,
+      "durationMs": 32515,
+      "summary": "Gifts Hub auto-publish - 2026-05-04\nLive: 0 · Rejected (deleted): 0 · Checked: 6\nNothing due to publish today."
+    },
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-05-04T12:44:10.434Z",
+      "runAt": "2026-05-04T12:42:24.019Z",
+      "status": "ok",
+      "delivered": false,
+      "durationMs": 73883,
+      "summary": "Gifts Hub blog DRAFT - 2026-05-04\nTitle: New Car Gift for Families Planning Winter Road Trips\nCategory: launch\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612385194275\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
+    },
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-04T12:44:10.431Z",
+      "runAt": "2026-05-04T12:41:32.042Z",
+      "status": "ok",
+      "delivered": false,
+      "durationMs": 51977,
+      "summary": "Gifts Hub blog outline - 2026-05-04\nCategory: New Product Launch\nTitle: New Car Gift for Families Planning Winter Road Trips\nTarget keyword: car gifts for families australia\nAngle: Position a new headrest tablet holder as a practical gift that makes Australian family road trips calmer, safer and more enjoyable.\nSections: Why practical car gifts matter for family travel, What makes a tablet holder worth gifting, How the new AutoLuxe tablet holder solves common road-trip problems, Who this gift suits best, How to pair it with a thoughtful gift message\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-05-04T12:44:10.428Z",
+      "runAt": "2026-05-04T12:40:51.964Z",
+      "status": "ok",
+      "delivered": false,
+      "durationMs": 40078,
+      "summary": "Voyage indexation — 2026-05-04\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
+    },
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-05-04T12:44:10.424Z",
+      "runAt": "2026-05-04T12:40:03.107Z",
+      "status": "ok",
+      "delivered": false,
+      "durationMs": 48857,
+      "summary": "Voyage catalog — 2026-05-04\nSitemap: 14096 products\n+0 new · -0 removed (vs 2026-05-02)\nSpot-check: 20 products / 0 anomalies"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -643,114 +751,6 @@
       "delivered": true,
       "durationMs": 24963,
       "summary": "Voyage blog auto-publish — 2026-05-01\nLive: 1 · Rejected (deleted): 0 · Checked: 6\n✓ Personalised Mother’s Day Gifts for Australia 2026 → https://www.voyagecollectionsaustralia.com.au/blogs/news/personalised-mother-s-day-gifts-for-australia-2026"
-    },
-    {
-      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "jobName": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "finishedAt": "2026-04-30T20:46:03.721Z",
-      "runAt": "2026-04-30T20:45:00.017Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 63689,
-      "summary": "Voyage blog published (DRAFT) — 2026-05-01\nTitle: Winter Home Organisation Ideas for Australian Homes\nCategory: storage-organization\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559269544144\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-04-30T20:30:42.493Z",
-      "runAt": "2026-04-30T20:30:00.035Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 42443,
-      "summary": "Voyage blog outline — 2026-05-01\nCategory: Storage & Organization\nTitle: Winter Home Organisation Ideas for Australian Homes\nTarget keyword: winter home organisation ideas\nAngle: A practical early-winter guide for Australian households to reset kitchens, vanity zones and busy indoor spaces before colder-weather routines fully set in.\nSections: Why winter is the right time to reorganise, Create a harder-working kitchen zone, Set up drop zones for busy family routines, Organise vanity and bathroom surfaces without crowding them, Choose storage pieces that suit small-space living, Keep the system working through the season\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-04-30T01:31:06.448Z",
-      "runAt": "2026-04-30T01:30:00.047Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 66378,
-      "summary": "Gifts Hub post — 2026-04-30\nSlot: Top seller (10u/90d)\nProduct: Gardeon Solar Pond Pump with Filter Box 5FT\nFB: https://www.facebook.com/111527618129227/posts/964810629490633\nIG: posted (id=18134322352480861)"
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-04-30T01:01:09.383Z",
-      "runAt": "2026-04-30T01:00:00.048Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 69309,
-      "summary": "Voyage post — 2026-04-30\nSlot: Hand-picked spotlight\nProduct: Dog Car Seat Cover,Waterproof Pet Seat Cover with Mesh\nFB: https://www.facebook.com/104415881913939/posts/981508657549622\nIG: posted (id=17862857973624223)"
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-04-29T22:00:26.765Z",
-      "runAt": "2026-04-29T22:00:00.026Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 26725,
-      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-04-29T21:55:27.894Z",
-      "runAt": "2026-04-29T21:55:00.040Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 27843,
-      "summary": "Gifts Hub auto-publish - 2026-04-30\nLive: 0 · Rejected (deleted): 0 · Checked: 2\nNothing due to publish today."
-    },
-    {
-      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "jobName": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "finishedAt": "2026-04-29T21:51:05.786Z",
-      "runAt": "2026-04-29T21:50:00.022Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 65738,
-      "summary": "Gifts Hub blog DRAFT - 2026-04-30\nTitle: Best Winter Birthday Gifts for Him in Australia\nCategory: gifts-for-him\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612367302947\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-04-29T21:35:53.170Z",
-      "runAt": "2026-04-29T21:35:00.029Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 53125,
-      "summary": "Gifts Hub blog outline - 2026-04-30\nCategory: Gifts for Him\nTitle: Best Winter Birthday Gifts for Him in Australia\nTarget keyword: winter birthday gifts for him australia\nAngle: Help Australian gift buyers choose practical, feel-good winter birthday presents for men based on hobbies, home routines and everyday use.\nSections: Why winter gifts for him feel more useful, Gift ideas for the home cook and hands-on guy, Comfort and routine gifts he will use every week, Fitness and hobby gifts for active men, How to choose the right gift without overthinking it\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-29T21:30:29.455Z",
-      "runAt": "2026-04-29T21:30:00.032Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 29406,
-      "summary": "Voyage indexation — 2026-04-29\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
     }
   ],
   "pipeline": [
