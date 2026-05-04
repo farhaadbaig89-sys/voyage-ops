@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-04T21:54:12.678Z",
+  "generatedAt": "2026-05-04T21:59:12.487Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 12,
+    "postsThisWeek": 11,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-05T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-04T21:55:32.006Z",
+      "runAt": "2026-05-04T21:55:00.031Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 31954,
+      "summary": "Gifts Hub auto-publish - 2026-05-05\nLive: 0 · Rejected (deleted): 0 · Checked: 7\nNothing due to publish today."
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 65920,
       "summary": "Gifts Hub post — 2026-05-01\nSlot: Top seller (9u/90d)\nProduct: Devanti Induction Cooktop 60cm Portable Cooker\nFB: https://www.facebook.com/111527618129227/posts/965622686076094\nIG: posted (id=17935705041053522)"
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-05-01T01:00:54.891Z",
-      "runAt": "2026-05-01T01:00:00.041Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 54840,
-      "summary": "Voyage post — 2026-05-01\nSlot: Hand-picked spotlight\nProduct: DYZI USB Rechargeable Bike Lights Set - Built in Power...\nFB: https://www.facebook.com/104415881913939/posts/982317407468747\nIG: posted (id=18119083399731535)"
     }
   ],
   "pipeline": [
