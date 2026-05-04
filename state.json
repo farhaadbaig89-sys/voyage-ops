@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T20:29:13.214Z",
+  "generatedAt": "2026-05-04T20:34:13.287Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 12,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-05T09:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product. Step 2: write an EDUCATIONAL/gift-guide post (not pure sales). Pick one format: \"5 unique gift ideas for [recipient]\", \"How to choose the right gift for [occasion]\", \"3 rea…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-04T20:30:55.259Z",
+      "runAt": "2026-05-04T20:30:00.042Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55190,
+      "summary": "Voyage blog outline — 2026-05-05\nCategory: Toys & Games\nTitle: Best STEM Toys for Aussie Kids This Winter 2026\nTarget keyword: best stem toys for kids australia\nAngle: A practical guide for Australian parents choosing screen-light STEM toys that keep kids learning indoors through the cooler 2026 months.\nSections: Why STEM toys matter in winter, How to choose the right STEM toy by age, Best geology and discovery kits for curious kids, Active STEM-style games for rainy-day energy, What Australian parents should check before buying\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 29005,
       "summary": "Voyage SEO — 2026-05-01 (batch 7)\n100 scanned · 78 issues · 0 locked · 78 fixable\nall_alt_missing: 59\nmeta_description_too_long: 49\ntitle_too_long: 32\nmissing_meta_description: 17\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-04-30T20:50:24.994Z",
-      "runAt": "2026-04-30T20:50:00.019Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 24963,
-      "summary": "Voyage blog auto-publish — 2026-05-01\nLive: 1 · Rejected (deleted): 0 · Checked: 6\n✓ Personalised Mother’s Day Gifts for Australia 2026 → https://www.voyagecollectionsaustralia.com.au/blogs/news/personalised-mother-s-day-gifts-for-australia-2026"
     }
   ],
   "pipeline": [
