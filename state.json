@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T21:34:12.382Z",
+  "generatedAt": "2026-05-04T21:39:13.354Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
-    },
     {
       "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "name": "giftshub-blog-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-05T21:30:00.000Z",
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-04T21:35:55.546Z",
+      "runAt": "2026-05-04T21:35:00.023Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55503,
+      "summary": "Gifts Hub blog outline - 2026-05-05\nCategory: New Product Launch\nTitle: New Winter Comfort Gift for Drivers and Desk Workers\nTarget keyword: winter comfort gift for drivers australia\nAngle: A timely Australian winter gift guide showing why a cooling gel seat cushion is a practical comfort pick for commuters, office workers and anyone sitting for long hours.\nSections: Why comfort gifts matter more in winter, Who this new arrival is perfect for, What makes the ComfortCore seat cushion stand out, Best gifting occasions for this product in Australia, How to choose and present a comfort gift well\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 30133,
       "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-04-30T21:55:27.273Z",
-      "runAt": "2026-04-30T21:55:00.026Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 27241,
-      "summary": "Gifts Hub auto-publish - 2026-05-01\nLive: 2 · Rejected (deleted): 0 · Checked: 3\n✓ Autumn Birthday Gifts for Her in Australia -> https://www.gifts-australia.com.au/blogs/news/autumn-birthday-gifts-for-her-in-australia\n✓ Best Winter Birthday Gifts for Him in Australia -> https://www.gifts-australia.com.au/blogs/news/best-winter-birthday-gifts-for-him-in-australia"
     }
   ],
   "pipeline": [
