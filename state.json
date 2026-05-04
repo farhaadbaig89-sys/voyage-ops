@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T21:19:22.627Z",
+  "generatedAt": "2026-05-04T21:24:12.391Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -285,6 +285,18 @@
       "summary": "Gifts Hub blog DRAFT - 2026-05-04\nTitle: New Car Gift for Families Planning Winter Road Trips\nCategory: launch\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612385194275\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
     },
     {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-04T12:44:10.431Z",
+      "runAt": "2026-05-04T12:41:32.042Z",
+      "status": "ok",
+      "delivered": false,
+      "durationMs": 51977,
+      "summary": "Gifts Hub blog outline - 2026-05-04\nCategory: New Product Launch\nTitle: New Car Gift for Families Planning Winter Road Trips\nTarget keyword: car gifts for families australia\nAngle: Position a new headrest tablet holder as a practical gift that makes Australian family road trips calmer, safer and more enjoyable.\nSections: Why practical car gifts matter for family travel, What makes a tablet holder worth gifting, How the new AutoLuxe tablet holder solves common road-trip problems, Who this gift suits best, How to pair it with a thoughtful gift message\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
+    {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
       "title": "Voyage: daily Google indexation + sitemap gap",
@@ -429,6 +441,18 @@
       "summary": "Gifts Hub blog DRAFT - 2026-05-03\nTitle: Mother's Day Gifts for Pet Mums in Australia\nCategory: gift-for-pets\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612380377379\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
     },
     {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-02T21:35:58.138Z",
+      "runAt": "2026-05-02T21:35:00.025Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 58095,
+      "summary": "Gifts Hub blog outline - 2026-05-03\nCategory: Gifts for Pets\nTitle: Mother's Day Gifts for Pet Mums in Australia\nTarget keyword: mother's day gifts for pet mums australia\nAngle: Help Australian shoppers choose thoughtful Mother's Day gifts that celebrate the bond between pet mums and their dogs or cats, with practical picks they will genuinely use.\nSections: Why pet mums deserve a Mother's Day gift too, How to choose the right gift for a dog mum or cat mum, Best Mother's Day gifts for pet mums who love keepsakes, Useful pet gifts she'll appreciate every week, Mother's Day pet gift ideas for different budgets, Ordering pet gifts online in Australia before Mother's Day\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
+    {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
       "title": "Voyage: daily Google indexation + sitemap gap",
@@ -559,6 +583,18 @@
       "delivered": true,
       "durationMs": 62945,
       "summary": "Gifts Hub blog DRAFT - 2026-05-02\nTitle: Mother's Day Gift Hampers Mum Will Actually Use\nCategory: gift-hampers\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612378411299\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
+    },
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-01T21:35:56.525Z",
+      "runAt": "2026-05-01T21:35:00.019Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 56497,
+      "summary": "Gifts Hub blog outline - 2026-05-02\nCategory: Gift Hampers\nTitle: Mother's Day Gift Hampers Mum Will Actually Use\nTarget keyword: mother's day gift hampers australia\nAngle: A practical guide for Australian shoppers choosing a Mother’s Day hamper that feels personal, useful and easy to deliver on time.\nSections: What makes a Mother’s Day hamper feel thoughtful, Best hamper styles for different kinds of mums, How to choose the right hamper without overspending, Delivery tips for Australian Mother's Day shoppers, Mother's Day hamper ideas that work well in 2026\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
     },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
@@ -715,42 +751,6 @@
       "delivered": true,
       "durationMs": 66874,
       "summary": "Gifts Hub blog DRAFT - 2026-05-01\nTitle: Birthday Gift Ideas for Kids and Couples in Australia\nCategory: birthday-gifts\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612374184227\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-30T21:30:28.487Z",
-      "runAt": "2026-04-30T21:30:00.020Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 28450,
-      "summary": "Voyage indexation — 2026-04-30\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-04-30T21:15:32.193Z",
-      "runAt": "2026-04-30T21:15:00.012Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 32174,
-      "summary": "Voyage catalog — 2026-04-30\nSitemap: 14096 products\n+0 new · -0 removed (vs 2026-04-29)\nSpot-check: 20 products / 0 anomalies"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-04-30T21:00:29.054Z",
-      "runAt": "2026-04-30T21:00:00.038Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 29005,
-      "summary": "Voyage SEO — 2026-05-01 (batch 7)\n100 scanned · 78 issues · 0 locked · 78 fixable\nall_alt_missing: 59\nmeta_description_too_long: 49\ntitle_too_long: 32\nmissing_meta_description: 17\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
