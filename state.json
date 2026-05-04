@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T20:59:13.278Z",
+  "generatedAt": "2026-05-04T21:04:13.397Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-04T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
     {
       "id": "fda00df2-5552-416c-9f54-1225324c13e4",
       "name": "voyage-catalog-hygiene-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-05T20:50:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-05T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-04T21:00:36.601Z",
+      "runAt": "2026-05-04T21:00:00.023Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 36553,
+      "summary": "Voyage SEO — 2026-05-05 (batch 11)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 97\nmeta_description_too_long: 73\nmissing_meta_description: 25\nCritical: none\nnextBatchReady: true"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 43409,
       "summary": "Gifts Hub blog outline - 2026-05-01\nCategory: Birthday Gifts\nTitle: Birthday Gift Ideas for Kids and Couples in Australia\nTarget keyword: birthday gift ideas australia\nAngle: A practical Australian guide to choosing birthday gifts by recipient, age and celebration style, with easy ideas that feel personal without overcomplicating the buy.\nSections: Start with who the birthday gift is for, Birthday gift ideas for kids that keep them engaged, Easy birthday gifts for tweens and teens, Thoughtful birthday gifts for couples and home entertainers, How to make a birthday gift feel more personal, Birthday gift budgeting and buying tips for Australians\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-04-30T21:30:28.487Z",
-      "runAt": "2026-04-30T21:30:00.020Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 28450,
-      "summary": "Voyage indexation — 2026-04-30\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
     }
   ],
   "pipeline": [
