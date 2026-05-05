@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T20:29:13.156Z",
+  "generatedAt": "2026-05-05T20:34:17.485Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 13,
-    "articlesInPipeline": 1
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-06T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-06T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-05T20:30:50.657Z",
+      "runAt": "2026-05-05T20:30:00.032Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 50608,
+      "summary": "Voyage blog outline — 2026-05-06\nCategory: Kitchenware\nTitle: Winter Kitchenware Essentials for Australian Homes\nTarget keyword: winter kitchenware essentials\nAngle: A practical guide to the kitchen tools Australian households can use right now for citrus season, batch cooking and cosy winter meals.\nSections: Why winter changes how Australians use the kitchen, Kitchenware worth prioritising for winter cooking, How to choose pieces that suit your home, Simple winter meal ideas these tools support, Care tips to keep winter kitchenware performing well\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
       "jobName": "giftshub-socials-edu-twiceweekly",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 39346,
       "summary": "Voyage catalog — 2026-05-01\nSitemap: 14096 products\n+0 new · -0 removed (vs 2026-04-30)\nSpot-check: 20 products / 0 anomalies"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-05-01T21:00:29.471Z",
-      "runAt": "2026-05-01T21:00:00.016Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 29435,
-      "summary": "Voyage SEO — 2026-05-02 (batch 8)\n100 scanned · 97 issues · 0 locked · 97 fixable\nall_alt_missing: 93\ntitle_too_long: 73\nmeta_description_too_long: 49\nmissing_meta_description: 21\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
