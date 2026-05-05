@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T20:59:16.484Z",
+  "generatedAt": "2026-05-05T21:04:16.102Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
     {
       "id": "fda00df2-5552-416c-9f54-1225324c13e4",
       "name": "voyage-catalog-hygiene-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-06T20:50:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-06T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-05T21:00:37.099Z",
+      "runAt": "2026-05-05T21:00:00.029Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 37050,
+      "summary": "Voyage SEO — 2026-05-06 (batch 12)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 96\nmeta_description_too_long: 89\nmissing_meta_description: 9\nCritical: none\nnextBatchReady: true"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 62945,
       "summary": "Gifts Hub blog DRAFT - 2026-05-02\nTitle: Mother's Day Gift Hampers Mum Will Actually Use\nCategory: gift-hampers\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612378411299\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-01T21:35:56.525Z",
-      "runAt": "2026-05-01T21:35:00.019Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 56497,
-      "summary": "Gifts Hub blog outline - 2026-05-02\nCategory: Gift Hampers\nTitle: Mother's Day Gift Hampers Mum Will Actually Use\nTarget keyword: mother's day gift hampers australia\nAngle: A practical guide for Australian shoppers choosing a Mother’s Day hamper that feels personal, useful and easy to deliver on time.\nSections: What makes a Mother’s Day hamper feel thoughtful, Best hamper styles for different kinds of mums, How to choose the right hamper without overspending, Delivery tips for Australian Mother's Day shoppers, Mother's Day hamper ideas that work well in 2026\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
