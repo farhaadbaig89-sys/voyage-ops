@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T01:29:13.479Z",
+  "generatedAt": "2026-05-05T01:34:13.098Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
-    },
     {
       "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "name": "voyage-socials-edu-twiceweekly",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-06T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-06T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-05T01:30:55.281Z",
+      "runAt": "2026-05-05T01:30:00.025Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55229,
+      "summary": "Gifts Hub post — 2026-05-05\nSlot: 🚀 New launch (2/2) · with VIDEO\nProduct: AutoLuxe™ Premium Car Tablet Holder — Headrest Mount...\nFB: posted video successfully\nIG: reel failed — Media upload failed (error 2207076)"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 94070,
       "summary": "Voyage blog outline — 2026-05-02\nCategory: Wellness Supplements\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nTarget keyword: winter wellness supplements australia\nAngle: A practical guide for Australian shoppers choosing wellness supplements for lower-sunlight, colder-month routines without turning everyday health goals into hype.\nSections: Why wellness habits shift in cooler Australian months, Which supplement categories Australians often prioritise, How to read labels without getting lost in marketing, Building a simple daily routine that is easy to keep, Smart shopping tips before winter demand ramps up\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
-      "jobName": "giftshub-socials-edu-twiceweekly",
-      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
-      "category": "Socials",
-      "finishedAt": "2026-05-01T09:31:13.531Z",
-      "runAt": "2026-05-01T09:30:00.020Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 73498,
-      "summary": "Gifts Hub edu post — 2026-05-01\nFormat: How to choose the right gift\nProduct: SOGA Glass LCD Digital Body Fat Scale Bathroom Electro...\nFB: https://www.facebook.com/111527618129227/posts/965880062717023\nIG: posted"
     }
   ],
   "pipeline": [
