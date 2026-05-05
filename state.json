@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-05T15:14:16.998Z",
+  "generatedAt": "2026-05-05T15:19:54.530Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 13,
+    "postsThisWeek": 14,
     "articlesInPipeline": 1
   },
   "running": [
@@ -301,18 +301,6 @@
       "summary": "Voyage blog published (DRAFT) — 2026-05-05\nTitle: Best STEM Toys for Aussie Kids This Winter 2026\nCategory: toys-games\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559273574608\nReview + hit Publish in Shopify admin when ready."
     },
     {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-04T20:30:55.259Z",
-      "runAt": "2026-05-04T20:30:00.042Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 55190,
-      "summary": "Voyage blog outline — 2026-05-05\nCategory: Toys & Games\nTitle: Best STEM Toys for Aussie Kids This Winter 2026\nTarget keyword: best stem toys for kids australia\nAngle: A practical guide for Australian parents choosing screen-light STEM toys that keep kids learning indoors through the cooler 2026 months.\nSections: Why STEM toys matter in winter, How to choose the right STEM toy by age, Best geology and discovery kits for curious kids, Active STEM-style games for rainy-day energy, What Australian parents should check before buying\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
       "title": "Voyage: daily rotating SEO audit (100 products/day)",
@@ -443,18 +431,6 @@
       "delivered": true,
       "durationMs": 72137,
       "summary": "Voyage blog published (DRAFT) — 2026-05-04\nTitle: Smart Winter Home Upgrades for Australian Households\nCategory: home-improvement\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559272427728\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-03T20:30:52.816Z",
-      "runAt": "2026-05-03T20:30:00.025Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 52764,
-      "summary": "Voyage blog outline — 2026-05-04\nCategory: Home Improvement\nTitle: Smart Winter Home Upgrades for Australian Households\nTarget keyword: winter home upgrades australia\nAngle: A practical guide to affordable home improvement picks that help Australian households get more comfortable, organised and winter-ready before the colder months settle in.\nSections: Why May is the right time to prep your home, Improve lighting where winter makes rooms feel dim, Make charging and power points work harder, Upgrade the kitchen tools you use every week, Get a spare room or guest setup ready for winter visitors, Choose home improvement buys that solve a real problem\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
@@ -613,18 +589,6 @@
       "summary": "Voyage blog published (DRAFT) — 2026-05-03\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nCategory: health-fitness\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271542992\nReview + hit Publish in Shopify admin when ready."
     },
     {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-02T20:30:54.169Z",
-      "runAt": "2026-05-02T20:30:00.049Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 54093,
-      "summary": "Voyage blog outline — 2026-05-03\nCategory: Health & Beauty\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nTarget keyword: autumn self care australia\nAngle: A practical guide to updating beauty and wellness routines for cooler, drier Australian autumn conditions with easy at-home product picks.\nSections: Why Australian skin changes in autumn, Build a simple autumn self-care routine, Beauty tools that make at-home care easier, Wellness habits that support looking and feeling better, How to choose autumn-ready gifts or personal upgrades\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
       "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
@@ -731,6 +695,42 @@
       "delivered": true,
       "durationMs": 29435,
       "summary": "Voyage SEO — 2026-05-02 (batch 8)\n100 scanned · 97 issues · 0 locked · 97 fixable\nall_alt_missing: 93\ntitle_too_long: 73\nmeta_description_too_long: 49\nmissing_meta_description: 21\nCritical: none\nnextBatchReady: true"
+    },
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-05-01T20:50:25.695Z",
+      "runAt": "2026-05-01T20:50:00.021Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 25667,
+      "summary": "Voyage blog auto-publish — 2026-05-02\nLive: 1 · Rejected (deleted): 0 · Checked: 7\n✓ Winter Home Organisation Ideas for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/winter-home-organisation-ideas-for-australian-homes"
+    },
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-05-01T20:46:04.697Z",
+      "runAt": "2026-05-01T20:45:00.031Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 64649,
+      "summary": "Voyage blog published (DRAFT) — 2026-05-02\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nCategory: wellness-supplements\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271051472\nReview + hit Publish in Shopify admin when ready."
+    },
+    {
+      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
+      "jobName": "giftshub-socials-edu-twiceweekly",
+      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
+      "category": "Socials",
+      "finishedAt": "2026-05-01T09:31:13.531Z",
+      "runAt": "2026-05-01T09:30:00.020Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 73498,
+      "summary": "Gifts Hub edu post — 2026-05-01\nFormat: How to choose the right gift\nProduct: SOGA Glass LCD Digital Body Fat Scale Bathroom Electro...\nFB: https://www.facebook.com/111527618129227/posts/965880062717023\nIG: posted"
     }
   ],
   "pipeline": [
