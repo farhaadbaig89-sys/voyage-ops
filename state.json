@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-05T09:29:13.220Z",
+  "generatedAt": "2026-05-05T09:34:12.788Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 12,
+    "postsThisWeek": 13,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "779071e3-2124-454e-8237-a6cb01c2e146",
-      "name": "giftshub-socials-edu-twiceweekly",
-      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
-      "category": "Socials",
-      "cronExpr": "30 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T09:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product. Step 2: write an EDUCATIONAL/gift-guide post (not pure sales). Pick one format: \"5 unique gift ideas for [recipient]\", \"How to choose the right gift for [occasion]\", \"3 rea…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -142,6 +132,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
+      "jobName": "giftshub-socials-edu-twiceweekly",
+      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
+      "category": "Socials",
+      "finishedAt": "2026-05-05T09:31:10.537Z",
+      "runAt": "2026-05-05T09:30:00.024Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 70487,
+      "summary": "Gifts Hub edu post — 2026-05-05\nFormat: 3 reasons gift\nProduct: ComfortCore™ Premium Cooling Gel Seat Cushion — Press...\nFB: https://www.facebook.com/111527618129227/posts/968975492407480\nIG: posted"
+    },
     {
       "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "jobName": "voyage-socials-edu-twiceweekly",
@@ -729,18 +731,6 @@
       "delivered": true,
       "durationMs": 29435,
       "summary": "Voyage SEO — 2026-05-02 (batch 8)\n100 scanned · 97 issues · 0 locked · 97 fixable\nall_alt_missing: 93\ntitle_too_long: 73\nmeta_description_too_long: 49\nmissing_meta_description: 21\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-05-01T20:50:25.695Z",
-      "runAt": "2026-05-01T20:50:00.021Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 25667,
-      "summary": "Voyage blog auto-publish — 2026-05-02\nLive: 1 · Rejected (deleted): 0 · Checked: 7\n✓ Winter Home Organisation Ideas for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/winter-home-organisation-ideas-for-australian-homes"
     }
   ],
   "pipeline": [
