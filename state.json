@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T20:49:25.911Z",
+  "generatedAt": "2026-05-05T20:54:14.834Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 13,
-    "articlesInPipeline": 2
+    "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "name": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "cronExpr": "50 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T20:50:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
-    },
     {
       "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "name": "voyage-seo-audit-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-06T20:45:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-06T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     }
   ],
   "completed": [
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-05-05T20:50:34.172Z",
+      "runAt": "2026-05-05T20:50:00.017Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 34133,
+      "summary": "Voyage blog auto-publish — 2026-05-06\nLive: 1 · Rejected (deleted): 0 · Checked: 11\n✓ Best STEM Toys for Aussie Kids This Winter 2026 → https://www.voyagecollectionsaustralia.com.au/blogs/news/best-stem-toys-for-aussie-kids-this-winter-2026"
+    },
     {
       "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "jobName": "voyage-blog-publish-daily",
@@ -289,6 +301,18 @@
       "summary": "Voyage catalog — 2026-05-04\nSitemap: 14094 products\n+0 new · -2 removed (vs 2026-05-04)\nSpot-check: 20 products / 0 anomalies\nRemoved: https://www.voyagecollectionsaustralia.com.au/products/birthday-gift-someone-i-love-was-born-today-plastic-free-zero-waste-toxin-free-gift-for-her-gift-for-him, https://www.voyagecollectionsaustralia.com.au/products/personalized-birthday-gift-with-live-succulent"
     },
     {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-04T21:00:36.601Z",
+      "runAt": "2026-05-04T21:00:00.023Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 36553,
+      "summary": "Voyage SEO — 2026-05-05 (batch 11)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 97\nmeta_description_too_long: 73\nmissing_meta_description: 25\nCritical: none\nnextBatchReady: true"
+    },
+    {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
       "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
@@ -323,6 +347,18 @@
       "delivered": true,
       "durationMs": 55190,
       "summary": "Voyage blog outline — 2026-05-05\nCategory: Toys & Games\nTitle: Best STEM Toys for Aussie Kids This Winter 2026\nTarget keyword: best stem toys for kids australia\nAngle: A practical guide for Australian parents choosing screen-light STEM toys that keep kids learning indoors through the cooler 2026 months.\nSections: Why STEM toys matter in winter, How to choose the right STEM toy by age, Best geology and discovery kits for curious kids, Active STEM-style games for rainy-day energy, What Australian parents should check before buying\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-04T12:49:14.981Z",
+      "runAt": "2026-05-04T12:48:14.321Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 60637,
+      "summary": "Voyage SEO — 2026-05-04 (batch 10)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 90\nmeta_description_too_long: 82\nmissing_meta_description: 12\nCritical: none\nnextBatchReady: true"
     },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
@@ -577,6 +613,18 @@
       "summary": "Voyage catalog — 2026-05-02\nSitemap: 14096 products\n+0 new · -0 removed (vs 2026-05-01)\nSpot-check: 20 products / 0 anomalies"
     },
     {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-02T21:00:44.540Z",
+      "runAt": "2026-05-02T21:00:00.033Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 44491,
+      "summary": "Voyage SEO — 2026-05-03 (batch 9)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 99\ntitle_too_long: 95\nmeta_description_too_long: 90\nmissing_meta_description: 6\nCritical:\n- [soga-150kg-electronic-digital-platform-scale-computing-shop-postal-scale-blue] SOGA 150kg Electronic Digital Platform Scale Computing Shop Postal Scale Blue (sales90d=0 fixable) :: missing_meta_description, title_too_long, no_images\nnextBatchReady: true"
+    },
+    {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
       "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
@@ -683,54 +731,6 @@
       "delivered": true,
       "durationMs": 56497,
       "summary": "Gifts Hub blog outline - 2026-05-02\nCategory: Gift Hampers\nTitle: Mother's Day Gift Hampers Mum Will Actually Use\nTarget keyword: mother's day gift hampers australia\nAngle: A practical guide for Australian shoppers choosing a Mother’s Day hamper that feels personal, useful and easy to deliver on time.\nSections: What makes a Mother’s Day hamper feel thoughtful, Best hamper styles for different kinds of mums, How to choose the right hamper without overspending, Delivery tips for Australian Mother's Day shoppers, Mother's Day hamper ideas that work well in 2026\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-05-01T21:30:35.292Z",
-      "runAt": "2026-05-01T21:30:00.031Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 35241,
-      "summary": "Voyage indexation — 2026-05-01\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-05-01T21:15:39.398Z",
-      "runAt": "2026-05-01T21:15:00.032Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 39346,
-      "summary": "Voyage catalog — 2026-05-01\nSitemap: 14096 products\n+0 new · -0 removed (vs 2026-04-30)\nSpot-check: 20 products / 0 anomalies"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-05-01T20:50:25.695Z",
-      "runAt": "2026-05-01T20:50:00.021Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 25667,
-      "summary": "Voyage blog auto-publish — 2026-05-02\nLive: 1 · Rejected (deleted): 0 · Checked: 7\n✓ Winter Home Organisation Ideas for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/winter-home-organisation-ideas-for-australian-homes"
-    },
-    {
-      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "jobName": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "finishedAt": "2026-05-01T20:46:04.697Z",
-      "runAt": "2026-05-01T20:45:00.031Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 64649,
-      "summary": "Voyage blog published (DRAFT) — 2026-05-02\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nCategory: wellness-supplements\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271051472\nReview + hit Publish in Shopify admin when ready."
     }
   ],
   "pipeline": [
