@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T00:59:13.554Z",
+  "generatedAt": "2026-05-05T01:04:13.271Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-05T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-06T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-05T01:01:07.602Z",
+      "runAt": "2026-05-05T01:00:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 67542,
+      "summary": "Voyage post — 2026-05-05\nSlot: Hand-picked spotlight\nProduct: KONG - Wild Knots Bear -(Assorted Colours) - for Med...\nFB: https://www.facebook.com/104415881913939/posts/985427003824454\nIG: posted (id=18102678560513977)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 73498,
       "summary": "Gifts Hub edu post — 2026-05-01\nFormat: How to choose the right gift\nProduct: SOGA Glass LCD Digital Body Fat Scale Bathroom Electro...\nFB: https://www.facebook.com/111527618129227/posts/965880062717023\nIG: posted"
-    },
-    {
-      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "jobName": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "finishedAt": "2026-05-01T09:01:10.929Z",
-      "runAt": "2026-05-01T09:00:00.045Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 70873,
-      "summary": "Voyage edu post — 2026-05-01\nFormat: Why lighting matters\nProduct: Fancii LED Lighted Vanity Trifold Countertop Mirror...\nFB: https://www.facebook.com/104415881913939/posts/982573924109762\nIG: posted"
     }
   ],
   "pipeline": [
