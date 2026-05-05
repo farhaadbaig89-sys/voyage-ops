@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-05T21:54:13.237Z",
+  "generatedAt": "2026-05-05T21:59:15.259Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 12,
+    "postsThisWeek": 11,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-06T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-06T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-05T21:55:32.697Z",
+      "runAt": "2026-05-05T21:55:00.010Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 32669,
+      "summary": "Gifts Hub auto-publish - 2026-05-06\nLive: 2 · Rejected (deleted): 0 · Checked: 8\n✓ New Car Gift for Families Planning Winter Road Trips -> https://www.gifts-australia.com.au/blogs/news/new-car-gift-for-families-planning-winter-road-trips\n✓ New Winter Comfort Gift for Drivers and Desk Workers -> https://www.gifts-australia.com.au/blogs/news/new-winter-comfort-gift-for-drivers-and-desk-workers"
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 54093,
       "summary": "Voyage blog outline — 2026-05-03\nCategory: Health & Beauty\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nTarget keyword: autumn self care australia\nAngle: A practical guide to updating beauty and wellness routines for cooler, drier Australian autumn conditions with easy at-home product picks.\nSections: Why Australian skin changes in autumn, Build a simple autumn self-care routine, Beauty tools that make at-home care easier, Wellness habits that support looking and feeling better, How to choose autumn-ready gifts or personal upgrades\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-05-02T01:30:58.827Z",
-      "runAt": "2026-05-02T01:30:00.021Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 58777,
-      "summary": "Gifts Hub post — 2026-05-02\nSlot: Top seller (8u/90d)\nProduct: Gardeon Solar Pond Pump – Submersible Water Fountain...\nFB: https://www.facebook.com/111527618129227/posts/966415799330116\nIG: posted (id=17914853655367867)"
     }
   ],
   "pipeline": [
