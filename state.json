@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-05T08:59:12.535Z",
+  "generatedAt": "2026-05-05T09:04:12.737Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
+    "postsThisWeek": 12,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "name": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "cronExpr": "0 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T09:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats and craft the caption around the picked product: '5 ways to use a <product>', 'How to c…"
-    },
     {
       "id": "779071e3-2124-454e-8237-a6cb01c2e146",
       "name": "giftshub-socials-edu-twiceweekly",
@@ -152,6 +142,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
+      "jobName": "voyage-socials-edu-twiceweekly",
+      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
+      "category": "Socials",
+      "finishedAt": "2026-05-05T09:01:41.949Z",
+      "runAt": "2026-05-05T09:00:00.034Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 101889,
+      "summary": "Voyage edu post — 2026-05-05\nFormat: 4 quick tips\nProduct: Cocktail Smoker Kit with Torch – 6 Flavours Wood Chips...\nFB: https://www.facebook.com/104415881913939/posts/985680720465749\nIG: posted"
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -739,18 +741,6 @@
       "delivered": true,
       "durationMs": 25667,
       "summary": "Voyage blog auto-publish — 2026-05-02\nLive: 1 · Rejected (deleted): 0 · Checked: 7\n✓ Winter Home Organisation Ideas for Australian Homes → https://www.voyagecollectionsaustralia.com.au/blogs/news/winter-home-organisation-ideas-for-australian-homes"
-    },
-    {
-      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "jobName": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "finishedAt": "2026-05-01T20:46:04.697Z",
-      "runAt": "2026-05-01T20:45:00.031Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 64649,
-      "summary": "Voyage blog published (DRAFT) — 2026-05-02\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nCategory: wellness-supplements\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271051472\nReview + hit Publish in Shopify admin when ready."
     }
   ],
   "pipeline": [
