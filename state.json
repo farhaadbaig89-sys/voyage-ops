@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T21:59:15.259Z",
+  "generatedAt": "2026-05-05T22:04:14.212Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-05T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-06T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-06T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-05-05T22:00:45.148Z",
+      "runAt": "2026-05-05T22:00:00.027Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 45100,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 73772,
       "summary": "Voyage blog published (DRAFT) — 2026-05-03\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nCategory: health-fitness\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271542992\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-02T20:30:54.169Z",
-      "runAt": "2026-05-02T20:30:00.049Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 54093,
-      "summary": "Voyage blog outline — 2026-05-03\nCategory: Health & Beauty\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nTarget keyword: autumn self care australia\nAngle: A practical guide to updating beauty and wellness routines for cooler, drier Australian autumn conditions with easy at-home product picks.\nSections: Why Australian skin changes in autumn, Build a simple autumn self-care routine, Beauty tools that make at-home care easier, Wellness habits that support looking and feeling better, How to choose autumn-ready gifts or personal upgrades\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
