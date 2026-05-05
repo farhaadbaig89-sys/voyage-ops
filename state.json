@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-05T08:19:13.237Z",
+  "generatedAt": "2026-05-05T08:24:12.992Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 11,
     "articlesInPipeline": 1
   },
   "running": [
@@ -152,6 +152,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-05T08:19:56.783Z",
+      "runAt": "2026-05-05T08:16:54.109Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 182650,
+      "summary": "Gifts Hub post — 2026-05-05\nSlot: 🚀 New launch (1/2) · with VIDEO\nProduct: ComfortCore™ Premium Cooling Gel Seat Cushion — Press...\nFB: posted video (ID 2514298695742250)\nIG: posted reel (ID 17876547864457664)"
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 64649,
       "summary": "Voyage blog published (DRAFT) — 2026-05-02\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nCategory: wellness-supplements\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271051472\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-01T20:31:34.138Z",
-      "runAt": "2026-05-01T20:30:00.038Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 94070,
-      "summary": "Voyage blog outline — 2026-05-02\nCategory: Wellness Supplements\nTitle: Autumn-to-Winter Wellness Supplements for Australians\nTarget keyword: winter wellness supplements australia\nAngle: A practical guide for Australian shoppers choosing wellness supplements for lower-sunlight, colder-month routines without turning everyday health goals into hype.\nSections: Why wellness habits shift in cooler Australian months, Which supplement categories Australians often prioritise, How to read labels without getting lost in marketing, Building a simple daily routine that is easy to keep, Smart shopping tips before winter demand ramps up\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
