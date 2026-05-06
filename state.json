@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-06T21:59:17.431Z",
+  "generatedAt": "2026-05-06T22:04:16.421Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
+    "postsThisWeek": 10,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-05-06T22:00:46.311Z",
+      "runAt": "2026-05-06T22:00:00.037Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 46254,
+      "summary": "\"If you really want to do something, you'll find a way. If you don't, you'll find an excuse.\"\n— Jim Rohn"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 71738,
       "summary": "Gifts Hub post — 2026-05-03\nSlot: Top seller (8u/90d)\nProduct: Gardeon Solar Pond Pump with Battery Kit LED Lights 5.2FT\nFB: https://www.facebook.com/111527618129227/posts/967194012585628\nIG: posted (id=18059136977485601)"
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-05-03T01:01:02.691Z",
-      "runAt": "2026-05-03T01:00:00.027Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 62642,
-      "summary": "Voyage post — 2026-05-03\nSlot: Hand-picked spotlight\nProduct: LED Hanging Lighting Metal Waterproof Landscape with...\nFB: https://www.facebook.com/104415881913939/posts/983869893980165\nIG: posted (id=18212371279331965)"
     }
   ],
   "pipeline": [
