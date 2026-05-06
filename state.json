@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-06T21:54:14.889Z",
+  "generatedAt": "2026-05-06T21:59:17.431Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 12,
+    "postsThisWeek": 11,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-06T21:55:33.289Z",
+      "runAt": "2026-05-06T21:55:00.026Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 33244,
+      "summary": "Gifts Hub auto-publish - 2026-05-07\nLive: 0 · Rejected (deleted): 0 · Checked: 9\nNothing due to publish today."
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 62642,
       "summary": "Voyage post — 2026-05-03\nSlot: Hand-picked spotlight\nProduct: LED Hanging Lighting Metal Waterproof Landscape with...\nFB: https://www.facebook.com/104415881913939/posts/983869893980165\nIG: posted (id=18212371279331965)"
-    },
-    {
-      "jobId": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
-      "jobName": "giftshub-socials-deals-weekly",
-      "title": "Gifts Hub: Sunday 10:30 AEST deals carousel",
-      "category": "Socials",
-      "finishedAt": "2026-05-03T00:31:19.419Z",
-      "runAt": "2026-05-03T00:30:00.052Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 79335,
-      "summary": "Gifts Hub weekly deals — 2026-05-03\nPicked 2 deals (top discount 51%)\nFB: https://www.facebook.com/111527618129227/posts/967165622588467\nIG: carousel posted (mediaId=18188224933373878)"
     }
   ],
   "pipeline": [
