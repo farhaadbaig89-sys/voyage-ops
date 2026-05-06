@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T21:14:17.824Z",
+  "generatedAt": "2026-05-06T21:19:22.162Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
     {
       "id": "d5541bce-1451-4218-a49f-7549231762d7",
       "name": "voyage-rank-check-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T21:00:00.000Z",
       "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
     }
   ],
   "completed": [
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-05-06T21:15:45.899Z",
+      "runAt": "2026-05-06T21:15:00.046Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 45833,
+      "summary": "Voyage catalog — 2026-05-06\nSitemap: 6761 products\n+0 new · -7333 removed (vs 2026-05-05)\nSpot-check: 20 products / 1 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/soga-150kg-electronic-digital-platform-scale-computing-shop-postal-scale-blue: no_images\nRemoved sample URLs: https://www.voyagecollectionsaustralia.com.au/products/fancii-led-lighted-vanity-makeup-mirror-trifold-mirror-with-5x-and-10x-magnifications-34-dimmable-natural-lights-touch-screen-best-adjustable-countertop-mirror-with-cosmetic-stand-tria, https://www.voyagecollectionsaustralia.com.au/products/polymer-clay-shuttle-art-50-colours-oven-bake-modeling-clay-creative-clay-kit-with-19-clay-tools-and-10-kinds-of-accessories-non-toxic-non-sticky-ideal-diy-art-craft-clay-for-kids-adults, https://www.voyagecollectionsaustralia.com.au/products/soga-2x-wall-mounted-kitchen-utensil-storage-rack-spoon-fork-chopstick-space-saving-organiser"
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 40722,
       "summary": "Gifts Hub auto-publish - 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 5\n✓ Mother's Day Gift Hampers Mum Will Actually Use -> https://www.gifts-australia.com.au/blogs/news/mothers-day-gift-hampers-mum-will-actually-use"
-    },
-    {
-      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "jobName": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "finishedAt": "2026-05-02T21:51:13.541Z",
-      "runAt": "2026-05-02T21:50:00.038Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 73490,
-      "summary": "Gifts Hub blog DRAFT - 2026-05-03\nTitle: Mother's Day Gifts for Pet Mums in Australia\nCategory: gift-for-pets\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612380377379\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
     }
   ],
   "pipeline": [
