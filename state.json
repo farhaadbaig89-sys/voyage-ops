@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T21:29:14.288Z",
+  "generatedAt": "2026-05-06T21:34:16.207Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "d5541bce-1451-4218-a49f-7549231762d7",
-      "name": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "cronExpr": "30 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T21:30:00.000Z",
-      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
-    },
     {
       "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "name": "giftshub-blog-outline-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T21:15:00.000Z",
       "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
+    },
+    {
+      "id": "d5541bce-1451-4218-a49f-7549231762d7",
+      "name": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "cronExpr": "30 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T21:30:00.000Z",
+      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
     }
   ],
   "completed": [
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-05-06T21:30:39.484Z",
+      "runAt": "2026-05-06T21:30:00.021Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 39450,
+      "summary": "Voyage indexation — 2026-05-06\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 0"
+    },
     {
       "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
       "jobName": "voyage-catalog-hygiene-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 54137,
       "summary": "\"Either you run the day or the day runs you.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-05-02T21:55:40.763Z",
-      "runAt": "2026-05-02T21:55:00.024Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 40722,
-      "summary": "Gifts Hub auto-publish - 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 5\n✓ Mother's Day Gift Hampers Mum Will Actually Use -> https://www.gifts-australia.com.au/blogs/news/mothers-day-gift-hampers-mum-will-actually-use"
     }
   ],
   "pipeline": [
