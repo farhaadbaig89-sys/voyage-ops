@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-06T01:19:24.428Z",
+  "generatedAt": "2026-05-06T01:24:14.315Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 14,
+    "postsThisWeek": 12,
     "articlesInPipeline": 1
   },
   "running": [
@@ -253,6 +253,18 @@
       "summary": "Voyage blog published (DRAFT) — 2026-05-06\nTitle: Winter Kitchenware Essentials for Australian Homes\nCategory: kitchenware\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559275213008\nReview + hit Publish in Shopify admin when ready."
     },
     {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-05T20:30:50.657Z",
+      "runAt": "2026-05-05T20:30:00.032Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 50608,
+      "summary": "Voyage blog outline — 2026-05-06\nCategory: Kitchenware\nTitle: Winter Kitchenware Essentials for Australian Homes\nTarget keyword: winter kitchenware essentials\nAngle: A practical guide to the kitchen tools Australian households can use right now for citrus season, batch cooking and cosy winter meals.\nSections: Why winter changes how Australians use the kitchen, Kitchenware worth prioritising for winter cooking, How to choose pieces that suit your home, Simple winter meal ideas these tools support, Care tips to keep winter kitchenware performing well\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
+    {
       "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
       "jobName": "giftshub-socials-edu-twiceweekly",
       "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
@@ -421,6 +433,18 @@
       "summary": "Voyage blog published (DRAFT) — 2026-05-05\nTitle: Best STEM Toys for Aussie Kids This Winter 2026\nCategory: toys-games\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559273574608\nReview + hit Publish in Shopify admin when ready."
     },
     {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-04T20:30:55.259Z",
+      "runAt": "2026-05-04T20:30:00.042Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55190,
+      "summary": "Voyage blog outline — 2026-05-05\nCategory: Toys & Games\nTitle: Best STEM Toys for Aussie Kids This Winter 2026\nTarget keyword: best stem toys for kids australia\nAngle: A practical guide for Australian parents choosing screen-light STEM toys that keep kids learning indoors through the cooler 2026 months.\nSections: Why STEM toys matter in winter, How to choose the right STEM toy by age, Best geology and discovery kits for curious kids, Active STEM-style games for rainy-day energy, What Australian parents should check before buying\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
+    {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
       "title": "Voyage: daily rotating SEO audit (100 products/day)",
@@ -551,6 +575,18 @@
       "delivered": true,
       "durationMs": 72137,
       "summary": "Voyage blog published (DRAFT) — 2026-05-04\nTitle: Smart Winter Home Upgrades for Australian Households\nCategory: home-improvement\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559272427728\nReview + hit Publish in Shopify admin when ready."
+    },
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-03T20:30:52.816Z",
+      "runAt": "2026-05-03T20:30:00.025Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 52764,
+      "summary": "Voyage blog outline — 2026-05-04\nCategory: Home Improvement\nTitle: Smart Winter Home Upgrades for Australian Households\nTarget keyword: winter home upgrades australia\nAngle: A practical guide to affordable home improvement picks that help Australian households get more comfortable, organised and winter-ready before the colder months settle in.\nSections: Why May is the right time to prep your home, Improve lighting where winter makes rooms feel dim, Make charging and power points work harder, Upgrade the kitchen tools you use every week, Get a spare room or guest setup ready for winter visitors, Choose home improvement buys that solve a real problem\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
@@ -695,42 +731,6 @@
       "delivered": true,
       "durationMs": 35640,
       "summary": "Voyage blog auto-publish — 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 8\n✓ Autumn-to-Winter Wellness Supplements for Australians → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-to-winter-wellness-supplements-for-australians"
-    },
-    {
-      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "jobName": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "finishedAt": "2026-05-02T20:46:13.838Z",
-      "runAt": "2026-05-02T20:45:00.035Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 73772,
-      "summary": "Voyage blog published (DRAFT) — 2026-05-03\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nCategory: health-fitness\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271542992\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-05-02T01:30:58.827Z",
-      "runAt": "2026-05-02T01:30:00.021Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 58777,
-      "summary": "Gifts Hub post — 2026-05-02\nSlot: Top seller (8u/90d)\nProduct: Gardeon Solar Pond Pump – Submersible Water Fountain...\nFB: https://www.facebook.com/111527618129227/posts/966415799330116\nIG: posted (id=17914853655367867)"
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-05-02T01:00:56.416Z",
-      "runAt": "2026-05-02T01:00:00.023Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 56378,
-      "summary": "Voyage post — 2026-05-02\nSlot: Hand-picked spotlight\nProduct: Fancii Lighted Magnifying Makeup Mirror – Portable LE\nFB: https://www.facebook.com/104415881913939/posts/983108170723004\nIG: posted (id=17950759479140691)"
     }
   ],
   "pipeline": [
