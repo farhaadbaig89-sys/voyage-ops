@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-06T01:29:13.760Z",
+  "generatedAt": "2026-05-06T01:34:16.026Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 12,
+    "postsThisWeek": 13,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-06T01:30:55.631Z",
+      "runAt": "2026-05-06T01:30:00.036Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55575,
+      "summary": "Gifts Hub post — 2026-05-06\nSlot: 🚀 New launch (1/2)\nProduct: BubbleStorm™ Smoke Bubble Machine for Kids — The Magic…\nFB: posted https://www.facebook.com/111527618129227/posts/969492612355768\nIG: posted https://www.instagram.com/p/18089852987595628/"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 44491,
       "summary": "Voyage SEO — 2026-05-03 (batch 9)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 99\ntitle_too_long: 95\nmeta_description_too_long: 90\nmissing_meta_description: 6\nCritical:\n- [soga-150kg-electronic-digital-platform-scale-computing-shop-postal-scale-blue] SOGA 150kg Electronic Digital Platform Scale Computing Shop Postal Scale Blue (sales90d=0 fixable) :: missing_meta_description, title_too_long, no_images\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-05-02T20:50:35.681Z",
-      "runAt": "2026-05-02T20:50:00.027Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 35640,
-      "summary": "Voyage blog auto-publish — 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 8\n✓ Autumn-to-Winter Wellness Supplements for Australians → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-to-winter-wellness-supplements-for-australians"
     }
   ],
   "pipeline": [
