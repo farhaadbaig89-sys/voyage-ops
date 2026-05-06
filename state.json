@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-06T00:59:13.563Z",
+  "generatedAt": "2026-05-06T01:04:14.439Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
+    "postsThisWeek": 12,
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-06T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-06T01:01:03.631Z",
+      "runAt": "2026-05-06T01:00:00.030Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 63582,
+      "summary": "Voyage post — 2026-05-06\nSlot: Top seller (7u/90d)\nProduct: Tower Power Strip USB Surge Protector Socket – 12 AC…\nFB: https://www.facebook.com/104415881913939/posts/986198160414005\nIG: posted (id=18103247144314978)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 35640,
       "summary": "Voyage blog auto-publish — 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 8\n✓ Autumn-to-Winter Wellness Supplements for Australians → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-to-winter-wellness-supplements-for-australians"
-    },
-    {
-      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "jobName": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "finishedAt": "2026-05-02T20:46:13.838Z",
-      "runAt": "2026-05-02T20:45:00.035Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 73772,
-      "summary": "Voyage blog published (DRAFT) — 2026-05-03\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nCategory: health-fitness\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559271542992\nReview + hit Publish in Shopify admin when ready."
     }
   ],
   "pipeline": [
