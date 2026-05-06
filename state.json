@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T20:59:18.334Z",
+  "generatedAt": "2026-05-06T21:04:16.219Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
     {
       "id": "fda00df2-5552-416c-9f54-1225324c13e4",
       "name": "voyage-catalog-hygiene-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T20:50:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-06T21:00:37.788Z",
+      "runAt": "2026-05-06T21:00:00.014Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 37754,
+      "summary": "Voyage SEO — 2026-05-07 (batch 13)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 91\nmeta_description_too_long: 81\nmissing_meta_description: 9\nCritical: none\nnextBatchReady: true"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 73490,
       "summary": "Gifts Hub blog DRAFT - 2026-05-03\nTitle: Mother's Day Gifts for Pet Mums in Australia\nCategory: gift-for-pets\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612380377379\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-02T21:35:58.138Z",
-      "runAt": "2026-05-02T21:35:00.025Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 58095,
-      "summary": "Gifts Hub blog outline - 2026-05-03\nCategory: Gifts for Pets\nTitle: Mother's Day Gifts for Pet Mums in Australia\nTarget keyword: mother's day gifts for pet mums australia\nAngle: Help Australian shoppers choose thoughtful Mother's Day gifts that celebrate the bond between pet mums and their dogs or cats, with practical picks they will genuinely use.\nSections: Why pet mums deserve a Mother's Day gift too, How to choose the right gift for a dog mum or cat mum, Best Mother's Day gifts for pet mums who love keepsakes, Useful pet gifts she'll appreciate every week, Mother's Day pet gift ideas for different budgets, Ordering pet gifts online in Australia before Mother's Day\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
