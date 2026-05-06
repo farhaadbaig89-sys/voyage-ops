@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-06T10:19:28.455Z",
+  "generatedAt": "2026-05-06T10:24:15.294Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 14,
+    "postsThisWeek": 13,
     "articlesInPipeline": 1
   },
   "running": [
@@ -253,6 +253,18 @@
       "summary": "Voyage blog auto-publish — 2026-05-06\nLive: 1 · Rejected (deleted): 0 · Checked: 11\n✓ Best STEM Toys for Aussie Kids This Winter 2026 → https://www.voyagecollectionsaustralia.com.au/blogs/news/best-stem-toys-for-aussie-kids-this-winter-2026"
     },
     {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-05-05T20:46:06.876Z",
+      "runAt": "2026-05-05T20:45:00.029Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 66825,
+      "summary": "Voyage blog published (DRAFT) — 2026-05-06\nTitle: Winter Kitchenware Essentials for Australian Homes\nCategory: kitchenware\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559275213008\nReview + hit Publish in Shopify admin when ready."
+    },
+    {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "jobName": "voyage-blog-outline-daily",
       "title": "Voyage: Day 1 — pick category, research, save outline",
@@ -421,6 +433,18 @@
       "summary": "Voyage blog auto-publish — 2026-05-05\nLive: 1 · Rejected (deleted): 0 · Checked: 10\n✓ Smart Winter Home Upgrades for Australian Households → https://www.voyagecollectionsaustralia.com.au/blogs/news/smart-winter-home-upgrades-for-australian-households"
     },
     {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-05-04T20:46:17.288Z",
+      "runAt": "2026-05-04T20:45:00.026Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 77236,
+      "summary": "Voyage blog published (DRAFT) — 2026-05-05\nTitle: Best STEM Toys for Aussie Kids This Winter 2026\nCategory: toys-games\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559273574608\nReview + hit Publish in Shopify admin when ready."
+    },
+    {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "jobName": "voyage-blog-outline-daily",
       "title": "Voyage: Day 1 — pick category, research, save outline",
@@ -551,6 +575,18 @@
       "delivered": true,
       "durationMs": 33877,
       "summary": "Voyage blog auto-publish — 2026-05-04\nLive: 1 · Rejected (deleted): 0 · Checked: 9\n✓ Autumn Self-Care Essentials for Australian Dry Skin → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-self-care-essentials-for-australian-dry-skin"
+    },
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-05-03T20:46:12.194Z",
+      "runAt": "2026-05-03T20:45:00.041Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 72137,
+      "summary": "Voyage blog published (DRAFT) — 2026-05-04\nTitle: Smart Winter Home Upgrades for Australian Households\nCategory: home-improvement\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559272427728\nReview + hit Publish in Shopify admin when ready."
     },
     {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
@@ -695,42 +731,6 @@
       "delivered": true,
       "durationMs": 44491,
       "summary": "Voyage SEO — 2026-05-03 (batch 9)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 99\ntitle_too_long: 95\nmeta_description_too_long: 90\nmissing_meta_description: 6\nCritical:\n- [soga-150kg-electronic-digital-platform-scale-computing-shop-postal-scale-blue] SOGA 150kg Electronic Digital Platform Scale Computing Shop Postal Scale Blue (sales90d=0 fixable) :: missing_meta_description, title_too_long, no_images\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-05-02T20:50:35.681Z",
-      "runAt": "2026-05-02T20:50:00.027Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 35640,
-      "summary": "Voyage blog auto-publish — 2026-05-03\nLive: 1 · Rejected (deleted): 0 · Checked: 8\n✓ Autumn-to-Winter Wellness Supplements for Australians → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-to-winter-wellness-supplements-for-australians"
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-02T20:30:54.169Z",
-      "runAt": "2026-05-02T20:30:00.049Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 54093,
-      "summary": "Voyage blog outline — 2026-05-03\nCategory: Health & Beauty\nTitle: Autumn Self-Care Essentials for Australian Dry Skin\nTarget keyword: autumn self care australia\nAngle: A practical guide to updating beauty and wellness routines for cooler, drier Australian autumn conditions with easy at-home product picks.\nSections: Why Australian skin changes in autumn, Build a simple autumn self-care routine, Beauty tools that make at-home care easier, Wellness habits that support looking and feeling better, How to choose autumn-ready gifts or personal upgrades\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-05-02T01:30:58.827Z",
-      "runAt": "2026-05-02T01:30:00.021Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 58777,
-      "summary": "Gifts Hub post — 2026-05-02\nSlot: Top seller (8u/90d)\nProduct: Gardeon Solar Pond Pump – Submersible Water Fountain...\nFB: https://www.facebook.com/111527618129227/posts/966415799330116\nIG: posted (id=17914853655367867)"
     }
   ],
   "pipeline": [
