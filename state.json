@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T21:34:16.207Z",
+  "generatedAt": "2026-05-06T21:39:15.509Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-06T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
-    },
     {
       "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "name": "giftshub-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T21:30:00.000Z",
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-07T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-06T21:35:55.296Z",
+      "runAt": "2026-05-06T21:35:00.013Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55262,
+      "summary": "Gifts Hub blog outline - 2026-05-07\nCategory: New Product Launch\nTitle: A New Winter Learning Gift for Toddlers in Australia\nTarget keyword: winter birthday gifts for toddlers australia\nAngle: Position a newly launched magnetic tracing board as a practical winter gift for Australian toddlers that blends play, early literacy and screen-free indoor fun.\nSections: Why winter is gift season for toddler learning, What makes a good gift for toddlers aged 3 to 6, How the new LumiTrace board supports early learning, Gift moments where this new arrival fits perfectly, How to choose the right educational gift without overthinking it, Why this fresh-in gift stands out for Australian families\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 91613,
       "summary": "Voyage weekly deals — 2026-05-03\nPicked 5 deals (top discount 56%)\nFB: https://www.facebook.com/104415881913939/posts/983842593982895\nIG: carousel posted (mediaId=18112298506877299)"
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-05-02T22:00:54.183Z",
-      "runAt": "2026-05-02T22:00:00.038Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 54137,
-      "summary": "\"Either you run the day or the day runs you.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
