@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T21:39:22.894Z",
+  "generatedAt": "2026-05-07T21:44:18.097Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-07T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
-    },
     {
       "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "name": "giftshub-blog-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-08T21:30:00.000Z",
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-08T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: Research a timely angle for the category that serves Australian gift buyers. Step 3: Build an outl…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-07T21:38:52.879Z",
+      "runAt": "2026-05-07T21:35:00.012Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 232861,
+      "summary": "Gifts Hub blog outline - 2026-05-08\nCategory: Gifts for Babies\nTitle: Winter Baby Gift Ideas for New Parents in Australia\nTarget keyword: winter baby gift ideas australia\nAngle: A practical winter-focused guide for Australian shoppers choosing warm, engaging and easy-to-use gifts for babies and new parents.\nSections: Why winter baby gifts work so well, Choose gifts by baby age and stage, Best winter gift types for indoor play, How to pick a gift parents will actually use, Our top baby gift ideas for winter in Australia, Delivery timing and gifting tips for Australian buyers\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 34283,
       "summary": "\"Success is nothing more than a few simple disciplines, practiced every day.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-05-04T12:44:10.438Z",
-      "runAt": "2026-05-04T12:43:37.902Z",
-      "status": "ok",
-      "delivered": false,
-      "durationMs": 32515,
-      "summary": "Gifts Hub auto-publish - 2026-05-04\nLive: 0 · Rejected (deleted): 0 · Checked: 6\nNothing due to publish today."
     }
   ],
   "pipeline": [
