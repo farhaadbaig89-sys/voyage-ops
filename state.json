@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T20:59:17.155Z",
+  "generatedAt": "2026-05-07T21:04:17.420Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-07T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
     {
       "id": "fda00df2-5552-416c-9f54-1225324c13e4",
       "name": "voyage-catalog-hygiene-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-08T20:50:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-08T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-07T21:01:59.205Z",
+      "runAt": "2026-05-07T21:00:00.042Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 119147,
+      "summary": "Voyage SEO — 2026-05-08 (batch 14)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 84\nmeta_description_too_long: 83\nmissing_meta_description: 10\nCritical: none\nnextBatchReady: true"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": false,
       "durationMs": 51977,
       "summary": "Gifts Hub blog outline - 2026-05-04\nCategory: New Product Launch\nTitle: New Car Gift for Families Planning Winter Road Trips\nTarget keyword: car gifts for families australia\nAngle: Position a new headrest tablet holder as a practical gift that makes Australian family road trips calmer, safer and more enjoyable.\nSections: Why practical car gifts matter for family travel, What makes a tablet holder worth gifting, How the new AutoLuxe tablet holder solves common road-trip problems, Who this gift suits best, How to pair it with a thoughtful gift message\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-05-04T12:44:10.428Z",
-      "runAt": "2026-05-04T12:40:51.964Z",
-      "status": "ok",
-      "delivered": false,
-      "durationMs": 40078,
-      "summary": "Voyage indexation — 2026-05-04\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 14096"
     }
   ],
   "pipeline": [
