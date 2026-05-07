@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T20:44:13.902Z",
+  "generatedAt": "2026-05-07T20:49:23.319Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "name": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "cronExpr": "45 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-07T20:45:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
-    },
     {
       "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "name": "voyage-blog-auto-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-08T20:30:00.000Z",
       "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
+    },
+    {
+      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "name": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "cronExpr": "45 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-08T20:45:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
     }
   ],
   "completed": [
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-05-07T20:46:07.218Z",
+      "runAt": "2026-05-07T20:45:00.017Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 67183,
+      "summary": "LLM request failed: network connection error."
+    },
     {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "jobName": "voyage-blog-outline-daily",
@@ -739,18 +751,6 @@
       "delivered": false,
       "durationMs": 48857,
       "summary": "Voyage catalog — 2026-05-04\nSitemap: 14096 products\n+0 new · -0 removed (vs 2026-05-02)\nSpot-check: 20 products / 0 anomalies"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-05-03T20:50:33.909Z",
-      "runAt": "2026-05-03T20:50:00.011Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 33877,
-      "summary": "Voyage blog auto-publish — 2026-05-04\nLive: 1 · Rejected (deleted): 0 · Checked: 9\n✓ Autumn Self-Care Essentials for Australian Dry Skin → https://www.voyagecollectionsaustralia.com.au/blogs/news/autumn-self-care-essentials-for-australian-dry-skin"
     }
   ],
   "pipeline": [
