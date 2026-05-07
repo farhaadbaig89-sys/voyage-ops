@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T00:59:16.262Z",
+  "generatedAt": "2026-05-07T01:04:15.279Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 1
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-07T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-07T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-08T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-07T01:01:04.079Z",
+      "runAt": "2026-05-07T01:00:00.084Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 63977,
+      "summary": "Voyage post — 2026-05-07\nSlot: Top seller (5u/90d)\nProduct: Garmin HRM - Heart Rate Monitor Strap\nFB: https://www.facebook.com/104415881913939/posts/986945287005959\nIG: posted (id=17858615826635316)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 52764,
       "summary": "Voyage blog outline — 2026-05-04\nCategory: Home Improvement\nTitle: Smart Winter Home Upgrades for Australian Households\nTarget keyword: winter home upgrades australia\nAngle: A practical guide to affordable home improvement picks that help Australian households get more comfortable, organised and winter-ready before the colder months settle in.\nSections: Why May is the right time to prep your home, Improve lighting where winter makes rooms feel dim, Make charging and power points work harder, Upgrade the kitchen tools you use every week, Get a spare room or guest setup ready for winter visitors, Choose home improvement buys that solve a real problem\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-05-03T01:31:11.799Z",
-      "runAt": "2026-05-03T01:30:00.046Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 71738,
-      "summary": "Gifts Hub post — 2026-05-03\nSlot: Top seller (8u/90d)\nProduct: Gardeon Solar Pond Pump with Battery Kit LED Lights 5.2FT\nFB: https://www.facebook.com/111527618129227/posts/967194012585628\nIG: posted (id=18059136977485601)"
     }
   ],
   "pipeline": [
