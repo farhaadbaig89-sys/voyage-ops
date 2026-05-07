@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T09:29:15.313Z",
+  "generatedAt": "2026-05-07T09:34:15.326Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -139,6 +139,16 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-08T09:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats and craft the caption around the picked product: '5 ways to use a <product>', 'How to c…"
+    },
+    {
+      "id": "779071e3-2124-454e-8237-a6cb01c2e146",
+      "name": "giftshub-socials-edu-twiceweekly",
+      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
+      "category": "Socials",
+      "cronExpr": "30 19 * * 2,5",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-08T09:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product. Step 2: write an EDUCATIONAL/gift-guide post (not pure sales). Pick one format: \"5 unique gift ideas for [recipient]\", \"How to choose the right gift for [occasion]\", \"3 rea…"
     }
   ],
   "completed": [
