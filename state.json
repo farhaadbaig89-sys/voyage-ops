@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-09T01:29:13.740Z",
+  "generatedAt": "2026-05-09T01:34:13.922Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
+    "postsThisWeek": 10,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-09T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-10T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-10T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-09T01:30:11.922Z",
+      "runAt": "2026-05-09T01:30:00.025Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 11881,
+      "summary": null
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 70487,
       "summary": "Gifts Hub edu post — 2026-05-05\nFormat: 3 reasons gift\nProduct: ComfortCore™ Premium Cooling Gel Seat Cushion — Press...\nFB: https://www.facebook.com/111527618129227/posts/968975492407480\nIG: posted"
-    },
-    {
-      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "jobName": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "finishedAt": "2026-05-05T09:01:41.949Z",
-      "runAt": "2026-05-05T09:00:00.034Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 101889,
-      "summary": "Voyage edu post — 2026-05-05\nFormat: 4 quick tips\nProduct: Cocktail Smoker Kit with Torch – 6 Flavours Wood Chips...\nFB: https://www.facebook.com/104415881913939/posts/985680720465749\nIG: posted"
     }
   ],
   "pipeline": [
