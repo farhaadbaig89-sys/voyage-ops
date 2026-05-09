@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T00:59:13.787Z",
+  "generatedAt": "2026-05-09T01:04:15.788Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-09T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-10T00:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-list-current-deals {limit:5}. Step 2: write a warm gift-occasion caption introducing the deals roundup (\"Sunday gift hunt: top deals on must-have gifts\" style). 80 words FB, 100 IG, end …"
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-10T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: write a SHORT, cas…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-09T01:01:27.682Z",
+      "runAt": "2026-05-09T01:00:00.027Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 87627,
+      "summary": "Voyage post — 2026-05-09\nSlot: unavailable\nProduct: unavailable\nFB: not posted (socials auth error: invalid API key/access token)\nIG: not posted (blocked before publish)"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 101889,
       "summary": "Voyage edu post — 2026-05-05\nFormat: 4 quick tips\nProduct: Cocktail Smoker Kit with Torch – 6 Flavours Wood Chips...\nFB: https://www.facebook.com/104415881913939/posts/985680720465749\nIG: posted"
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-05-05T08:19:56.783Z",
-      "runAt": "2026-05-05T08:16:54.109Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 182650,
-      "summary": "Gifts Hub post — 2026-05-05\nSlot: 🚀 New launch (1/2) · with VIDEO\nProduct: ComfortCore™ Premium Cooling Gel Seat Cushion — Press...\nFB: posted video (ID 2514298695742250)\nIG: posted reel (ID 17876547864457664)"
     }
   ],
   "pipeline": [
