@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T21:59:12.334Z",
+  "generatedAt": "2026-05-09T22:04:14.327Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-09T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
       "name": "voyage-socials-deals-weekly",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-10T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-10T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-05-09T22:00:12.038Z",
+      "runAt": "2026-05-09T22:00:00.028Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 11997,
+      "summary": null
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 45100,
       "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-05-05T21:55:32.697Z",
-      "runAt": "2026-05-05T21:55:00.010Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 32669,
-      "summary": "Gifts Hub auto-publish - 2026-05-06\nLive: 2 · Rejected (deleted): 0 · Checked: 8\n✓ New Car Gift for Families Planning Winter Road Trips -> https://www.gifts-australia.com.au/blogs/news/new-car-gift-for-families-planning-winter-road-trips\n✓ New Winter Comfort Gift for Drivers and Desk Workers -> https://www.gifts-australia.com.au/blogs/news/new-winter-comfort-gift-for-drivers-and-desk-workers"
     }
   ],
   "pipeline": [
