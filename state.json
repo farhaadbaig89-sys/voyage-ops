@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-09T20:29:11.977Z",
+  "generatedAt": "2026-05-09T20:34:12.235Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 9,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-09T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-10T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-10T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: Research the category briefly …"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-09T20:30:12.018Z",
+      "runAt": "2026-05-09T20:30:00.040Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 11962,
+      "summary": null
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 50608,
       "summary": "Voyage blog outline — 2026-05-06\nCategory: Kitchenware\nTitle: Winter Kitchenware Essentials for Australian Homes\nTarget keyword: winter kitchenware essentials\nAngle: A practical guide to the kitchen tools Australian households can use right now for citrus season, batch cooking and cosy winter meals.\nSections: Why winter changes how Australians use the kitchen, Kitchenware worth prioritising for winter cooking, How to choose pieces that suit your home, Simple winter meal ideas these tools support, Care tips to keep winter kitchenware performing well\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
-      "jobName": "giftshub-socials-edu-twiceweekly",
-      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
-      "category": "Socials",
-      "finishedAt": "2026-05-05T09:31:10.537Z",
-      "runAt": "2026-05-05T09:30:00.024Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 70487,
-      "summary": "Gifts Hub edu post — 2026-05-05\nFormat: 3 reasons gift\nProduct: ComfortCore™ Premium Cooling Gel Seat Cushion — Press...\nFB: https://www.facebook.com/111527618129227/posts/968975492407480\nIG: posted"
     }
   ],
   "pipeline": [
