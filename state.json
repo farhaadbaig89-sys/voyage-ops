@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T23:59:13.006Z",
+  "generatedAt": "2026-05-10T00:04:13.147Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
-      "name": "voyage-socials-deals-weekly",
-      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
-      "category": "Socials",
-      "cronExpr": "0 10 * * 0",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-10T00:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-list-current-deals with {limit:5}. Returns picked array of products with title, url, price, compareAtPrice, discountPct, featuredImage. Step 2: write a casual Aussie-tone caption introducing the roundup…"
-    },
     {
       "id": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
       "name": "giftshub-socials-deals-weekly",
@@ -152,6 +142,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
+      "jobName": "voyage-socials-deals-weekly",
+      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-10T00:00:12.049Z",
+      "runAt": "2026-05-10T00:00:00.034Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 12000,
+      "summary": null
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -739,18 +741,6 @@
       "delivered": true,
       "durationMs": 63582,
       "summary": "Voyage post — 2026-05-06\nSlot: Top seller (7u/90d)\nProduct: Tower Power Strip USB Surge Protector Socket – 12 AC…\nFB: https://www.facebook.com/104415881913939/posts/986198160414005\nIG: posted (id=18103247144314978)"
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-05-05T22:00:45.148Z",
-      "runAt": "2026-05-05T22:00:00.027Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 45100,
-      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
