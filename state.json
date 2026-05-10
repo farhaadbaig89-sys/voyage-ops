@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-10T00:29:21.336Z",
+  "generatedAt": "2026-05-10T00:34:13.996Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 9,
+    "postsThisWeek": 8,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
-      "name": "giftshub-socials-deals-weekly",
-      "title": "Gifts Hub: Sunday 10:30 AEST deals carousel",
-      "category": "Socials",
-      "cronExpr": "30 10 * * 0",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-10T00:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-list-current-deals {limit:5}. Step 2: write a warm gift-occasion caption introducing the deals roundup (\"Sunday gift hunt: top deals on must-have gifts\" style). 80 words FB, 100 IG, end …"
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -142,6 +132,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
+      "jobName": "giftshub-socials-deals-weekly",
+      "title": "Gifts Hub: Sunday 10:30 AEST deals carousel",
+      "category": "Socials",
+      "finishedAt": "2026-05-10T00:30:02.042Z",
+      "runAt": "2026-05-10T00:30:00.032Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1990,
+      "summary": null
+    },
     {
       "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
       "jobName": "voyage-socials-deals-weekly",
@@ -729,18 +731,6 @@
       "delivered": true,
       "durationMs": 55575,
       "summary": "Gifts Hub post — 2026-05-06\nSlot: 🚀 New launch (1/2)\nProduct: BubbleStorm™ Smoke Bubble Machine for Kids — The Magic…\nFB: posted https://www.facebook.com/111527618129227/posts/969492612355768\nIG: posted https://www.instagram.com/p/18089852987595628/"
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-05-06T01:01:03.631Z",
-      "runAt": "2026-05-06T01:00:00.030Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 63582,
-      "summary": "Voyage post — 2026-05-06\nSlot: Top seller (7u/90d)\nProduct: Tower Power Strip USB Surge Protector Socket – 12 AC…\nFB: https://www.facebook.com/104415881913939/posts/986198160414005\nIG: posted (id=18103247144314978)"
     }
   ],
   "pipeline": [
