@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T21:49:13.340Z",
+  "generatedAt": "2026-05-11T21:54:14.409Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 3
   },
   "running": [
-    {
-      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "name": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "cronExpr": "50 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-11T21:50:00.000Z",
-      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
-    },
     {
       "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "name": "giftshub-blog-auto-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-12T21:35:00.000Z",
       "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: When choosing the angle and related products, PRIORITISE genuinely new listings first and best sel…"
+    },
+    {
+      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "name": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "cronExpr": "50 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-12T21:50:00.000Z",
+      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
     }
   ],
   "completed": [
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-05-11T21:51:22.346Z",
+      "runAt": "2026-05-11T21:50:00.024Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 82300,
+      "summary": "Gifts Hub blog DRAFT - 2026-05-12\nTitle: New Screen-Free Winter Gift for Kids in Australia\nCategory: launch\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612430250275\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
+    },
     {
       "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "jobName": "giftshub-blog-outline-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 87627,
       "summary": "Voyage post — 2026-05-09\nSlot: unavailable\nProduct: unavailable\nFB: not posted (socials auth error: invalid API key/access token)\nIG: not posted (blocked before publish)"
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-05-09T00:43:59.971Z",
-      "runAt": "2026-05-09T00:42:57.096Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 62835,
-      "summary": "Gifts Hub auto-publish - 2026-05-09\nLive: 0 · Rejected (deleted): 0 · Checked: 10\nNothing due to publish today."
     }
   ],
   "pipeline": [
