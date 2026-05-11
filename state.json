@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T20:29:13.053Z",
+  "generatedAt": "2026-05-11T20:34:14.026Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 5,
-    "articlesInPipeline": 2
+    "articlesInPipeline": 3
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-11T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-12T09:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product. PRIORITISE genuinely new listings first and best sellers second when shaping the post. Step 2: write an EDUCATIONAL/gift-guide post (not pure sales). Pick one format: \"5 un…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-12T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-11T20:31:02.282Z",
+      "runAt": "2026-05-11T20:30:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 62222,
+      "summary": "Voyage blog outline — 2026-05-12\nCategory: Health & Beauty\nTitle: Winter Self-Care Essentials for Australians in 2026\nTarget keyword: winter self-care essentials\nAngle: A practical early-winter guide for Australian shoppers that pairs recovery, grooming and at-home beauty upgrades with Voyage’s newer health and beauty arrivals first, backed by proven best sellers where needed.\nSections: Why winter changes your self-care routine, Recovery and skin support for rough winter days, Smart grooming tools for quicker cold-morning routines, At-home beauty upgrades that save time and appointments, Wellness habits that support your winter reset, How to choose the right winter self-care products online\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
       "jobName": "giftshub-socials-edu-twiceweekly",
@@ -739,18 +751,6 @@
       "delivered": false,
       "durationMs": 180039,
       "summary": null
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-05-09T00:43:59.939Z",
-      "runAt": "2026-05-09T00:30:52.706Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 59418,
-      "summary": "Voyage SEO — 2026-05-09 (batch 100)\nAudit failed: Invalid API key or access token\nCritical: none\nnextBatchReady: false"
     }
   ],
   "pipeline": [
