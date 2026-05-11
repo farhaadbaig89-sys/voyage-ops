@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-11T14:19:12.621Z",
+  "generatedAt": "2026-05-11T14:24:12.911Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 4,
+    "postsThisWeek": 5,
     "articlesInPipeline": 2
   },
   "running": [
@@ -152,6 +152,30 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
+      "jobName": "giftshub-socials-edu-twiceweekly",
+      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
+      "category": "Socials",
+      "finishedAt": "2026-05-11T14:22:58.510Z",
+      "runAt": "2026-05-11T14:21:57.192Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 61300,
+      "summary": "Gifts Hub edu post — 2026-05-12\nFormat: 3 reasons\nProduct: LumiTrace™ Magnetic Letter Tracing Board — 2-in-1 Dou...\nFB: https://www.facebook.com/111527618129227/posts/973958481909181\nIG: posted"
+    },
+    {
+      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
+      "jobName": "voyage-socials-edu-twiceweekly",
+      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
+      "category": "Socials",
+      "finishedAt": "2026-05-11T14:21:57.162Z",
+      "runAt": "2026-05-11T14:21:05.294Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 51856,
+      "summary": "Voyage edu post — 2026-05-12\nFormat: 5 ways to use\nProduct: Bosch 91-Piece V-Line Titanium Drill Bit and Screwdri…\nFB: https://www.facebook.com/104415881913939/posts/990629866637501\nIG: posted"
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -727,30 +751,6 @@
       "delivered": true,
       "durationMs": 59418,
       "summary": "Voyage SEO — 2026-05-09 (batch 100)\nAudit failed: Invalid API key or access token\nCritical: none\nnextBatchReady: false"
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-09T00:30:50.636Z",
-      "runAt": "2026-05-09T00:28:36.271Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 134359,
-      "summary": "Voyage blog outline — 2026-05-09\nCategory: Storage & Organization\nTitle: Autumn Storage Tips for a Clutter-Free Australian Home\nTarget keyword: autumn storage tips\nAngle: A practical guide for Australian households to reset bedrooms, entryways and living spaces for the cooler months with simple seasonal storage habits.\nSections: Why autumn is the best time to reorganise, Start with a wardrobe and linen swap, Create an entryway that works in wet weather, Reset living rooms and shared spaces, Organise kids’ rooms and hobby areas before winter indoors, Keep the system working through winter\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
-      "jobName": "giftshub-socials-edu-twiceweekly",
-      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
-      "category": "Socials",
-      "finishedAt": "2026-05-09T00:28:31.255Z",
-      "runAt": "2026-05-09T00:27:01.466Z",
-      "status": "ok",
-      "delivered": false,
-      "durationMs": 89769,
-      "summary": "Gifts Hub edu post — 2026-05-09\nFailed at Step 1\nTool: socials-giftshub__socials-pick-product\nError: Invalid API key or access token (unrecognized login or wrong password)\nFB: not posted\nIG: not posted"
     }
   ],
   "pipeline": [
