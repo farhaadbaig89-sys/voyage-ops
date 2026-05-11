@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T13:59:21.830Z",
+  "generatedAt": "2026-05-11T14:04:12.487Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -152,6 +152,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-11T13:59:40.690Z",
+      "runAt": "2026-05-11T13:58:15.568Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 85112,
+      "summary": "Gifts Hub post — 2026-05-11\nSlot: 🚀 New launch (1/2) · with VIDEO\nProduct: LumiTrace™ Magnetic Letter Tracing Board — 2-in-1 Do...\nFB: posted — videoId 1488701876040823\nIG: posted — mediaId 18090868169525106"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": false,
       "durationMs": 89769,
       "summary": "Gifts Hub edu post — 2026-05-09\nFailed at Step 1\nTool: socials-giftshub__socials-pick-product\nError: Invalid API key or access token (unrecognized login or wrong password)\nFB: not posted\nIG: not posted"
-    },
-    {
-      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "jobName": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "finishedAt": "2026-05-09T00:28:31.252Z",
-      "runAt": "2026-05-09T00:26:16.055Z",
-      "status": "ok",
-      "delivered": false,
-      "durationMs": 45411,
-      "summary": "Voyage edu post — 2026-05-09\nCouldn’t complete\nsocials-pick-product failed: invalid API key or access token\nFB: not posted\nIG: not posted"
     }
   ],
   "pipeline": [
