@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T20:49:16.577Z",
+  "generatedAt": "2026-05-12T20:54:16.859Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 8,
-    "articlesInPipeline": 4
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "name": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "cronExpr": "50 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-12T20:50:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
-    },
     {
       "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "name": "voyage-seo-audit-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-13T20:45:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-13T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     }
   ],
   "completed": [
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-05-12T20:51:03.543Z",
+      "runAt": "2026-05-12T20:50:00.022Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 63500,
+      "summary": "Voyage blog auto-publish — 2026-05-13\nLive: 0 · Rejected (deleted): 0 · Checked: 16\nNothing due to publish today."
+    },
     {
       "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "jobName": "voyage-blog-publish-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 11957,
-      "summary": null
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-09T21:35:12.102Z",
-      "runAt": "2026-05-09T21:35:00.026Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 12061,
       "summary": null
     }
   ],
