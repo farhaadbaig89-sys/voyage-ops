@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T20:29:16.390Z",
+  "generatedAt": "2026-05-12T20:34:17.595Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 8,
-    "articlesInPipeline": 3
+    "articlesInPipeline": 4
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-12T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-13T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-13T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-12T20:31:17.010Z",
+      "runAt": "2026-05-12T20:30:00.041Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 76944,
+      "summary": "Voyage blog outline — 2026-05-13\nCategory: Home Improvement\nTitle: Practical Home Upgrades to Tackle an Aussie Winter\nTarget keyword: winter home upgrades australia\nAngle: A timely guide for Australian households using simple indoor upgrades to improve lighting, power setup, kitchen prep and guest-room comfort before winter settles in.\nSections: Why May is the smart time to prep your home, Upgrade task lighting where winter hits hardest, Make charging stations safer and less chaotic, Refresh kitchen tools before cold-weather cooking ramps up, Set up a guest-ready spare room without overcommitting space, How to choose the best upgrade order for your home\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
       "jobName": "giftshub-socials-edu-twiceweekly",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 11906,
-      "summary": null
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-05-09T21:15:12.000Z",
-      "runAt": "2026-05-09T21:15:00.026Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 11960,
       "summary": null
     }
   ],
