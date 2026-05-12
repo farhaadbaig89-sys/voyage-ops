@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T21:59:19.179Z",
+  "generatedAt": "2026-05-12T22:04:19.635Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-12T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-13T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-13T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-05-12T22:01:07.873Z",
+      "runAt": "2026-05-12T22:00:00.024Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 67836,
+      "summary": "\"We all have two choices: We can make a living or we can design a life.\"\n— Jim Rohn"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 3272,
-      "summary": null
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-05-10T01:30:01.725Z",
-      "runAt": "2026-05-10T01:30:00.021Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1687,
       "summary": null
     }
   ],
