@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T21:29:20.443Z",
+  "generatedAt": "2026-05-12T21:34:19.504Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "d5541bce-1451-4218-a49f-7549231762d7",
-      "name": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "cronExpr": "30 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-12T21:30:00.000Z",
-      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
-    },
     {
       "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "name": "giftshub-blog-outline-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-13T21:15:00.000Z",
       "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
+    },
+    {
+      "id": "d5541bce-1451-4218-a49f-7549231762d7",
+      "name": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "cronExpr": "30 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-13T21:30:00.000Z",
+      "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
     }
   ],
   "completed": [
+    {
+      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
+      "jobName": "voyage-rank-check-daily",
+      "title": "Voyage: daily Google indexation + sitemap gap",
+      "category": "SEO",
+      "finishedAt": "2026-05-12T21:30:33.419Z",
+      "runAt": "2026-05-12T21:30:00.029Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 33370,
+      "summary": "Voyage indexation — 2026-05-12\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 6900"
+    },
     {
       "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
       "jobName": "voyage-catalog-hygiene-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 12000,
-      "summary": null
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-05-09T22:00:12.038Z",
-      "runAt": "2026-05-09T22:00:00.028Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 11997,
       "summary": null
     }
   ],
