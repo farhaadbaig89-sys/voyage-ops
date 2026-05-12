@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-12T00:59:13.296Z",
+  "generatedAt": "2026-05-12T01:04:15.622Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 4,
+    "postsThisWeek": 5,
     "articlesInPipeline": 3
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-12T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-12T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-13T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-12T01:01:41.941Z",
+      "runAt": "2026-05-12T01:00:00.039Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 101881,
+      "summary": "Voyage post — 2026-05-12\nSlot: Hand-picked spotlight\nProduct: Britor Knife Sharpening Stone Whetstone Sharpener - 4...\nFB: https://www.facebook.com/104415881913939/posts/990965846603903\nIG: posted (id=18107778763901098)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -738,18 +750,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 11920,
-      "summary": null
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-09T20:30:12.018Z",
-      "runAt": "2026-05-09T20:30:00.040Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 11962,
       "summary": null
     }
   ],
