@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T21:14:16.939Z",
+  "generatedAt": "2026-05-12T21:19:19.553Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-12T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
     {
       "id": "d5541bce-1451-4218-a49f-7549231762d7",
       "name": "voyage-rank-check-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-13T21:00:00.000Z",
       "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-13T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
     }
   ],
   "completed": [
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-05-12T21:15:43.175Z",
+      "runAt": "2026-05-12T21:15:00.025Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 43129,
+      "summary": "Voyage catalog — 2026-05-12\nSitemap: 6900 products\n+17 new · -0 removed (vs 2026-05-11)\nSpot-check: 20 products / 1 anomalies\n- https://www.voyagecollectionsaustralia.com.au/products/personalised-ash-wood-rectangle-catchall-tray-jewellery-desk-accessories-serving-valet-custom-engraved-timber-organiser-housewarming-gift: price_zero\nAdded: https://www.voyagecollectionsaustralia.com.au/products/levede-floating-bed-frame-double-led-usb-power-storage-headboard-metal-base-1, https://www.voyagecollectionsaustralia.com.au/products/levede-cork-boards-alternative-12pcs-30cmx30cm-felt-bulletin-board-tiles-coustic-1, https://www.voyagecollectionsaustralia.com.au/products/levede-cork-boards-alternative-6-pcs-30cmx30cm-felt-bulletin-board-tiles-coustic"
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 11997,
-      "summary": null
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-05-09T21:55:12.472Z",
-      "runAt": "2026-05-09T21:55:00.027Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 12433,
       "summary": null
     }
   ],
