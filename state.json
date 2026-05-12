@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-12T09:29:15.333Z",
+  "generatedAt": "2026-05-12T09:34:16.008Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 7,
+    "postsThisWeek": 8,
     "articlesInPipeline": 3
   },
   "running": [
-    {
-      "id": "779071e3-2124-454e-8237-a6cb01c2e146",
-      "name": "giftshub-socials-edu-twiceweekly",
-      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
-      "category": "Socials",
-      "cronExpr": "30 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-12T09:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product. PRIORITISE genuinely new listings first and best sellers second when shaping the post. Step 2: write an EDUCATIONAL/gift-guide post (not pure sales). Pick one format: \"5 un…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -142,6 +132,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
+      "jobName": "giftshub-socials-edu-twiceweekly",
+      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
+      "category": "Socials",
+      "finishedAt": "2026-05-12T09:31:16.973Z",
+      "runAt": "2026-05-12T09:30:00.026Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 76928,
+      "summary": "Gifts Hub edu post — 2026-05-12\nFormat: How to choose the right gift\nProduct: LIORA™ Glow Sculpt Pro — Korean-Inspired Facial Sculp...\nFB: https://www.facebook.com/111527618129227/posts/974582331846796\nIG: posted"
+    },
     {
       "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "jobName": "voyage-socials-edu-twiceweekly",
@@ -728,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 11960,
-      "summary": null
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-05-09T21:00:11.975Z",
-      "runAt": "2026-05-09T21:00:00.037Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 11921,
       "summary": null
     }
   ],
