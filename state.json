@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T21:34:20.047Z",
+  "generatedAt": "2026-05-13T21:39:17.670Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-13T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: When choosing the angle and related products, PRIORITISE genuinely new listings first and best sel…"
-    },
     {
       "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "name": "giftshub-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-14T21:30:00.000Z",
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-14T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: When choosing the angle and related products, PRIORITISE genuinely new listings first and best sel…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-13T21:35:55.586Z",
+      "runAt": "2026-05-13T21:35:00.039Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 55534,
+      "summary": "Gifts Hub blog outline - 2026-05-14\nCategory: New Product Launch\nTitle: New Winter Birthday Gift for Active Toddlers in Australia\nTarget keyword: winter birthday gift for toddlers australia\nAngle: A timely winter gift guide for Australian families that spotlights the newly launched LittleVelo as a practical birthday pick for active toddlers who need indoor-outdoor play.\nSections: Why winter birthdays need active toddler gifts, What makes the new LittleVelo stand out, How to choose a toddler bike gift confidently, Best winter occasions to gift LittleVelo, Ways families can get more use from it all season\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1765,
-      "summary": null
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-05-10T21:55:01.805Z",
-      "runAt": "2026-05-10T21:55:00.032Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1766,
       "summary": null
     }
   ],
