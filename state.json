@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-13T00:59:16.044Z",
+  "generatedAt": "2026-05-13T01:04:19.272Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 8,
+    "postsThisWeek": 9,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-13T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-13T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-14T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-13T01:02:52.238Z",
+      "runAt": "2026-05-13T01:00:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 172174,
+      "summary": "Voyage post — 2026-05-13\nSlot: Hand-picked spotlight\nProduct: Dog Car Seat Cover,Waterproof Pet Seat Cover with Mesh\nFB: https://www.facebook.com/104415881913939/posts/991789116521576\nIG: posted (id=18143152942505983)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1712,
-      "summary": null
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-10T20:30:03.307Z",
-      "runAt": "2026-05-10T20:30:00.020Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 3272,
       "summary": null
     }
   ],
