@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T21:14:18.164Z",
+  "generatedAt": "2026-05-13T21:19:20.695Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-13T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
     {
       "id": "d5541bce-1451-4218-a49f-7549231762d7",
       "name": "voyage-rank-check-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-14T21:00:00.000Z",
       "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-14T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
     }
   ],
   "completed": [
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-05-13T21:16:46.620Z",
+      "runAt": "2026-05-13T21:15:00.032Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 106573,
+      "summary": "Voyage catalog — 2026-05-13\nSitemap: 6914 products\n+14 new · -0 removed (vs 2026-05-12)\nSpot-check: 20 products / 0 anomalies\nAdded: https://www.voyagecollectionsaustralia.com.au/products/levede-narrow-sofa-table-power-ports-behind-console-side-adjustable-living-room, https://www.voyagecollectionsaustralia.com.au/products/toque-plastic-plant-pots-30cm-outdoor-garden-planter-2-pcs-with-drainage-holes, https://www.voyagecollectionsaustralia.com.au/products/toque-plastic-plant-pots-36cm-outdoor-garden-planter-2-pcs-with-drainage-holes"
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1765,
-      "summary": null
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-10T21:35:01.733Z",
-      "runAt": "2026-05-10T21:35:00.025Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1702,
       "summary": null
     }
   ],
