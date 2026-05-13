@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:34:22.123Z",
+  "generatedAt": "2026-05-13T20:39:15.712Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 3
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-13T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-14T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-14T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-13T20:33:24.253Z",
+      "runAt": "2026-05-13T20:30:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 204198,
+      "summary": "Voyage blog outline — 2026-05-14\nCategory: Toys & Games\nTitle: Rainy-Day Toys Aussie Kids Will Love This Winter\nTarget keyword: rainy day toys australia\nAngle: A practical winter guide for Australian families choosing screen-light indoor toys that keep kids moving, learning and entertained on cold or wet days.\nSections: What makes a good rainy-day toy in Australia?, Active indoor toys to burn energy on wet weekends, STEM toys that make indoor time feel productive, How to choose toys for different ages and personalities, Best picks for winter birthdays and family gifting\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1917,
-      "summary": null
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-05-10T20:50:01.724Z",
-      "runAt": "2026-05-10T20:50:00.026Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1686,
       "summary": null
     }
   ],
