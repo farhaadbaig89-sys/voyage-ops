@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-13T01:29:17.893Z",
+  "generatedAt": "2026-05-13T01:34:18.403Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 9,
+    "postsThisWeek": 10,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-13T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
-    },
     {
       "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "name": "voyage-blog-outline-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-14T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-14T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-13T01:31:26.536Z",
+      "runAt": "2026-05-13T01:30:00.023Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 86493,
+      "summary": "Gifts Hub post — 2026-05-13\nSlot: 🚀 New launch (1/2) · with VIDEO\nProduct: LumiArt™ Magic Light Brush Station — Mess-Free Glow Pa...\nFB: posted (videoId 2646316232436355)\nIG: posted (mediaId 17911525218202575)"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1686,
-      "summary": null
-    },
-    {
-      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "jobName": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "finishedAt": "2026-05-10T20:45:01.765Z",
-      "runAt": "2026-05-10T20:45:00.036Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1712,
       "summary": null
     }
   ],
