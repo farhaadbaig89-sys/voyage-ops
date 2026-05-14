@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-14T00:59:15.251Z",
+  "generatedAt": "2026-05-14T01:04:15.088Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 11,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-14T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-14T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-15T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-14T01:01:08.543Z",
+      "runAt": "2026-05-14T01:00:00.047Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 68466,
+      "summary": "Voyage post — 2026-05-14\nSlot: Hand-picked spotlight\nProduct: DYZI USB Rechargeable Bike Lights Set - Built in Powe\nFB: https://www.facebook.com/104415881913939/posts/992602119773609\nIG: posted (id=17980830470840729)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 55420,
       "summary": "Voyage blog outline — 2026-05-11\nCategory: Wellness Supplements\nTitle: Best Vitamin D and Antioxidant Supplements for Winter\nTarget keyword: winter vitamin d supplements australia\nAngle: A practical guide for Australian shoppers choosing vitamin D and antioxidant supplements for lower-sunlight winter routines, with emphasis on newer wellness listings first.\nSections: Why winter changes supplement needs in Australia, How to choose a vitamin D supplement for winter, Newer winter picks worth watching, When antioxidant supplements fit into a winter routine, How to compare strength, value and convenience, Winter supplement habits that actually last\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "jobName": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "finishedAt": "2026-05-11T13:47:10.955Z",
-      "runAt": "2026-05-11T13:46:41.947Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 28987,
-      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
     }
   ],
   "pipeline": [
