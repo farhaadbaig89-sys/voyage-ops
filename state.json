@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T20:49:17.659Z",
+  "generatedAt": "2026-05-14T20:54:17.865Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 12,
-    "articlesInPipeline": 3
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "name": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "cronExpr": "50 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-14T20:50:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
-    },
     {
       "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "name": "voyage-seo-audit-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-15T20:45:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-15T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     }
   ],
   "completed": [
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-05-14T20:50:39.290Z",
+      "runAt": "2026-05-14T20:50:00.027Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 39250,
+      "summary": "Voyage blog auto-publish — 2026-05-15\nLive: 1 · Rejected (deleted): 0 · Checked: 18\n✓ Rainy-Day Toys Aussie Kids Will Love This Winter → https://www.voyagecollectionsaustralia.com.au/blogs/news/rainy-day-toys-aussie-kids-will-love-this-winter"
+    },
     {
       "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "jobName": "voyage-blog-publish-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 41552,
       "summary": "Voyage catalog — 2026-05-11\nSitemap: 6883 products\n+55 new · -0 removed (vs 2026-05-09)\nSpot-check: 20 products / 0 anomalies\nAdded sample: https://www.voyagecollectionsaustralia.com.au/products/fancy-urn-25cm, https://www.voyagecollectionsaustralia.com.au/products/modern-urn-25cm, https://www.voyagecollectionsaustralia.com.au/products/traditional-urn-25cm"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-05-11T13:52:33.949Z",
-      "runAt": "2026-05-11T13:51:54.686Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 39246,
-      "summary": "Voyage SEO — 2026-05-11 (batch 15)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 93\nmeta_description_too_long: 89\nmissing_meta_description: 7\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
