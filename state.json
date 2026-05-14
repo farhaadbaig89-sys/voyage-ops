@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T21:14:15.172Z",
+  "generatedAt": "2026-05-14T21:19:17.356Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-14T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
     {
       "id": "d5541bce-1451-4218-a49f-7549231762d7",
       "name": "voyage-rank-check-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-15T21:00:00.000Z",
       "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-15T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
     }
   ],
   "completed": [
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-05-14T21:15:42.281Z",
+      "runAt": "2026-05-14T21:15:00.038Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 42222,
+      "summary": "Voyage catalog — 2026-05-14\nSitemap: 6914 products\n+0 new · -0 removed (vs 2026-05-13)\nSpot-check: 20 products / 0 anomalies"
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 67921,
       "summary": "Gifts Hub blog outline - 2026-05-11\nCategory: New Product Launch\nTitle: New Winter Self-Care Gift for Her in Australia\nTarget keyword: new winter self care gift for her australia\nAngle: A timely winter gifting guide for Australian shoppers that frames the newly launched LIORA Glow Sculpt Pro as a practical, feel-good beauty gift for colder months.\nSections: Why winter is the right time for a self-care gift, Meet the new LIORA Glow Sculpt Pro, Who this beauty gift suits best, How to choose a beauty gift that gets used, Occasions where this new arrival makes sense, Why Australian shoppers are leaning into new practical gifts\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-05-11T13:53:53.810Z",
-      "runAt": "2026-05-11T13:53:15.559Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 38248,
-      "summary": "Voyage indexation — 2026-05-11\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 6883"
     }
   ],
   "pipeline": [
