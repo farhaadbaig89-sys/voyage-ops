@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:49:35.018Z",
+  "generatedAt": "2026-05-15T20:54:34.883Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 12,
-    "articlesInPipeline": 3
+    "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "name": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "cronExpr": "50 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T20:50:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
-    },
     {
       "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "name": "voyage-seo-audit-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T20:45:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     }
   ],
   "completed": [
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-05-15T20:50:52.395Z",
+      "runAt": "2026-05-15T20:50:00.034Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 52340,
+      "summary": "Voyage blog auto-publish — 2026-05-16\nLive: 1 · Rejected (deleted): 0 · Checked: 19\n✓ Best Kitchenware for Winter Citrus Drinks at Home → https://www.voyagecollectionsaustralia.com.au/blogs/news/best-kitchenware-for-winter-citrus-drinks-at-home"
+    },
     {
       "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "jobName": "voyage-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 35611,
       "summary": "Voyage indexation — 2026-05-11\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 6883"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-05-11T21:15:40.920Z",
-      "runAt": "2026-05-11T21:15:00.037Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 40861,
-      "summary": "Voyage catalog — 2026-05-11\nSitemap: 6883 products\n+0 new · -0 removed (vs 2026-05-11)\nSpot-check: 20 products / 0 anomalies"
     }
   ],
   "pipeline": [
