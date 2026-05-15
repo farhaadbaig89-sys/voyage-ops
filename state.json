@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-15T21:54:36.885Z",
+  "generatedAt": "2026-05-15T21:59:32.858Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 12,
+    "postsThisWeek": 11,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "name": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "cronExpr": "55 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T21:55:00.000Z",
-      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
-    },
     {
       "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "name": "jim-rohn-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T21:50:00.000Z",
       "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
+    },
+    {
+      "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "name": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "cronExpr": "55 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T21:55:00.000Z",
+      "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
     }
   ],
   "completed": [
+    {
+      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
+      "jobName": "giftshub-blog-auto-publish-daily",
+      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
+      "category": "Content",
+      "finishedAt": "2026-05-15T21:55:52.685Z",
+      "runAt": "2026-05-15T21:55:00.013Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 52666,
+      "summary": "Gifts Hub auto-publish - 2026-05-16\nLive: 1 · Rejected (deleted): 0 · Checked: 16\n✓ New Wellness Mother’s Day Gifts for Mum in Australia -> https://www.gifts-australia.com.au/blogs/news/new-wellness-mother-s-day-gifts-for-mum-in-australia"
+    },
     {
       "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "jobName": "giftshub-blog-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 88897,
       "summary": "Gifts Hub post — 2026-05-12\nSlot: 🚀 New launch (1/2) · with VIDEO\nProduct: LIORA™ Glow Sculpt Pro — Korean-Inspired Facial Scul...\nFB: posted — FB Page video. Visible after FB transcodes (usually <60s).\nIG: posted — IG Reel posted. Reels typically take 30-90s to process."
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-05-12T01:01:41.941Z",
-      "runAt": "2026-05-12T01:00:00.039Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 101881,
-      "summary": "Voyage post — 2026-05-12\nSlot: Hand-picked spotlight\nProduct: Britor Knife Sharpening Stone Whetstone Sharpener - 4...\nFB: https://www.facebook.com/104415881913939/posts/990965846603903\nIG: posted (id=18107778763901098)"
     }
   ],
   "pipeline": [
