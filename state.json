@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:29:30.883Z",
+  "generatedAt": "2026-05-15T20:34:33.293Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -7,19 +7,9 @@
     "activeAutomations": 16,
     "toolsAvailable": 13,
     "postsThisWeek": 12,
-    "articlesInPipeline": 2
+    "articlesInPipeline": 3
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-15T20:31:38.826Z",
+      "runAt": "2026-05-15T20:30:00.048Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 98751,
+      "summary": "Voyage blog outline — 2026-05-16\nCategory: Personalised Gifts\nTitle: Best Personalised Winter Birthday Gifts in Australia\nTarget keyword: personalised winter birthday gifts\nAngle: A practical guide for Australian shoppers choosing thoughtful personalised gifts for winter birthdays, led by custom keepsakes and pamper picks that feel timely and easy to send nationwide.\nSections: Why personalised gifts land better in winter, How to choose the right personalised gift for her, New-season personalised picks worth shopping first, Best personalised gifts for different recipient types, Tips for ordering personalised gifts online in Australia, Four standout personalised gifts to shortlist now\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
       "jobName": "giftshub-socials-edu-twiceweekly",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 40265,
       "summary": "Voyage SEO — 2026-05-12 (batch 16)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 90\nmeta_description_too_long: 68\nmissing_meta_description: 25\nCritical: none\nnextBatchReady: true"
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-05-11T20:50:34.215Z",
-      "runAt": "2026-05-11T20:50:00.039Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 34157,
-      "summary": "Voyage blog auto-publish — 2026-05-12\nLive: 0 · Rejected (deleted): 0 · Checked: 15\nNothing due to publish today."
     }
   ],
   "pipeline": [
