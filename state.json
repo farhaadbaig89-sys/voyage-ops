@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-15T21:59:32.858Z",
+  "generatedAt": "2026-05-15T22:04:32.450Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 11,
+    "postsThisWeek": 10,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
-      "name": "jim-rohn-daily",
-      "title": "Daily 8am Melbourne Jim Rohn quote",
-      "category": "Content",
-      "cronExpr": "0 8 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T22:00:00.000Z",
-      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
-    },
     {
       "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "name": "voyage-socials-product-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T21:55:00.000Z",
       "summary": "Step 1: Call gh-blog-publish-due-drafts with {minAgeHours:20}. Returns counts and lists. Step 2: Reply concise Telegram, no markdown, exact format: Line 1 \"Gifts Hub auto-publish - <YYYY-MM-DD>\". Line 2 \"Live: <newlyLiveCount> · Rejected (d…"
+    },
+    {
+      "id": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "name": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "cronExpr": "0 8 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T22:00:00.000Z",
+      "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
     }
   ],
   "completed": [
+    {
+      "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
+      "jobName": "jim-rohn-daily",
+      "title": "Daily 8am Melbourne Jim Rohn quote",
+      "category": "Content",
+      "finishedAt": "2026-05-15T22:00:54.462Z",
+      "runAt": "2026-05-15T22:00:00.033Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 54413,
+      "summary": "\"Discipline is the bridge between goals and accomplishment.\"\n— Jim Rohn"
+    },
     {
       "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "jobName": "giftshub-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 92746,
       "summary": "Voyage edu post — 2026-05-12\nFormat: 5 ways to use\nProduct: CENTSTAR 10 Pack Wide Headbands, Great Woman,Grils...\nFB: https://www.facebook.com/104415881913939/posts/991241733242981\nIG: posted"
-    },
-    {
-      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "jobName": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "finishedAt": "2026-05-12T01:31:28.949Z",
-      "runAt": "2026-05-12T01:30:00.031Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 88897,
-      "summary": "Gifts Hub post — 2026-05-12\nSlot: 🚀 New launch (1/2) · with VIDEO\nProduct: LIORA™ Glow Sculpt Pro — Korean-Inspired Facial Scul...\nFB: posted — FB Page video. Visible after FB transcodes (usually <60s).\nIG: posted — IG Reel posted. Reels typically take 30-90s to process."
     }
   ],
   "pipeline": [
