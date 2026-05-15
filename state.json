@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-05-15T08:59:36.870Z",
+  "generatedAt": "2026-05-15T09:04:34.386Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
   "metrics": {
     "activeAutomations": 16,
     "toolsAvailable": 13,
-    "postsThisWeek": 10,
+    "postsThisWeek": 11,
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "name": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "cronExpr": "0 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T09:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). PRIORITISE genuinely new listings first and best sellers second when shaping the post. Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats …"
-    },
     {
       "id": "779071e3-2124-454e-8237-a6cb01c2e146",
       "name": "giftshub-socials-edu-twiceweekly",
@@ -152,6 +142,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
+      "jobName": "voyage-socials-edu-twiceweekly",
+      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
+      "category": "Socials",
+      "finishedAt": "2026-05-15T09:01:36.513Z",
+      "runAt": "2026-05-15T09:00:00.021Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 96484,
+      "summary": "Voyage edu post — 2026-05-15\nFormat: How to choose\nProduct: LED Hanging Lighting Metal Waterproof Landscape with…\nFB: https://www.facebook.com/104415881913939/posts/993692919664529\nIG: posted"
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -739,18 +741,6 @@
       "delivered": true,
       "durationMs": 132542,
       "summary": "Voyage blog published (DRAFT) — 2026-05-12\nTitle: Winter Self-Care Essentials for Australians in 2026\nCategory: health-fitness\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559586607312\nReview + hit Publish in Shopify admin when ready."
-    },
-    {
-      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "jobName": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-11T20:31:02.282Z",
-      "runAt": "2026-05-11T20:30:00.038Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 62222,
-      "summary": "Voyage blog outline — 2026-05-12\nCategory: Health & Beauty\nTitle: Winter Self-Care Essentials for Australians in 2026\nTarget keyword: winter self-care essentials\nAngle: A practical early-winter guide for Australian shoppers that pairs recovery, grooming and at-home beauty upgrades with Voyage’s newer health and beauty arrivals first, backed by proven best sellers where needed.\nSections: Why winter changes your self-care routine, Recovery and skin support for rough winter days, Smart grooming tools for quicker cold-morning routines, At-home beauty upgrades that save time and appointments, Wellness habits that support your winter reset, How to choose the right winter self-care products online\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
