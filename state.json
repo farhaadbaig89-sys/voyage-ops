@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T01:29:22.660Z",
+  "generatedAt": "2026-05-15T01:34:24.928Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
-    },
     {
       "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "name": "voyage-socials-edu-twiceweekly",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T01:00:00.000Z",
       "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-05-15T01:31:40.070Z",
+      "runAt": "2026-05-15T01:30:00.032Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 100015,
+      "summary": "Gifts Hub post — 2026-05-15\nSlot: 🚀 New launch (2/2) · with VIDEO\nProduct: LumiArt™ Luminous Magic Pens — Glow-in-the-Dark Draw...\nFB: Posted video; visible after FB transcodes\nIG: Posted reel; permalink resolves after Meta encoding"
+    },
     {
       "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
       "jobName": "voyage-socials-product-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 62222,
       "summary": "Voyage blog outline — 2026-05-12\nCategory: Health & Beauty\nTitle: Winter Self-Care Essentials for Australians in 2026\nTarget keyword: winter self-care essentials\nAngle: A practical early-winter guide for Australian shoppers that pairs recovery, grooming and at-home beauty upgrades with Voyage’s newer health and beauty arrivals first, backed by proven best sellers where needed.\nSections: Why winter changes your self-care routine, Recovery and skin support for rough winter days, Smart grooming tools for quicker cold-morning routines, At-home beauty upgrades that save time and appointments, Wellness habits that support your winter reset, How to choose the right winter self-care products online\nWrites tomorrow 06:45 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
-      "jobName": "giftshub-socials-edu-twiceweekly",
-      "title": "Gifts Hub: Tue + Fri 19:30 AEST gift-guide / educational post",
-      "category": "Socials",
-      "finishedAt": "2026-05-11T14:22:58.510Z",
-      "runAt": "2026-05-11T14:21:57.192Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 61300,
-      "summary": "Gifts Hub edu post — 2026-05-12\nFormat: 3 reasons\nProduct: LumiTrace™ Magnetic Letter Tracing Board — 2-in-1 Dou...\nFB: https://www.facebook.com/111527618129227/posts/973958481909181\nIG: posted"
     }
   ],
   "pipeline": [
