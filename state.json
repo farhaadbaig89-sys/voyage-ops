@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T21:34:34.447Z",
+  "generatedAt": "2026-05-15T21:39:36.560Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "name": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "cronExpr": "35 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T21:35:00.000Z",
-      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: When choosing the angle and related products, PRIORITISE genuinely new listings first and best sel…"
-    },
     {
       "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
       "name": "giftshub-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T21:30:00.000Z",
       "summary": "Call the voyage MCP tool named run-rank-check with {}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage indexation — <date>'. Line 2: if indexedCount is null, write 'Indexed: (Google scrape failed — retry tomorro…"
+    },
+    {
+      "id": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "name": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "cronExpr": "35 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T21:35:00.000Z",
+      "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: When choosing the angle and related products, PRIORITISE genuinely new listings first and best sel…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
+      "jobName": "giftshub-blog-outline-daily",
+      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
+      "category": "Content",
+      "finishedAt": "2026-05-15T21:36:29.865Z",
+      "runAt": "2026-05-15T21:35:00.034Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 89817,
+      "summary": "Gifts Hub blog outline - 2026-05-16\nCategory: Gifts for Her\nTitle: New Winter Wellness Gifts for Her in Australia\nTarget keyword: winter wellness gifts for her australia\nAngle: A timely Australian winter gift guide that spotlights newly listed wellness and home-comfort picks for women, with stronger best sellers supporting the shortlist.\nSections: Why winter wellness gifts work so well for her, New fitness gifts she can use at home, New comfort gifts for cosy self-care weekends, Best-seller entertaining gifts she will keep using, How to choose the right winter gift for her\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
+    },
     {
       "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
       "jobName": "voyage-rank-check-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 49495,
       "summary": "\"Take care of your body. It's the only place you have to live.\"\n— Jim Rohn"
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-05-11T21:55:31.749Z",
-      "runAt": "2026-05-11T21:55:00.026Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 31703,
-      "summary": "Gifts Hub auto-publish - 2026-05-12\nLive: 0 · Rejected (deleted): 0 · Checked: 12\nNothing due to publish today."
     }
   ],
   "pipeline": [
