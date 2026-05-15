@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T21:14:31.995Z",
+  "generatedAt": "2026-05-15T21:19:33.392Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "name": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "cronExpr": "15 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T21:15:00.000Z",
-      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
-    },
     {
       "id": "d5541bce-1451-4218-a49f-7549231762d7",
       "name": "voyage-rank-check-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T21:00:00.000Z",
       "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
+    },
+    {
+      "id": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "name": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "cronExpr": "15 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T21:15:00.000Z",
+      "summary": "Call the voyage MCP tool named run-catalog-hygiene with {\"spotCheckSize\":20}. Format a concise Telegram message, no markdown, no preamble. Line 1: 'Voyage catalog — <date>'. Line 2: 'Sitemap: <sitemapProductCount> products'. Line 3: if firs…"
     }
   ],
   "completed": [
+    {
+      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
+      "jobName": "voyage-catalog-hygiene-daily",
+      "title": "Voyage: daily sitemap diff + product spot-check",
+      "category": "SEO",
+      "finishedAt": "2026-05-15T21:15:57.982Z",
+      "runAt": "2026-05-15T21:15:00.034Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 57930,
+      "summary": "Voyage catalog — 2026-05-15\nSitemap: 6930 products\n+16 new · -0 removed (vs 2026-05-14)\nSpot-check: 20 products / 0 anomalies\nAdded sample: https://www.voyagecollectionsaustralia.com.au/products/cherry-flower-jar-soy-wax-candle, https://www.voyagecollectionsaustralia.com.au/products/teddy-bear-jar-soy-wax-candle, https://www.voyagecollectionsaustralia.com.au/products/strawberries-jar-soy-wax-candle"
+    },
     {
       "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "jobName": "voyage-seo-audit-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 82300,
       "summary": "Gifts Hub blog DRAFT - 2026-05-12\nTitle: New Screen-Free Winter Gift for Kids in Australia\nCategory: launch\nAdmin: https://gifts-oz.myshopify.com/admin/articles/612430250275\nAuto-publishes tomorrow 07:55 AEST unless you delete the draft."
-    },
-    {
-      "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
-      "jobName": "giftshub-blog-outline-daily",
-      "title": "Gifts Hub Day 1: pick gift category + research + save outline",
-      "category": "Content",
-      "finishedAt": "2026-05-11T21:36:00.852Z",
-      "runAt": "2026-05-11T21:35:00.032Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 60800,
-      "summary": "Gifts Hub blog outline - 2026-05-12\nCategory: New Product Launch\nTitle: New Screen-Free Winter Gift for Kids in Australia\nTarget keyword: new screen free kids gift australia\nAngle: A timely winter gift guide for Australian families that spotlights a newly launched mess-free glow painting set as the standout indoor birthday and weekend gift for kids.\nSections: Why screen-free winter gifts matter for Aussie families, What makes LumiArt a standout new arrival, Best occasions to gift it this season, How to choose a kids gift parents will actually thank you for, How to present this gift for maximum wow factor\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
     }
   ],
   "pipeline": [
