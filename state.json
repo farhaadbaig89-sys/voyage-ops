@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:44:32.039Z",
+  "generatedAt": "2026-05-15T20:49:35.018Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 3
   },
   "running": [
-    {
-      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
-      "name": "voyage-blog-publish-daily",
-      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
-      "category": "Content",
-      "cronExpr": "45 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T20:45:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
-    },
     {
       "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "name": "voyage-blog-auto-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T20:30:00.000Z",
       "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
+    },
+    {
+      "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "name": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "cronExpr": "45 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T20:45:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
     }
   ],
   "completed": [
+    {
+      "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
+      "jobName": "voyage-blog-publish-daily",
+      "title": "Voyage: Day 2 — load yesterday's outline, write article, publish as draft",
+      "category": "Content",
+      "finishedAt": "2026-05-15T20:46:33.897Z",
+      "runAt": "2026-05-15T20:45:00.054Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 93812,
+      "summary": "Voyage blog published (DRAFT) — 2026-05-16\nTitle: Best Personalised Winter Birthday Gifts in Australia\nCategory: personalised-gifts\nAdmin: https://voyage-collections-australia.myshopify.com/admin/articles/559814148304\nReview + hit Publish in Shopify admin when ready."
+    },
     {
       "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
       "jobName": "voyage-blog-outline-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 40861,
       "summary": "Voyage catalog — 2026-05-11\nSitemap: 6883 products\n+0 new · -0 removed (vs 2026-05-11)\nSpot-check: 20 products / 0 anomalies"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-05-11T21:00:40.313Z",
-      "runAt": "2026-05-11T21:00:00.027Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 40265,
-      "summary": "Voyage SEO — 2026-05-12 (batch 16)\n100 scanned · 100 issues · 0 locked · 100 fixable\nall_alt_missing: 100\ntitle_too_long: 90\nmeta_description_too_long: 68\nmissing_meta_description: 25\nCritical: none\nnextBatchReady: true"
     }
   ],
   "pipeline": [
