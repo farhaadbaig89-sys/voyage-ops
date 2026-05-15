@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:59:32.658Z",
+  "generatedAt": "2026-05-15T21:04:30.923Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "name": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "cronExpr": "0 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-15T21:00:00.000Z",
-      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
-    },
     {
       "id": "fda00df2-5552-416c-9f54-1225324c13e4",
       "name": "voyage-catalog-hygiene-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-16T20:50:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
+    },
+    {
+      "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "name": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "cronExpr": "0 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-16T21:00:00.000Z",
+      "summary": "Call the voyage MCP tool named run-seo-audit with {\"batchSize\":100}. After it returns, produce a concise Telegram message. Format exactly like this, no markdown, no preamble: Line 1: 'Voyage SEO — <YYYY-MM-DD> (batch <batch>)'. Line 2: '<sc…"
     }
   ],
   "completed": [
+    {
+      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
+      "jobName": "voyage-seo-audit-daily",
+      "title": "Voyage: daily rotating SEO audit (100 products/day)",
+      "category": "SEO",
+      "finishedAt": "2026-05-15T21:00:57.393Z",
+      "runAt": "2026-05-15T21:00:00.018Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 57368,
+      "summary": "Voyage SEO — 2026-05-16 (batch 20)\n100 scanned · 100 issues · 0 locked · 100 fixable\ntitle_too_long: 99\nall_alt_missing: 99\nmeta_description_too_long: 81\nmissing_meta_description: 18\nCritical:\n- [soga-4x-45cm-khaki-triangular-wedge-lumbar-pillow-headboard-backrest-sofa-bed-cushion-home-decor] SOGA 4X 45cm Khaki Triangular Wedge Lumbar Pillow Headboard Backrest Sofa Bed Cu (sales90d=0 fixable) :: meta_description_too_long, title_too_long, no_images\nnextBatchReady: true"
+    },
     {
       "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
       "jobName": "voyage-blog-auto-publish-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 60800,
       "summary": "Gifts Hub blog outline - 2026-05-12\nCategory: New Product Launch\nTitle: New Screen-Free Winter Gift for Kids in Australia\nTarget keyword: new screen free kids gift australia\nAngle: A timely winter gift guide for Australian families that spotlights a newly launched mess-free glow painting set as the standout indoor birthday and weekend gift for kids.\nSections: Why screen-free winter gifts matter for Aussie families, What makes LumiArt a standout new arrival, Best occasions to gift it this season, How to choose a kids gift parents will actually thank you for, How to present this gift for maximum wow factor\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-05-11T21:30:35.656Z",
-      "runAt": "2026-05-11T21:30:00.022Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 35611,
-      "summary": "Voyage indexation — 2026-05-11\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 6883"
     }
   ],
   "pipeline": [
