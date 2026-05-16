@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T00:59:33.529Z",
+  "generatedAt": "2026-05-16T01:04:33.435Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-05-16T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-05-17T00:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-list-current-deals {limit:5}. Step 2: write a warm gift-occasion caption introducing the deals roundup (\"Sunday gift hunt: top deals on must-have gifts\" style). 80 words FB, 100 IG, end …"
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-05-17T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-05-16T01:01:32.499Z",
+      "runAt": "2026-05-16T01:00:00.032Z",
+      "status": "ok",
+      "delivered": true,
+      "durationMs": 92456,
+      "summary": "Voyage post — 2026-05-16\nSlot: Hand-picked spotlight\nProduct: Multi-Level Back Stretching Device,Back Massager Lumba...\nFB: https://www.facebook.com/104415881913939/posts/994247046275783\nIG: posted (id=18267779371288889)"
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -739,18 +751,6 @@
       "delivered": true,
       "durationMs": 76928,
       "summary": "Gifts Hub edu post — 2026-05-12\nFormat: How to choose the right gift\nProduct: LIORA™ Glow Sculpt Pro — Korean-Inspired Facial Sculp...\nFB: https://www.facebook.com/111527618129227/posts/974582331846796\nIG: posted"
-    },
-    {
-      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "jobName": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "finishedAt": "2026-05-12T09:01:32.809Z",
-      "runAt": "2026-05-12T09:00:00.041Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 92746,
-      "summary": "Voyage edu post — 2026-05-12\nFormat: 5 ways to use\nProduct: CENTSTAR 10 Pack Wide Headbands, Great Woman,Grils...\nFB: https://www.facebook.com/104415881913939/posts/991241733242981\nIG: posted"
     }
   ],
   "pipeline": [
