@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T00:53:47.365Z",
+  "generatedAt": "2026-09-25T04:59:24.927Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,26 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-09-25T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
-    },
-    {
-      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
-      "name": "giftshub-socials-product-daily",
-      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
-      "category": "Socials",
-      "cronExpr": "30 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-09-25T01:30:00.000Z",
-      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
-    },
     {
       "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
       "name": "voyage-socials-edu-twiceweekly",
@@ -149,9 +129,53 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-09-25T22:00:00.000Z",
       "summary": "Find a short, inspiring Jim Rohn quote from the web. Reply with ONLY the quote text in double quotes on the first line, then a newline, then '— Jim Rohn' on the second line. No preamble, no commentary, no markdown."
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-09-26T01:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
+    },
+    {
+      "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "name": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "cronExpr": "30 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-09-26T01:30:00.000Z",
+      "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
     }
   ],
   "completed": [
+    {
+      "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
+      "jobName": "giftshub-socials-product-daily",
+      "title": "Gifts Hub: daily 11:30 AEST product post (FB Page + IG)",
+      "category": "Socials",
+      "finishedAt": "2026-09-25T04:56:25.659Z",
+      "runAt": "2026-09-25T04:56:05.813Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 19836,
+      "summary": null
+    },
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-09-25T01:00:01.123Z",
+      "runAt": "2026-09-25T01:00:00.022Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1094,
+      "summary": null
+    },
     {
       "jobId": "779071e3-2124-454e-8237-a6cb01c2e146",
       "jobName": "giftshub-socials-edu-twiceweekly",
@@ -727,30 +751,6 @@
       "delivered": true,
       "durationMs": 55534,
       "summary": "Gifts Hub blog outline - 2026-05-14\nCategory: New Product Launch\nTitle: New Winter Birthday Gift for Active Toddlers in Australia\nTarget keyword: winter birthday gift for toddlers australia\nAngle: A timely winter gift guide for Australian families that spotlights the newly launched LittleVelo as a practical birthday pick for active toddlers who need indoor-outdoor play.\nSections: Why winter birthdays need active toddler gifts, What makes the new LittleVelo stand out, How to choose a toddler bike gift confidently, Best winter occasions to gift LittleVelo, Ways families can get more use from it all season\nWrites tomorrow 07:50 AEST. Reply to override topic within 20h."
-    },
-    {
-      "jobId": "d5541bce-1451-4218-a49f-7549231762d7",
-      "jobName": "voyage-rank-check-daily",
-      "title": "Voyage: daily Google indexation + sitemap gap",
-      "category": "SEO",
-      "finishedAt": "2026-05-13T21:30:35.319Z",
-      "runAt": "2026-05-13T21:30:00.016Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 35289,
-      "summary": "Voyage indexation — 2026-05-13\nIndexed: (Google scrape failed — retry tomorrow)\nSitemap products: 6914"
-    },
-    {
-      "jobId": "fda00df2-5552-416c-9f54-1225324c13e4",
-      "jobName": "voyage-catalog-hygiene-daily",
-      "title": "Voyage: daily sitemap diff + product spot-check",
-      "category": "SEO",
-      "finishedAt": "2026-05-13T21:16:46.620Z",
-      "runAt": "2026-05-13T21:15:00.032Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 106573,
-      "summary": "Voyage catalog — 2026-05-13\nSitemap: 6914 products\n+14 new · -0 removed (vs 2026-05-12)\nSpot-check: 20 products / 0 anomalies\nAdded: https://www.voyagecollectionsaustralia.com.au/products/levede-narrow-sofa-table-power-ports-behind-console-side-adjustable-living-room, https://www.voyagecollectionsaustralia.com.au/products/toque-plastic-plant-pots-30cm-outdoor-garden-planter-2-pcs-with-drainage-holes, https://www.voyagecollectionsaustralia.com.au/products/toque-plastic-plant-pots-36cm-outdoor-garden-planter-2-pcs-with-drainage-holes"
     }
   ],
   "pipeline": [
