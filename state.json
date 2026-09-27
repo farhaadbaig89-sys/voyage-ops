@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T21:48:35.516Z",
+  "generatedAt": "2026-09-27T21:53:35.648Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
-      "name": "giftshub-blog-publish-daily",
-      "title": "Gifts Hub Day 2: write article, create Shopify draft",
-      "category": "Content",
-      "cronExpr": "50 7 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-09-27T21:50:00.000Z",
-      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
-    },
     {
       "id": "be67b3c8-90bd-4958-b25b-d73f7606b312",
       "name": "giftshub-blog-auto-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-09-28T21:35:00.000Z",
       "summary": "Step 1: Call giftshub-blog MCP tool gh-blog-pick-topic. Returns category, blog info, recentArticleTitles, sampleProducts, voiceNotes. Step 2: When choosing the angle and related products, PRIORITISE genuinely new listings first and best sel…"
+    },
+    {
+      "id": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "name": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "cronExpr": "50 7 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-09-28T21:50:00.000Z",
+      "summary": "Step 1: Call gh-blog-load-pending. If found is false, reply \"Gifts Hub blog - no pending outline today\" and stop. Step 2: Write 950-1100 word article body in clean HTML following the outline. Voice: warm, gift-occasion driven, family-friend…"
     }
   ],
   "completed": [
+    {
+      "jobId": "6bd4ba7c-933e-4ef5-9cf9-7158b9d0c7fe",
+      "jobName": "giftshub-blog-publish-daily",
+      "title": "Gifts Hub Day 2: write article, create Shopify draft",
+      "category": "Content",
+      "finishedAt": "2026-09-27T21:50:01.732Z",
+      "runAt": "2026-09-27T21:50:00.030Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1696,
+      "summary": null
+    },
     {
       "jobId": "0264fac3-5504-4381-b6e2-6ef115b2d5a0",
       "jobName": "giftshub-blog-outline-daily",
@@ -719,18 +731,6 @@
       "delivered": true,
       "durationMs": 57930,
       "summary": "Voyage catalog — 2026-05-15\nSitemap: 6930 products\n+16 new · -0 removed (vs 2026-05-14)\nSpot-check: 20 products / 0 anomalies\nAdded sample: https://www.voyagecollectionsaustralia.com.au/products/cherry-flower-jar-soy-wax-candle, https://www.voyagecollectionsaustralia.com.au/products/teddy-bear-jar-soy-wax-candle, https://www.voyagecollectionsaustralia.com.au/products/strawberries-jar-soy-wax-candle"
-    },
-    {
-      "jobId": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
-      "jobName": "voyage-seo-audit-daily",
-      "title": "Voyage: daily rotating SEO audit (100 products/day)",
-      "category": "SEO",
-      "finishedAt": "2026-05-15T21:00:57.393Z",
-      "runAt": "2026-05-15T21:00:00.018Z",
-      "status": "ok",
-      "delivered": true,
-      "durationMs": 57368,
-      "summary": "Voyage SEO — 2026-05-16 (batch 20)\n100 scanned · 100 issues · 0 locked · 100 fixable\ntitle_too_long: 99\nall_alt_missing: 99\nmeta_description_too_long: 81\nmissing_meta_description: 18\nCritical:\n- [soga-4x-45cm-khaki-triangular-wedge-lumbar-pillow-headboard-backrest-sofa-bed-cushion-home-decor] SOGA 4X 45cm Khaki Triangular Wedge Lumbar Pillow Headboard Backrest Sofa Bed Cu (sales90d=0 fixable) :: meta_description_too_long, title_too_long, no_images\nnextBatchReady: true"
     }
   ],
   "pipeline": [
