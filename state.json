@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T20:48:42.580Z",
+  "generatedAt": "2026-09-29T20:53:38.130Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "name": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "cronExpr": "50 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-09-29T20:50:00.000Z",
-      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
-    },
     {
       "id": "f67377ab-1d2f-49a6-b22d-f941f86413d5",
       "name": "voyage-seo-audit-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-09-30T20:45:00.000Z",
       "summary": "Step 1: Call voyage MCP tool blog-load-pending (no args). If found is false, reply exactly 'Voyage blog — no pending outline today' and stop. Step 2: Write a 950-1100 word article body in clean HTML following the returned outline. Rules: us…"
+    },
+    {
+      "id": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "name": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "cronExpr": "50 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-09-30T20:50:00.000Z",
+      "summary": "Step 1: Call voyage MCP tool blog-publish-due-drafts with {\"minAgeHours\":20}. It returns counts and lists. Step 2: Reply with a concise Telegram message, no markdown, no preamble, exact format: Line 1 'Voyage blog auto-publish — <YYYY-MM-DD…"
     }
   ],
   "completed": [
+    {
+      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
+      "jobName": "voyage-blog-auto-publish-daily",
+      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
+      "category": "Content",
+      "finishedAt": "2026-09-29T20:50:01.953Z",
+      "runAt": "2026-09-29T20:50:00.049Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1894,
+      "summary": null
+    },
     {
       "jobId": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "jobName": "voyage-blog-publish-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1961,
-      "summary": null
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-09-25T00:49:57.044Z",
-      "runAt": "2026-09-25T00:49:55.945Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1093,
       "summary": null
     }
   ],
