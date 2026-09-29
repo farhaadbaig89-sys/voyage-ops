@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:58:37.322Z",
+  "generatedAt": "2026-09-29T09:03:36.218Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "name": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "cronExpr": "0 19 * * 2,5",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-09-29T09:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (advances rotation). PRIORITISE genuinely new listings first and best sellers second when shaping the post. Step 2: write an EDUCATIONAL post (not a sales pitch). Pick one of these formats …"
-    },
     {
       "id": "779071e3-2124-454e-8237-a6cb01c2e146",
       "name": "giftshub-socials-edu-twiceweekly",
@@ -152,6 +142,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
+      "jobName": "voyage-socials-edu-twiceweekly",
+      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
+      "category": "Socials",
+      "finishedAt": "2026-09-29T09:00:01.819Z",
+      "runAt": "2026-09-29T09:00:00.047Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1763,
+      "summary": null
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -738,18 +740,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1095,
-      "summary": null
-    },
-    {
-      "jobId": "be67b3c8-90bd-4958-b25b-d73f7606b312",
-      "jobName": "giftshub-blog-auto-publish-daily",
-      "title": "Gifts Hub Day 3: auto-publish drafts older than 20h unless deleted",
-      "category": "Content",
-      "finishedAt": "2026-09-25T00:49:37.393Z",
-      "runAt": "2026-09-25T00:49:36.274Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1114,
       "summary": null
     }
   ],
