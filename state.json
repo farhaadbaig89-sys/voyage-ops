@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T20:28:37.630Z",
+  "generatedAt": "2026-09-30T20:33:47.201Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
-      "name": "voyage-blog-outline-daily",
-      "title": "Voyage: Day 1 — pick category, research, save outline",
-      "category": "Content",
-      "cronExpr": "30 6 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-09-30T20:30:00.000Z",
-      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
-    },
     {
       "id": "e2870c43-c6bf-4e50-bcab-985a6a28fbdc",
       "name": "voyage-blog-publish-daily",
@@ -129,9 +119,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-10-01T01:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-pick-product (no args). Returns product (title, url, price, featuredImage, etc), slotLabel, signals, voicePrompt. ALSO returns launchMode (boolean), hasVideo (boolean), and videoUrl when…"
+    },
+    {
+      "id": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "name": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "cronExpr": "30 6 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-10-01T20:30:00.000Z",
+      "summary": "Step 1: Call the voyage MCP tool blog-pick-topic (no arguments). It returns today's category, the Shopify blog info, recent article titles to AVOID duplicating, and 6 sample products from the category. Step 2: When choosing the angle and re…"
     }
   ],
   "completed": [
+    {
+      "jobId": "c87ac04c-96f5-4e86-beed-81c9c6349a53",
+      "jobName": "voyage-blog-outline-daily",
+      "title": "Voyage: Day 1 — pick category, research, save outline",
+      "category": "Content",
+      "finishedAt": "2026-09-30T20:30:09.098Z",
+      "runAt": "2026-09-30T20:30:00.021Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 9062,
+      "summary": null
+    },
     {
       "jobId": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "jobName": "giftshub-socials-product-daily",
@@ -718,18 +730,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 3574,
-      "summary": null
-    },
-    {
-      "jobId": "ce9c34c9-19e5-453c-8504-5607ed339549",
-      "jobName": "voyage-blog-auto-publish-daily",
-      "title": "Voyage: Day 3 — auto-publish drafts older than 20h unless deleted/flagged",
-      "category": "Content",
-      "finishedAt": "2026-09-27T01:39:15.139Z",
-      "runAt": "2026-09-27T01:39:02.821Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 5597,
       "summary": null
     }
   ],
