@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:58:34.540Z",
+  "generatedAt": "2026-10-03T23:03:34.437Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
-      "name": "voyage-socials-deals-weekly",
-      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
-      "category": "Socials",
-      "cronExpr": "0 10 * * 0",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-10-03T23:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-list-current-deals with {limit:5}. Returns picked array of products with title, url, price, compareAtPrice, discountPct, featuredImage. Step 2: write a casual Aussie-tone caption introducing the roundup…"
-    },
     {
       "id": "1ecdd74c-fea2-4e5a-8521-6b7a5af5da6c",
       "name": "giftshub-socials-deals-weekly",
@@ -152,6 +142,18 @@
     }
   ],
   "completed": [
+    {
+      "jobId": "e1a5ee07-045c-46c7-8172-50818f8e96cf",
+      "jobName": "voyage-socials-deals-weekly",
+      "title": "Voyage: Sunday 10am AEST deals carousel to FB + IG",
+      "category": "Socials",
+      "finishedAt": "2026-10-03T23:00:01.754Z",
+      "runAt": "2026-10-03T23:00:00.038Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1706,
+      "summary": null
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -738,18 +740,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1870,
-      "summary": null
-    },
-    {
-      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "jobName": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "finishedAt": "2026-09-30T01:00:01.904Z",
-      "runAt": "2026-09-30T01:00:00.054Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1840,
       "summary": null
     }
   ],
