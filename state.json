@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T00:58:34.906Z",
+  "generatedAt": "2026-10-03T01:03:34.831Z",
   "store": {
     "name": "Voyage Collections Australia"
   },
@@ -10,16 +10,6 @@
     "articlesInPipeline": 2
   },
   "running": [
-    {
-      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
-      "name": "voyage-socials-product-daily",
-      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
-      "category": "Socials",
-      "cronExpr": "0 11 * * *",
-      "tz": "Australia/Melbourne",
-      "nextRunAt": "2026-10-03T01:00:00.000Z",
-      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
-    },
     {
       "id": "2fa1eb7b-7b87-40f9-b6f0-b2dcf325e0b9",
       "name": "giftshub-socials-product-daily",
@@ -149,9 +139,31 @@
       "tz": "Australia/Melbourne",
       "nextRunAt": "2026-10-03T23:30:00.000Z",
       "summary": "Step 1: call MCP server socials-giftshub tool socials-list-current-deals {limit:5}. Step 2: write a warm gift-occasion caption introducing the deals roundup (\"Sunday gift hunt: top deals on must-have gifts\" style). 80 words FB, 100 IG, end …"
+    },
+    {
+      "id": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "name": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "cronExpr": "0 11 * * *",
+      "tz": "Australia/Melbourne",
+      "nextRunAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Step 1: call socials MCP tool socials-pick-product (no args). It returns slotLabel, product (title, url, price, currency, onSale, discountPct, featuredImage, images[], descriptionExcerpt, tags), and a voicePrompt. Step 2: PRIORITISE genuine…"
     }
   ],
   "completed": [
+    {
+      "jobId": "0910b4ce-ae74-46ab-b91b-e82310fbe7a0",
+      "jobName": "voyage-socials-product-daily",
+      "title": "Voyage: daily 11am AEST product post to FB Page + IG",
+      "category": "Socials",
+      "finishedAt": "2026-10-03T01:00:01.719Z",
+      "runAt": "2026-10-03T01:00:00.029Z",
+      "status": "error",
+      "delivered": false,
+      "durationMs": 1673,
+      "summary": null
+    },
     {
       "jobId": "bbc28f20-77a6-453b-96e2-0d6928b3345e",
       "jobName": "jim-rohn-daily",
@@ -738,18 +750,6 @@
       "status": "error",
       "delivered": false,
       "durationMs": 1766,
-      "summary": null
-    },
-    {
-      "jobId": "520da3ce-efb0-4bdd-90c3-0c123802d181",
-      "jobName": "voyage-socials-edu-twiceweekly",
-      "title": "Voyage: Tue + Fri 7pm AEST educational/how-to post",
-      "category": "Socials",
-      "finishedAt": "2026-09-29T09:00:01.819Z",
-      "runAt": "2026-09-29T09:00:00.047Z",
-      "status": "error",
-      "delivered": false,
-      "durationMs": 1763,
       "summary": null
     }
   ],
